@@ -1,0 +1,32 @@
+name: Update profile snake animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # daily at midnight UTC
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation from contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: mgkvibez
+          outputs: |
+            assets/images/github-contribution-grid-snake.svg
+            assets/images/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300ff41
+
+      - name: Commit updated SVGs back to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution snake animation"
+          file_pattern: assets/images/github-contribution-grid-snake*.svg
