@@ -179,12 +179,11 @@ def _dark_towers(out, dark, left, right, txt):
     names = [r["name"] for r in shown]
     if len(dark) > 8:
         names[-1] = f"+{len(dark) - 7} more"
-    txt_size = 9
-    rows = [" · ".join(names[:4]), " · ".join(names[4:8])]
-    if rows[1]:
-        out.append(svg.text(right, GROUND - 22, rows[1], txt, txt_size,
-                            "end"))
-    out.append(svg.text(right, GROUND - 10, rows[0], txt, txt_size, "end"))
+    # one name per line, stacked up the edge of the cluster
+    for k, nm in enumerate(names):
+        nm = nm if len(nm) <= 24 else nm[:23] + "…"
+        out.append(svg.text(right - 2, GROUND - 10 - k * 10, nm, txt,
+                            8.5, "end"))
 
 
 def render(data):
