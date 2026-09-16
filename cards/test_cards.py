@@ -31,7 +31,7 @@ class CardsTest(unittest.TestCase):
             self.assertIn("commits", r)
             self.assertGreaterEqual(r["commits"], 0)
 
-    def test_city(self):
+    def test_city_day_sky(self):
         from . import card_city
         svg = card_city.render(self.data)
         ET.fromstring(svg)
@@ -40,6 +40,28 @@ class CardsTest(unittest.TestCase):
         self.assertIn("repeatCount=\"indefinite\"", svg)   # beacon blinks
         repos = sorted(self.data["repos"], key=card_city._score, reverse=True)
         self.assertIn(repos[0]["name"][:8], svg.replace("…", ""))
+        # fixture snapshot 11:50Z = 12:50 WAT -> day: sun, no moon, autumn
+        self.assertIn("#ffd75e", svg)                 # sun
+        self.assertNotIn("#e8edf5", svg)              # no moon
+        self.assertIn("autumn · day", svg)
+
+    def test_city_night_wat(self):
+        from . import card_city
+        data = dict(self.data, fetched_at="2026-09-16T21:30:00Z")  # 22:30 WAT
+        svg = card_city.render(data)
+        ET.fromstring(svg)
+        self.assertIn("#e8edf5", svg)                 # moon
+        self.assertIn("#d7843c", svg)                 # autumn leaves fall
+        self.assertIn("autumn · night", svg)
+
+    def test_city_winter_snow(self):
+        from . import card_city
+        data = dict(self.data, fetched_at="2027-01-10T13:00:00Z")  # winter
+        svg = card_city.render(data)
+        ET.fromstring(svg)
+        self.assertIn("winter", svg)
+        self.assertIn("#eef4fb", svg)                 # snow on rooftops
+        self.assertNotIn("#d7843c", svg)             # no autumn leaves
 
     def test_training(self):
         svg = self._render(card_training, "train_contributor.py",

@@ -5,9 +5,10 @@ name: cards
 # serves its own images instead of depending on third-party badge APIs.
 on:
   schedule:
-    # 06:23 UTC — off the hour, so the job doesn't queue behind the hourly
-    # pile-up on GitHub's shared runners.
-    - cron: "23 6 * * *"
+    # Hourly — keeps the city sky in real West African Time and
+    # raises a new skyscraper within the hour of any new repo. :07
+    # stays off the hour to dodge the pile-up on shared runners.
+    - cron: "7 * * * *"
   push:
     branches: [main]
     paths:
