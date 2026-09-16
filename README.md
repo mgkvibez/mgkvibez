@@ -109,6 +109,14 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 <p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>. The snake starts electric blue and turns terminal green as it eats through the year — keyframe colours interpolated over its run, repainted after every regeneration.</i></p>
 
+### Contribution city
+
+<div align="center">
+  <img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%">
+</div>
+
+<p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Self-rendered by the same daily pipeline as the rest of the skyline.</i></p>
+
 ---
 
 ---

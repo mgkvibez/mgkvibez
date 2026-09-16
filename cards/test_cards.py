@@ -26,6 +26,21 @@ class CardsTest(unittest.TestCase):
         self.assertGreater(len(self.data["repos"]), 0)
         self.assertGreater(len(self.data["days"]), 350)
 
+    def test_fixture_has_commit_counts(self):
+        for r in self.data["repos"]:
+            self.assertIn("commits", r)
+            self.assertGreaterEqual(r["commits"], 0)
+
+    def test_city(self):
+        from . import card_city
+        svg = card_city.render(self.data)
+        ET.fromstring(svg)
+        self.assertIn("skyline --owner github.com/mgkvibez", svg)
+        self.assertIn("population:", svg)
+        self.assertIn("repeatCount=\"indefinite\"", svg)   # beacon blinks
+        repos = sorted(self.data["repos"], key=card_city._score, reverse=True)
+        self.assertIn(repos[0]["name"][:8], svg.replace("…", ""))
+
     def test_training(self):
         svg = self._render(card_training, "train_contributor.py",
                            "converging", "epoch")

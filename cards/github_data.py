@@ -40,6 +40,7 @@ query($login: String!) {
         pushedAt
         isArchived
         diskUsage
+        defaultBranchRef { target { ... on Commit { history { totalCount } } } }
       }
     }
   }
@@ -63,6 +64,8 @@ def _normalize(raw, login):
             "pushed_at": r["pushedAt"],
             "pushed_days_ago": (now - pushed).days,
             "size_kb": r["diskUsage"],
+            "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
+                        .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
         })
     return {
@@ -105,6 +108,8 @@ def load_fixture(path):
             "pushed_at": r["pushedAt"],
             "pushed_days_ago": (now - pushed).days,
             "size_kb": r["diskUsage"],
+            "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
+                        .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
         })
     return {
