@@ -4,28 +4,15 @@
 
 [![Profile views](https://komarev.com/ghpvc/?username=mgkvibez&color=00ff41&style=flat-square&label=Views)](https://github.com/mgkvibez)
 [![Snake status](https://img.shields.io/github/actions/workflow/status/mgkvibez/mgkvibez/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/mgkvibez/mgkvibez/actions/workflows/snake.yml)
-[![Metrics status](https://img.shields.io/github/actions/workflow/status/mgkvibez/mgkvibez/metrics.yml?label=contribution%20city&style=flat-square&color=00ff41)](https://github.com/mgkvibez/mgkvibez/actions/workflows/metrics.yml)
+[![X](https://img.shields.io/badge/X-@helper__divine70-000000?style=flat-square&logo=x)](https://x.com/helper_divine70)
 
 </div>
 
 ---
 
-```bash
-$ whoami
-mgkvibez — ML engineer
-
-$ cat interests.txt
-fast inference · clean pipelines · breaking my own infra on purpose
-
-$ ./status.sh --check
-[OK]  models serving
-[OK]  pipelines green
-[OK]  contribution city rebuilt daily via Actions
-[..]  coffee: low
-
-$ echo $CURRENTLY_BUILDING
-Project Omega — vision models + FastAPI serving + observability
-```
+<div align="center">
+  <img src="assets/cards/ubuntu.svg" alt="Ubuntu terminal: whoami" width="100%">
+</div>
 
 ## About me
 
@@ -52,6 +39,44 @@ I'm a machine learning engineer focused on shipping models that actually survive
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
+
+---
+
+## Self-rendered cards
+
+No third-party widget APIs in this section — these four cards are drawn by my own generator (`cards/`), rendered from the live GitHub GraphQL API and committed straight back to this branch daily by [`.github/workflows/cards.yml`](.github/workflows/cards.yml), the same pattern as the snake.
+
+### Training log
+
+<div align="center">
+  <img src="assets/cards/training.svg" alt="Training log: a year of contributions as a converging loss curve" width="100%">
+</div>
+
+_Loss is the share of the year's contributions still owed at each week of the run — the curve converges only when I ship. The marker heartbeats while status reads "converging"._
+
+<div align="center">
+  <img src="assets/cards/scope.svg" alt="Oscilloscope: daily contributions as a phosphor waveform" width="100%">
+</div>
+
+_One sample per day; idle days hold the beam on the baseline. The sweep line scans every seven seconds._
+
+The contribution year as a training run: loss is the share of the year's work still owed, and it converges only when I ship. The scope on the right samples one day at a time — idle days hold the beam on the baseline.
+
+### Recon
+
+<div align="center">
+  <img src="assets/cards/portscan.svg" alt="Port scan: repositories as nmap services, state by last-push recency" width="100%">
+</div>
+
+_Every repo is a service on host `github.com/mgkvibez` — open if pushed in the last 30 days, filtered within 90, closed beyond that. Ports are stable hashes of the repo name._
+
+<div align="center">
+  <img src="assets/cards/registry.svg" alt="Model registry: repositories as deployed models" width="100%">
+</div>
+
+_Repos as models in a registry: version = stars, params = disk footprint, train loss = days since the last deploy. Loss drifts up while a repo sits idle._
+
+Every repo is a service on host `github.com/mgkvibez` — open if pushed in the last 30 days, filtered within 90, closed beyond that. The registry frames them as models: version = stars, params = disk footprint, train loss = days since the last deploy.
 
 ---
 
@@ -82,23 +107,9 @@ I'm a machine learning engineer focused on shipping models that actually survive
   <img alt="GitHub contribution snake animation" src="assets/images/github-contribution-grid-snake.svg" />
 </picture>
 
-<p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>, which commits the refreshed SVGs straight back to this branch.</i></p>
-
-### Contribution city (isometric)
-
-<div align="center">
-  <img src="assets/images/metrics.svg" alt="Isometric contribution city and habit stats" width="100%" />
-</div>
-
-<p><i>3D isometric build of my commit calendar, plus language/habit breakdowns — generated daily by <a href=".github/workflows/metrics.yml">.github/workflows/metrics.yml</a> using <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> and committed straight back to this branch, same pattern as the snake.</i></p>
+<p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>. The snake starts electric blue and turns terminal green as it eats through the year — keyframe colours interpolated over its run, repainted after every regeneration.</i></p>
 
 ---
-
-## Trophy case
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mgkvibez&theme=matrix&no-frame=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
-</div>
 
 ---
 
@@ -122,9 +133,8 @@ I'm a machine learning engineer focused on shipping models that actually survive
 
 ## Contact
 
-- Email: adaenonche92@gmail.com
+- X: [@helper_divine70](https://x.com/helper_divine70)
+- Email: michaeloogwu58@gmail.com
 - Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
-<p align="center">
-  <img src="assets/images/capsule-footer.svg" alt="footer" />
-</p>
+

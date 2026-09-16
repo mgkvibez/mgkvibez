@@ -10,6 +10,12 @@ on:
 permissions:
   contents: write
 
+# One snake run at a time — back-to-back pushes used to race on the commit
+# step and both runs failed, which flipped the profile badge to "failing".
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   update-snake:
     runs-on: ubuntu-latest
@@ -24,6 +30,11 @@ jobs:
           outputs: |
             assets/images/github-contribution-grid-snake.svg
             assets/images/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300ff41
+
+      - name: Paint the snake blue, greener with every commit it eats
+        run: |
+          python cards/snake_gradient.py assets/images/github-contribution-grid-snake.svg light
+          python cards/snake_gradient.py assets/images/github-contribution-grid-snake-dark.svg dark
 
       - name: Commit updated SVGs back to main
         uses: stefanzweifel/git-auto-commit-action@v5
