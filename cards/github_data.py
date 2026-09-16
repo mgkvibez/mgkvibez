@@ -39,6 +39,7 @@ query($login: String!) {
         stargazerCount
         pushedAt
         isArchived
+        isPrivate
         diskUsage
         defaultBranchRef { target { ... on Commit { history { totalCount } } } }
       }
@@ -67,6 +68,7 @@ def _normalize(raw, login):
             "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
                         .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
+            "private": r["isPrivate"],
         })
     return {
         "login": login,
@@ -97,7 +99,7 @@ def load_fixture(path):
             ["contributionCalendar"]["weeks"]
             for d in w["contributionDays"]]
     # take the snapshot date from the fixture so offline renders are stable
-    now = dt.datetime(2026, 9, 16, 10, 57, tzinfo=dt.timezone.utc)
+    now = dt.datetime(2026, 9, 16, 9, 38, tzinfo=dt.timezone.utc)
     repos = []
     for r in raw["data"]["user"]["repositories"]["nodes"]:
         pushed = dt.datetime.fromisoformat(r["pushedAt"].replace("Z", "+00:00"))
@@ -111,10 +113,11 @@ def load_fixture(path):
             "commits": (((r.get("defaultBranchRef") or {}).get("target") or {})
                         .get("history", {}).get("totalCount")) or 0,
             "archived": r["isArchived"],
+            "private": r["isPrivate"],
         })
     return {
         "login": "mgkvibez",
-        "fetched_at": raw.get("fetched_at", "2026-09-16T10:57:00Z"),
+        "fetched_at": raw.get("fetched_at", "2026-09-16T09:38:00Z"),
         "total": raw["data"]["user"]["contributionsCollection"]
                       ["contributionCalendar"]["totalContributions"],
         "days": [{"date": d["date"], "count": d["contributionCount"]} for d in days],

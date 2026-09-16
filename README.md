@@ -115,7 +115,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
   <img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%">
 </div>
 
-<p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
+<p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Private repos rise as dark towers on the far edge — anonymous silhouettes, names only, no stats. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
 
 ---
 

@@ -30,6 +30,7 @@ class CardsTest(unittest.TestCase):
         for r in self.data["repos"]:
             self.assertIn("commits", r)
             self.assertGreaterEqual(r["commits"], 0)
+            self.assertIn("private", r)
 
     def test_city_day_sky(self):
         from . import card_city
@@ -38,8 +39,15 @@ class CardsTest(unittest.TestCase):
         self.assertIn("skyline --owner github.com/mgkvibez", svg)
         self.assertIn("population:", svg)
         self.assertIn("repeatCount=\"indefinite\"", svg)   # beacon blinks
-        repos = sorted(self.data["repos"], key=card_city._score, reverse=True)
-        self.assertIn(repos[0]["name"][:8], svg.replace("…", ""))
+        pub = [r for r in self.data["repos"] if not r["private"]]
+        ranked = sorted(pub, key=card_city._score, reverse=True)
+        self.assertIn("1. " + ranked[0]["name"][:8], svg)  # public ranks only
+        # private repos: dark towers, names only, no stats
+        priv = [r for r in self.data["repos"] if r["private"]]
+        self.assertGreater(len(priv), 0)
+        self.assertIn(priv[0]["name"], svg)
+        self.assertNotIn(priv[0]["name"] + " — ", svg)
+        self.assertIn("dark towers (private, names only)", svg)
         # fixture snapshot 11:50Z = 12:50 WAT -> day: sun, no moon, autumn
         self.assertIn("#ffd75e", svg)                 # sun
         self.assertNotIn("#e8edf5", svg)              # no moon

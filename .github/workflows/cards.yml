@@ -39,9 +39,10 @@ jobs:
 
       - name: Render cards
         env:
-          # The built-in token sees public repos only — the profile and its
-          # portfolio are public, which is all these cards need.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # CARDS_TOKEN (the owner's PAT) also sees private repos, so the
+          # city can raise them as anonymous dark towers. Falls back to
+          # the built-in token (public only) if the secret is missing.
+          GITHUB_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python -m cards.render --login "${{ github.repository_owner }}"
 
       - name: Commit

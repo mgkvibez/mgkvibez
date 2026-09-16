@@ -7,6 +7,9 @@ spring, falling leaves in autumn. Height ranks the building (commits +
 codebase size + stars), the facade is tinted by primary language, and
 the tallest tower wears a blinking beacon.
 
+Private repos rise as dark towers on the far edge of the skyline —
+anonymous silhouettes, names only, no stats.
+
 Re-rendered hourly by the cards workflow, so the sky keeps real time
 and a new repo gets its skyscraper within the hour. Self-rendered — no
 third-party widget APIs.
@@ -43,6 +46,7 @@ LANG = {
 }
 DEFAULT_FACADE = ("#152238", "#3b5f8f")
 LIT, UNLIT = "#f5c56b", "#0c1420"
+DARK_TOWER = "#0d1117"           # private silhouettes
 
 # sky gradients and window-lit multipliers per phase
 SKY = {
@@ -155,11 +159,41 @@ def _particles(out, login, season):
                        f'repeatCount="indefinite"/></rect>\n')
 
 
+def _dark_towers(out, dark, left, right, txt):
+    """Private repos: anonymous silhouette towers, names only — no
+    windows, no rank badges, no stats."""
+    shown = sorted(dark, key=_score, reverse=True)[:8]
+    n = len(shown)
+    slot = (right - left) / max(1, n)
+    for i, r in enumerate(shown):
+        h = MAX_H * (0.62 + 0.38 * (i / max(1, n - 1)))
+        bw = min(slot * 0.6, 22)
+        x = left + i * slot + (slot - bw) / 2
+        y = GROUND - h
+        out.append(svg.rect(x, y, bw, h, DARK_TOWER))
+        out.append(f'<rect x="{x}" y="{y}" width="{bw}" height="{h}" '
+                   f'fill="none" stroke="{theme.BORDER}" stroke-width="1" '
+                   f'rx="1"/>\n')
+        out.append(svg.line(x + bw / 2, y, x + bw / 2, y - 12,
+                            theme.BORDER, 1))
+    names = [r["name"] for r in shown]
+    if len(dark) > 8:
+        names[-1] = f"+{len(dark) - 7} more"
+    txt_size = 9
+    rows = [" · ".join(names[:4]), " · ".join(names[4:8])]
+    if rows[1]:
+        out.append(svg.text(right, GROUND - 22, rows[1], txt, txt_size,
+                            "end"))
+    out.append(svg.text(right, GROUND - 10, rows[0], txt, txt_size, "end"))
+
+
 def render(data):
     login = data["login"]
     now = _clock(data)
     phase, season = _phase(now), _season(now)
-    repos = sorted(data["repos"], key=_score, reverse=True)[:TOP_N]
+    pub = [r for r in data["repos"] if not r.get("private", False)]
+    dark = [r for r in data["repos"] if r.get("private", False)]
+    repos = sorted(pub, key=_score, reverse=True)[:TOP_N]
     n = len(repos)
     out = [svg.svg_open(W, H, f"Contribution city ({season}, {phase}): "
                               f"repos as ranked skyscrapers ({login})")]
@@ -207,9 +241,13 @@ def render(data):
     out.append(svg.text(30, 34, cmd, hdr, 13))
     out.append(svg.cursor(30 + svg.text_w(cmd, 13) + 4, 21, hdr))
 
-    # skyscrapers
+    # public skyscrapers get the main skyline; dark towers the far edge
+    cluster_w = min(230, 34 * min(len(dark), 8) + 30) if dark else 0
+    cluster_left = RIGHT - cluster_w
+    public_right = cluster_left - 14 if dark else RIGHT
+
     max_score = _score(repos[0]) if repos else 1.0
-    slot = (RIGHT - LEFT) / max(1, n)
+    slot = (public_right - LEFT) / max(1, n)
     lit_mult = WINDOW_LIT[phase]
     for i, r in enumerate(repos):
         h = MIN_H + (MAX_H - MIN_H) * (_score(r) / max_score) ** 0.5
@@ -251,14 +289,17 @@ def render(data):
                        f'<animate attributeName="opacity" values="1;0.1;1" '
                        f'dur="1.6s" repeatCount="indefinite"/></circle>\n')
 
+    if dark:
+        dark_txt = "#16324a" if phase == "day" else theme.DIM
+        _dark_towers(out, dark, cluster_left, RIGHT, dark_txt)
+
     # ground and city directory
     out.append(svg.rect(12, GROUND, W - 24, H - GROUND - 12, theme.PANEL))
     out.append(svg.line(12, GROUND, W - 12, GROUND, theme.BORDER))
     dcmd = "$ city directory --rank commits+size+stars+recency"
     out.append(svg.text(30, GROUND + 20, dcmd, theme.GREEN, 11))
 
-    shown = repos[:10]
-    for j, r in enumerate(shown):
+    for j, r in enumerate(repos[:10]):
         col, row = j // 5, j % 5
         dx = 30 + col * ((W - 60) / 2)
         dy = GROUND + 38 + row * 13
@@ -268,10 +309,11 @@ def render(data):
                 f"{_size(r)} · ★{r['stars']} · {_ago(r)}")
         out.append(svg.text(dx, dy, line, theme.DIM, 10))
 
-    total_commits = sum(x.get("commits", 0) for x in data["repos"])
-    pop = (f"population: {total_commits} commits across "
-           f"{len(data['repos'])} repos · {season} · {phase} · "
-           f"rendered hourly in WAT")
+    total_commits = sum(x.get("commits", 0) for x in pub)
+    pop = (f"population: {total_commits} commits across {len(pub)} repos"
+           + (f" · {min(len(dark), 8)} dark towers (private, names only)"
+              if dark else "")
+           + f" · {season} · {phase} · rendered hourly in WAT")
     out.append(svg.text(W / 2, H - 20, pop, theme.DIM, 10, "middle"))
     out.append(svg.svg_close())
     return "".join(out)
