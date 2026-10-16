@@ -174,7 +174,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 ## Contact
 
-- X: [@helper_divine70](https://x.com/helper_divine70)
+- X: [@mgkvibez](https://x.com/mgkvibez)
 - Email: michaeloogwu58@gmail.com
 - Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
