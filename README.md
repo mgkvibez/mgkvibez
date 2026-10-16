@@ -185,65 +185,70 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 301 total | ▲ 29 in 30d |
-| Last 30 days | 56 | see the activity card |
+| Contributions (365d) | 315 total | ▲ 40 in 30d |
+| Last 30 days | 68 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 301 | — |
+| Contributions | 315 | — |
 | Commits | 76 | — |
 | Pull requests | 7 | — |
 | Issues | 1 | — |
 | Reviews | 0 | — |
 | Current streak | 40d | — |
 | Longest streak | 40d | — |
-| Repositories | 21 | — |
-| Stars earned | 16 | — |
+| Repositories | 26 | — |
+| Stars earned | 42 | — |
 | Followers | 21 | — |
-| Collaborative acts | 8 (2.7% of all) | — |
+| Collaborative acts | 8 (2.5% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 73.2% | 14.2 MB |
-| Python | 20.0% | 3.9 MB |
-| JavaScript | 4.6% | 921.5 kB |
-| Other (8) | 2.2% | — |
+| TypeScript | 73.0% | 14.3 MB |
+| Python | 19.9% | 3.9 MB |
+| JavaScript | 4.8% | 953.6 kB |
+| Other (9) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Fri 08:00 (16 commits) |
-| Sample | 225 recent commits |
-| Nights, 22:00–06:00 | 31% of the sample |
+| Sample | 260 recent commits |
+| Nights, 22:00–06:00 | 27% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 287 |
+| 2026 | 301 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.2 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 210 | 871 kB | 1 | 2026-10-16 | occupied | public |
-| Tinda | 91 | 904 kB | 1 | 2026-10-16 | occupied | private |
-| [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.6 MB | 2 | 2026-10-16 | occupied | public |
-| kratos-ii | 8 | 108 kB | 1 | 2026-09-15 | quiet | private |
-| odia | 8 | 4.3 MB | 0 | 2026-06-18 | dormant | private |
-| [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 1 | 2026-10-16 | occupied | public |
-| voiceprint | 6 | 90 kB | 1 | 2026-10-15 | occupied | private |
-| [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 3 kB | 1 | 2026-10-16 | occupied | public |
-| [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 1 | 2026-10-16 | occupied | public |
-| lisa | 3 | 69 kB | 0 | 2026-08-13 | quiet | private |
-| Agents | 3 | 7 kB | 0 | 2026-07-22 | quiet | private |
-| [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 1 | 2026-06-18 | dormant | public |
-| [bolt.diy](https://github.com/mgkvibez/bolt.diy) | 3 | 2.1 MB | 1 | 2026-06-18 | dormant | public |
-| [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 23 kB | 1 | 2026-10-16 | occupied | public |
-| qttx-app | 2 | 2 kB | 0 | 2026-10-16 | occupied | private |
-| [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 1 | 2026-07-14 | dormant | public |
-| openclaw | 1 | 53 kB | 0 | 2026-08-12 | quiet | private |
-| [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 1 | 5.7 MB | 1 | 2026-06-18 | dormant | public |
-| blog-agility-cms-nextjs | 1 | 154 kB | 0 | 2025-12-01 | dormant | private |
-| bolt.new | 1 | 841 kB | 0 | 2025-12-01 | dormant | private |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 211 | 878 kB | 2 | 2026-10-16 | occupied | public |
+| Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
+| [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
+| [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
+| kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
+| odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
+| ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
+| [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
+| voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
+| perimeter-watch | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
+| reportforge | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
+| mgk-recon | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
+| [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
+| [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
+| lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
+| Agents | 3 | 7 kB | 1 | 2026-07-22 | quiet | private |
+| [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 2 | 2026-06-18 | dormant | public |
+| [bolt.diy](https://github.com/mgkvibez/bolt.diy) | 3 | 2.1 MB | 2 | 2026-06-18 | dormant | public |
+| [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 24 kB | 2 | 2026-10-16 | occupied | public |
+| qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
+| [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 2 | 2026-07-14 | dormant | public |
+| openclaw | 1 | 53 kB | 1 | 2026-08-12 | quiet | private |
+| [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 1 | 5.7 MB | 2 | 2026-06-18 | dormant | public |
+| blog-agility-cms-nextjs | 1 | 154 kB | 1 | 2025-12-01 | dormant | private |
+| bolt.new | 1 | 841 kB | 1 | 2025-12-01 | dormant | private |
 
 _Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me._
 

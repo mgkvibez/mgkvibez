@@ -26,25 +26,25 @@
 <rect x="145" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="160" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="175" y="76" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="190" y="76" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="190" y="76" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="205" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="220" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="235" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="220" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="235" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="250" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="265" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="265" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="280" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="295" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="310" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="310" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="325" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="340" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="355" y="76" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="340" y="76" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="355" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="370" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="385" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <text x="34" y="101" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Tue</text>
 <rect x="40" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="55" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="70" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="85" y="91" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="85" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="100" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="115" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="130" y="91" width="12" height="12" rx="2" fill="#161b22"/>
@@ -53,15 +53,15 @@
 <rect x="175" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="190" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="205" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="220" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="220" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="235" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="250" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="280" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="295" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="310" y="91" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="280" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="295" y="91" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="310" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="325" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="340" y="91" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="340" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="355" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="385" y="91" width="12" height="12" rx="2" fill="#161b22"/>
@@ -70,7 +70,7 @@
 <rect x="55" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="70" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="100" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="100" y="106" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="115" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="130" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
@@ -92,7 +92,7 @@
 <rect x="385" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <text x="34" y="131" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Thu</text>
 <rect x="40" y="121" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="55" y="121" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="55" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="70" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="100" y="121" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -102,7 +102,7 @@
 <rect x="160" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="175" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="190" y="121" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="205" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="205" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="220" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="250" y="121" width="12" height="12" rx="2" fill="#161b22"/>
@@ -131,7 +131,7 @@
 <rect x="220" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="136" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="250" y="136" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="265" y="136" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="265" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="280" y="136" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="295" y="136" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="310" y="136" width="12" height="12" rx="2" fill="#161b22"/>
@@ -182,13 +182,13 @@
 <rect x="235" y="166" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="250" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="166" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="280" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="295" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="280" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="295" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="310" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="325" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="340" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#161b22"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">225 commits sampled — busiest Fri 08:00, weekend 16%, nights 31%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">260 commits sampled — busiest Fri 08:00, weekend 14%, nights 27%</text>
 </svg>
