@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="136" viewBox="0 0 460 136" role="img" aria-label="Language drift: a dumbbell per language, share a month ago versus now, change in points">
+<title>Language drift: a dumbbell per language, share a month ago versus now, change in points</title>
+<defs>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#0d1117"/>
+<stop offset="1" stop-color="#0d1117"/>
+</linearGradient>
+</defs>
+<rect width="460" height="136" rx="10" fill="#0a0e14"/>
+<rect x="10" y="10" width="440" height="116" rx="10" fill="#0d1117" stroke="#1f2730" stroke-width="1"/>
+<text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">langs.drift</text>
+<circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
+<text x="18" y="56" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">share of tracked bytes, then → now</text>
+<text x="18" y="92" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">archive started today — drift needs a month of snapshots.</text>
+<text x="18" y="110" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">check back in ~4 weeks; no invented numbers.</text>
+</svg>

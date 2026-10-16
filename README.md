@@ -117,7 +117,40 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 <p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Private repos rise as dark towers on the far edge — anonymous silhouettes, names only, no stats. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
 
----
+### Contribution heatmap
+
+<div align="center">
+  <img src="assets/cards/heatmap.svg" alt="Contribution calendar: 53 weeks by 7 days, shaded in four bands by daily contribution count, with the numeric range of each band printed in the legend" width="100%">
+</div>
+
+<p><i>A year of contributions, one cell per day. The four shades are quartiles of my own active days rather than fractions of the busiest one, and the legend prints the numeric range of every band — so the reading survives greyscale.</i></p>
+
+### Languages and activity
+
+<div align="center">
+  <img src="assets/cards/languages.svg" alt="Language share by tracked bytes across every owned non-fork repository" width="49%">
+  <img src="assets/cards/activity.svg" alt="Contribution activity: totals, streaks, and a 30-day sparkline with the change against the prior 30 days" width="49%">
+</div>
+
+<p><i>Left: share of code by tracked bytes, ranked, with the private count in the scope line rather than hidden. Right: the headline numbers and a 30-day sparkline — deltas come from the snapshot archive (<code>history.jsonl</code>), and stay absent until the archive is old enough to answer.</i></p>
+
+### Collaboration and rhythm
+
+<div align="center">
+  <img src="assets/cards/collab.svg" alt="Collaboration card: pull requests, reviews and issues ranked as horizontal bars, with the 30-day movement of each and the collaborative share of all contributions" width="49%">
+  <img src="assets/cards/rhythm.svg" alt="Commit rhythm: a 7 by 24 heatmap of commits by day of week and hour of day, sampled from recent default-branch history" width="49%">
+</div>
+
+<p><i>Left: the part of a year's work that involved somebody else — commits are the denominator, not a bar, because a shared axis would turn the collaborative measures into pixel slivers. Right: when in the week and the day the commits actually land, sampled from recent history; every stamp is UTC and the card says so.</i></p>
+
+### Years and drift
+
+<div align="center">
+  <img src="assets/cards/years.svg" alt="Contributions by year and month: one row per year, twelve monthly cells shaded in four bands, with each year's total at the right" width="49%">
+  <img src="assets/cards/drift.svg" alt="Language drift: a dumbbell per language, a hollow dot for its share a month ago and a filled dot for now, change in percentage points at the right" width="49%">
+</div>
+
+<p><i>Left: the long view — twelve monthly cells per year, shaded by the profile's own distribution. Right: the only derivative on the page — which way the language mix is moving. It needs a month of snapshots to have an honest "then", so until the archive is old enough it says exactly that instead of inventing one.</i></p>
 
 ---
 
@@ -145,4 +178,75 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 - Email: michaeloogwu58@gmail.com
 - Found a real issue in one of my repos? Open an issue there directly — it's faster than DMs.
 
+<details>
+<summary>Open the table view</summary>
 
+<!-- cards:table:start -->
+
+| Right now | Reading | Move |
+|---|---|---|
+| Contributions (365d) | 291 total | ▲ 19 in 30d |
+| Last 30 days | 46 | see the activity card |
+
+| Metric | Last 365 days | Move |
+|---|---:|---|
+| Contributions | 291 | — |
+| Commits | 68 | — |
+| Pull requests | 7 | — |
+| Issues | 1 | — |
+| Reviews | 0 | — |
+| Current streak | 40d | — |
+| Longest streak | 40d | — |
+| Repositories | 21 | — |
+| Stars earned | 7 | — |
+| Followers | 21 | — |
+| Collaborative acts | 8 (2.7% of all) | — |
+
+| Language | Share | Tracked size |
+|---|---:|---:|
+| Python | 72.2% | 43.2 MB |
+| TypeScript | 24.2% | 14.5 MB |
+| Other (14) | 3.5% | — |
+
+| Commit rhythm | Value |
+|---|---:|
+| Busiest slot | Fri 00:00 (12 commits) |
+| Sample | 219 recent commits |
+| Nights, 22:00–06:00 | 33% of the sample |
+| Clock | UTC — every stamp came back without an offset |
+
+| Year | Contributions |
+|---|---:|
+| 2025 | 17 |
+| 2026 | 277 |
+
+| Building | Commits | Size | Stars | Last push | State | Access |
+|---|---:|---:|---:|---|---|---|
+| ron-weasley-ii | 289 | 2.2 MB | 2 | 2026-10-16 | occupied | private |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 205 | 819 kB | 0 | 2026-10-16 | occupied | public |
+| Tinda | 90 | 904 kB | 0 | 2026-09-15 | occupied | private |
+| [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 17 | 16.6 MB | 2 | 2026-08-14 | quiet | public |
+| kratos-ii | 8 | 108 kB | 1 | 2026-09-15 | occupied | private |
+| odia | 8 | 4.3 MB | 0 | 2026-06-18 | dormant | private |
+| [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 61 kB | 1 | 2026-10-16 | occupied | public |
+| voiceprint | 6 | 90 kB | 0 | 2026-10-15 | occupied | private |
+| lisa | 3 | 69 kB | 0 | 2026-08-13 | quiet | private |
+| Agents | 3 | 7 kB | 0 | 2026-07-22 | quiet | private |
+| [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 0 | 2026-06-18 | dormant | public |
+| [bolt.diy](https://github.com/mgkvibez/bolt.diy) | 3 | 2.1 MB | 0 | 2026-06-18 | dormant | public |
+| [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 2 | 3 kB | 0 | 2026-07-22 | quiet | public |
+| [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 1 | 2026-07-14 | dormant | public |
+| [the-intel](https://github.com/mgkvibez/the-intel) | 2 | 1.5 MB | 0 | 2025-11-30 | dormant | public |
+| openclaw | 1 | 53 kB | 0 | 2026-08-12 | quiet | private |
+| [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 1 | 5.7 MB | 0 | 2026-06-18 | dormant | public |
+| [the-intels](https://github.com/mgkvibez/the-intels) | 1 | 23 kB | 0 | 2025-12-01 | dormant | public |
+| blog-agility-cms-nextjs | 1 | 154 kB | 0 | 2025-12-01 | dormant | private |
+| bolt.new | 1 | 841 kB | 0 | 2025-12-01 | dormant | private |
+| qttx-app | 1 | 2 kB | 0 | 2025-02-11 | dormant | private |
+
+_Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me._
+
+_Generated by `cards/` on 2026-10-16, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
+<!-- cards:table:end -->
+
+</details>
