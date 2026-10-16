@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="158" viewBox="0 0 460 158" role="img" aria-label="Language share by tracked bytes across every owned non-fork repository">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="182" viewBox="0 0 460 182" role="img" aria-label="Language share by tracked bytes across every owned non-fork repository">
 <title>Language share by tracked bytes across every owned non-fork repository</title>
 <defs>
 <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
@@ -6,18 +6,21 @@
 <stop offset="1" stop-color="#0d1117"/>
 </linearGradient>
 </defs>
-<rect width="460" height="158" rx="10" fill="#0a0e14"/>
-<rect x="10" y="10" width="440" height="138" rx="10" fill="#0d1117" stroke="#1f2730" stroke-width="1"/>
+<rect width="460" height="182" rx="10" fill="#0a0e14"/>
+<rect x="10" y="10" width="440" height="162" rx="10" fill="#0d1117" stroke="#1f2730" stroke-width="1"/>
 <text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">langs.mix · 21 repos, 11 private</text>
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="52" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">share of code by tracked bytes</text>
-<text x="18" y="76" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">Python</text>
+<text x="18" y="76" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">TypeScript</text>
 <rect x="122" y="66" width="252.0" height="10" rx="2" fill="#00ff41"/>
-<text x="438" y="76" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">72.3% · 43.2 MB</text>
-<text x="18" y="100" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">TypeScript</text>
-<rect x="122" y="90" width="84.46723455308303" height="10" rx="2" fill="#00ff41"/>
-<text x="438" y="100" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">24.2% · 14.5 MB</text>
-<text x="18" y="124" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">Other (14)</text>
-<rect x="122" y="114" width="12.319156042833429" height="10" rx="2" fill="#8b949e"/>
-<text x="438" y="124" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">3.5%</text>
+<text x="438" y="76" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">73.2% · 14.2 MB</text>
+<text x="18" y="100" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">Python</text>
+<rect x="122" y="90" width="68.84569965422773" height="10" rx="2" fill="#00ff41"/>
+<text x="438" y="100" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">20.0% · 3.9 MB</text>
+<text x="18" y="124" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">JavaScript</text>
+<rect x="122" y="114" width="15.965299635616097" height="10" rx="2" fill="#00ff41"/>
+<text x="438" y="124" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">4.6% · 921.5 kB</text>
+<text x="18" y="148" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">Other (8)</text>
+<rect x="122" y="138" width="7.5860527395531605" height="10" rx="2" fill="#8b949e"/>
+<text x="438" y="148" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">2.2%</text>
 </svg>
