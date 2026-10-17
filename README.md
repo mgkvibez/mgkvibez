@@ -185,22 +185,22 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 316 total | ▲ 39 in 30d |
-| Last 30 days | 68 | see the activity card |
+| Contributions (365d) | 323 total | ▲ 46 in 30d |
+| Last 30 days | 75 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 316 | — |
+| Contributions | 323 | — |
 | Commits | 77 | — |
 | Pull requests | 7 | — |
-| Issues | 1 | — |
+| Issues | 8 | — |
 | Reviews | 0 | — |
 | Current streak | 41d | — |
 | Longest streak | 41d | — |
 | Repositories | 26 | — |
 | Stars earned | 42 | — |
 | Followers | 21 | — |
-| Collaborative acts | 8 (2.5% of all) | — |
+| Collaborative acts | 15 (4.6% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -219,12 +219,12 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 302 |
+| 2026 | 309 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 215 | 926 kB | 2 | 2026-10-17 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 216 | 950 kB | 2 | 2026-10-17 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
