@@ -185,14 +185,14 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 328 total | ▲ 47 in 30d |
-| Last 30 days | 78 | see the activity card |
+| Contributions (365d) | 354 total | ▲ 73 in 30d |
+| Last 30 days | 104 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 328 | — |
-| Commits | 81 | — |
-| Pull requests | 7 | — |
+| Contributions | 354 | — |
+| Commits | 87 | — |
+| Pull requests | 21 | — |
 | Issues | 8 | — |
 | Reviews | 0 | — |
 | Current streak | 43d | — |
@@ -200,7 +200,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Repositories | 27 | — |
 | Stars earned | 44 | — |
 | Followers | 20 | — |
-| Collaborative acts | 15 (4.6% of all) | — |
+| Collaborative acts | 29 (8.2% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -212,19 +212,19 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Fri 08:00 (15 commits) |
-| Sample | 263 recent commits |
+| Sample | 264 recent commits |
 | Nights, 22:00–06:00 | 27% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 314 |
+| 2026 | 340 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 231 | 1.1 MB | 2 | 2026-10-19 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 232 | 1.2 MB | 2 | 2026-10-19 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
@@ -233,11 +233,11 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 4 | 95 kB | 2 | 2026-10-19 | occupied | public |
 | perimeter-watch | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
 | reportforge | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
 | mgk-recon | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 3 | 86 kB | 2 | 2026-10-18 | occupied | public |
 | [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | quiet | private |
