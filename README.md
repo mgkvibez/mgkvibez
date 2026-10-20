@@ -224,11 +224,11 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 237 | 1.2 MB | 2 | 2026-10-20 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 238 | 1.2 MB | 2 | 2026-10-20 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
-| perimeter-watch | 8 | 17 kB | 1 | 2026-10-20 | occupied | private |
+| perimeter-watch | 8 | 25 kB | 1 | 2026-10-20 | occupied | private |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 7 | 126 kB | 2 | 2026-10-20 | occupied | public |
@@ -237,7 +237,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
-| [paymock](https://github.com/mgkvibez/paymock) | 5 | 8 kB | 1 | 2026-10-20 | occupied | public |
+| [paymock](https://github.com/mgkvibez/paymock) | 5 | 33 kB | 1 | 2026-10-20 | occupied | public |
 | [voxserve](https://github.com/mgkvibez/voxserve) | 4 | 19 kB | 1 | 2026-10-20 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
 | [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
