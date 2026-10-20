@@ -185,59 +185,62 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 364 total | ▲ 81 in 30d |
-| Last 30 days | 113 | see the activity card |
+| Contributions (365d) | 377 total | ▲ 94 in 30d |
+| Last 30 days | 126 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 364 | — |
-| Commits | 92 | — |
-| Pull requests | 26 | — |
+| Contributions | 377 | — |
+| Commits | 97 | — |
+| Pull requests | 27 | — |
 | Issues | 8 | — |
 | Reviews | 0 | — |
 | Current streak | 44d | — |
 | Longest streak | 44d | — |
-| Repositories | 27 | — |
+| Repositories | 30 | — |
 | Stars earned | 44 | — |
 | Followers | 21 | — |
-| Collaborative acts | 34 (9.3% of all) | — |
+| Collaborative acts | 35 (9.3% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 72.6% | 14.3 MB |
-| Python | 20.2% | 4.0 MB |
+| TypeScript | 72.3% | 14.3 MB |
+| Python | 20.5% | 4.0 MB |
 | JavaScript | 4.7% | 953.6 kB |
 | Other (9) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
-| Busiest slot | Fri 08:00 (15 commits) |
-| Sample | 266 recent commits |
-| Nights, 22:00–06:00 | 27% of the sample |
+| Busiest slot | Tue 03:00 (15 commits) |
+| Sample | 280 recent commits |
+| Nights, 22:00–06:00 | 31% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 350 |
+| 2026 | 363 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 234 | 1.2 MB | 2 | 2026-10-19 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 236 | 1.2 MB | 2 | 2026-10-20 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 6 | 95 kB | 2 | 2026-10-19 | occupied | public |
+| perimeter-watch | 6 | 11 kB | 1 | 2026-10-20 | occupied | private |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 6 | 114 kB | 2 | 2026-10-19 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
-| perimeter-watch | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
-| reportforge | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
-| mgk-recon | 4 | 3 kB | 1 | 2026-10-16 | occupied | private |
+| reportforge | 5 | 10 kB | 1 | 2026-10-20 | occupied | private |
+| mgk-recon | 5 | 11 kB | 1 | 2026-10-20 | occupied | private |
+| [voxserve](https://github.com/mgkvibez/voxserve) | 4 | 13 kB | 0 | 2026-10-20 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
+| [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 7 kB | 0 | 2026-10-20 | occupied | public |
+| [paymock](https://github.com/mgkvibez/paymock) | 3 | 9 kB | 0 | 2026-10-20 | occupied | public |
 | [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | quiet | private |

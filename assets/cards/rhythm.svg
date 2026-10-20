@@ -34,19 +34,19 @@
 <rect x="265" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="280" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="295" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="310" y="76" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="310" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="325" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="340" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="355" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="370" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="385" y="76" width="12" height="12" rx="2" fill="#00ff41"/>
 <text x="34" y="101" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Tue</text>
-<rect x="40" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="55" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="40" y="91" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="55" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="70" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="85" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="85" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="100" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="115" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="115" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="130" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="160" y="91" width="12" height="12" rx="2" fill="#161b22"/>
@@ -190,5 +190,5 @@
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">266 commits sampled — busiest Fri 08:00, weekend 17%, nights 27%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">280 commits sampled — busiest Tue 03:00, weekend 16%, nights 31%</text>
 </svg>
