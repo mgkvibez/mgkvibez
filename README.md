@@ -199,7 +199,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Longest streak | 45d | — |
 | Repositories | 30 | — |
 | Stars earned | 47 | — |
-| Followers | 21 | — |
+| Followers | 22 | — |
 | Collaborative acts | 36 (9.3% of all) | — |
 
 | Language | Share | Tracked size |
@@ -224,7 +224,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 243 | 1.3 MB | 2 | 2026-10-21 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 244 | 1.3 MB | 2 | 2026-10-21 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
@@ -243,7 +243,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
 | [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
-| Agents | 3 | 7 kB | 1 | 2026-07-22 | quiet | private |
+| Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
 | [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 2 | 2026-06-18 | dormant | public |
 | [bolt.diy](https://github.com/mgkvibez/bolt.diy) | 3 | 2.1 MB | 2 | 2026-06-18 | dormant | public |
 | [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 24 kB | 2 | 2026-10-16 | occupied | public |
