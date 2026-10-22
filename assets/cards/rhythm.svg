@@ -89,10 +89,10 @@
 <rect x="340" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="355" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="106" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="385" y="106" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="385" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <text x="34" y="131" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Thu</text>
 <rect x="40" y="121" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="55" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="55" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="70" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="100" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
