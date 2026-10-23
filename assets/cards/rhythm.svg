@@ -120,7 +120,7 @@
 <rect x="55" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="70" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="85" y="136" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="100" y="136" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="100" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="115" y="136" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="130" y="136" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -190,5 +190,5 @@
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">289 commits sampled — busiest Tue 03:00, weekend 15%, nights 30%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">290 commits sampled — busiest Tue 03:00, weekend 15%, nights 30%</text>
 </svg>
