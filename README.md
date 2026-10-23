@@ -185,22 +185,22 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 411 total | ▲ 122 in 30d |
-| Last 30 days | 157 | see the activity card |
+| Contributions (365d) | 413 total | ▲ 122 in 30d |
+| Last 30 days | 158 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 411 | — |
-| Commits | 113 | — |
-| Pull requests | 34 | — |
+| Contributions | 413 | — |
+| Commits | 114 | — |
+| Pull requests | 35 | — |
 | Issues | 8 | — |
 | Reviews | 0 | — |
-| Current streak | 47d | — |
+| Current streak | 0d | — |
 | Longest streak | 47d | — |
 | Repositories | 33 | — |
 | Stars earned | 47 | — |
 | Followers | 22 | — |
-| Collaborative acts | 42 (10.2% of all) | — |
+| Collaborative acts | 43 (10.4% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -212,20 +212,20 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 03:00 (15 commits) |
-| Sample | 344 recent commits |
+| Sample | 345 recent commits |
 | Nights, 22:00–06:00 | 27% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 397 |
+| 2026 | 399 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1899 | 14.1 MB | 0 | 2026-10-23 | occupied | private |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 257 | 1.5 MB | 2 | 2026-10-23 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 258 | 1.5 MB | 2 | 2026-10-23 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
@@ -248,10 +248,10 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
 | [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 2 | 2026-06-18 | dormant | public |
 | [bolt.dye](https://github.com/mgkvibez/bolt.dye) | 3 | 2.1 MB | 2 | 2026-06-18 | dormant | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 2 | 42 kB | 0 | 2026-10-23 | occupied | public |
 | [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 24 kB | 2 | 2026-10-16 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
 | [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 2 | 2026-07-14 | dormant | public |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 1 | 9 kB | 0 | 2026-10-23 | occupied | public |
 | openclaw | 1 | 53 kB | 1 | 2026-08-12 | quiet | private |
 | [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 1 | 5.7 MB | 2 | 2026-06-18 | dormant | public |
 | blog-agility-cms-nextjs | 1 | 154 kB | 1 | 2025-12-01 | dormant | private |
