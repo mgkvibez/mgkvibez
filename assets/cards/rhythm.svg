@@ -26,19 +26,19 @@
 <rect x="145" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="160" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="175" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="190" y="76" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="190" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="205" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="220" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="235" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="250" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="76" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="280" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="295" y="76" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="310" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="325" y="76" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="280" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="295" y="76" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="310" y="76" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="325" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="340" y="76" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="355" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="370" y="76" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="355" y="76" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="370" y="76" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="385" y="76" width="12" height="12" rx="2" fill="#00ff41"/>
 <text x="34" y="101" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Tue</text>
 <rect x="40" y="91" width="12" height="12" rx="2" fill="#39d353"/>
@@ -49,20 +49,20 @@
 <rect x="115" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="130" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="91" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="160" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="160" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="175" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="190" y="91" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="205" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="220" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="190" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="205" y="91" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="220" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="250" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="280" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="295" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="310" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="325" y="91" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="310" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="325" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="340" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
-<rect x="355" y="91" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="355" y="91" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="370" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
 <text x="34" y="116" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Wed</text>
@@ -81,7 +81,7 @@
 <rect x="220" y="106" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="250" y="106" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="265" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="265" y="106" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="280" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="295" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="310" y="106" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -101,10 +101,10 @@
 <rect x="145" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="160" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="175" y="121" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="190" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="205" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="190" y="121" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="205" y="121" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="220" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="235" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="235" y="121" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="250" y="121" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="280" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
@@ -114,7 +114,7 @@
 <rect x="340" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="355" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="370" y="121" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="385" y="121" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="385" y="121" width="12" height="12" rx="2" fill="#39d353"/>
 <text x="34" y="146" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Fri</text>
 <rect x="40" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="55" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -130,7 +130,7 @@
 <rect x="205" y="136" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="220" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="136" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="250" y="136" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="250" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="265" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="280" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="295" y="136" width="12" height="12" rx="2" fill="#123d1f"/>
@@ -153,7 +153,7 @@
 <rect x="175" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="190" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="205" y="151" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="220" y="151" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="220" y="151" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="235" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="250" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="265" y="151" width="12" height="12" rx="2" fill="#161b22"/>
@@ -190,5 +190,5 @@
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">290 commits sampled — busiest Tue 03:00, weekend 15%, nights 30%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">343 commits sampled — busiest Tue 03:00, weekend 13%, nights 27%</text>
 </svg>

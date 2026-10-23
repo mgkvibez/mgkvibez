@@ -185,46 +185,47 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 400 total | ▲ 111 in 30d |
-| Last 30 days | 146 | see the activity card |
+| Contributions (365d) | 408 total | ▲ 119 in 30d |
+| Last 30 days | 154 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 400 | — |
-| Commits | 109 | — |
-| Pull requests | 31 | — |
+| Contributions | 408 | — |
+| Commits | 112 | — |
+| Pull requests | 33 | — |
 | Issues | 8 | — |
 | Reviews | 0 | — |
 | Current streak | 47d | — |
 | Longest streak | 47d | — |
-| Repositories | 30 | — |
+| Repositories | 32 | — |
 | Stars earned | 47 | — |
 | Followers | 22 | — |
-| Collaborative acts | 39 (9.8% of all) | — |
+| Collaborative acts | 41 (10.0% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 72.0% | 14.3 MB |
-| Python | 20.8% | 4.1 MB |
-| JavaScript | 4.7% | 960.7 kB |
-| Other (9) | 2.4% | — |
+| TypeScript | 75.7% | 17.6 MB |
+| Python | 17.7% | 4.1 MB |
+| JavaScript | 4.2% | 1001.3 kB |
+| Other (10) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 03:00 (15 commits) |
-| Sample | 290 recent commits |
-| Nights, 22:00–06:00 | 30% of the sample |
+| Sample | 343 recent commits |
+| Nights, 22:00–06:00 | 27% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 386 |
+| 2026 | 394 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
+| fast-dev | 1899 | 0 kB | 0 | 2026-10-23 | occupied | private |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 255 | 1.5 MB | 2 | 2026-10-23 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 256 | 1.5 MB | 2 | 2026-10-23 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
@@ -240,6 +241,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | [paymock](https://github.com/mgkvibez/paymock) | 5 | 33 kB | 1 | 2026-10-20 | occupied | public |
 | [voxserve](https://github.com/mgkvibez/voxserve) | 4 | 19 kB | 1 | 2026-10-20 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
+| [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 0 | 2026-10-23 | occupied | public |
 | [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
 | [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
