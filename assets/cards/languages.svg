@@ -8,7 +8,7 @@
 </defs>
 <rect width="460" height="182" rx="10" fill="#0a0e14"/>
 <rect x="10" y="10" width="440" height="162" rx="10" fill="#0d1117" stroke="#1f2730" stroke-width="1"/>
-<text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">langs.mix · 32 repos, 16 private</text>
+<text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">langs.mix · 33 repos, 16 private</text>
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="52" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">share of code by tracked bytes</text>
 <text x="18" y="76" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">TypeScript</text>
