@@ -139,7 +139,7 @@
 <rect x="340" y="136" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="355" y="136" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="370" y="136" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="385" y="136" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="385" y="136" width="12" height="12" rx="2" fill="#1f7a33"/>
 <text x="34" y="161" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Sat</text>
 <rect x="40" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="55" y="151" width="12" height="12" rx="2" fill="#161b22"/>
