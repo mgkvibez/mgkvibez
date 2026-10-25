@@ -145,7 +145,7 @@
 <rect x="55" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="70" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="100" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="100" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="115" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="130" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="151" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -163,7 +163,7 @@
 <rect x="325" y="151" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="340" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="355" y="151" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="370" y="151" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="370" y="151" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="385" y="151" width="12" height="12" rx="2" fill="#161b22"/>
 <text x="34" y="176" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Sun</text>
 <rect x="40" y="166" width="12" height="12" rx="2" fill="#123d1f"/>

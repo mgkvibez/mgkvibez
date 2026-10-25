@@ -34,7 +34,7 @@
 <text x="620" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-10-24</text>
 <text x="890" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.00</text>
 <text x="30" y="178" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">standalone-webcontainer</text>
-<text x="260" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v0.0</text>
+<text x="260" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v0.1</text>
 <text x="360" y="178" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
 <text x="500" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">45K params</text>
 <text x="620" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-10-23</text>
