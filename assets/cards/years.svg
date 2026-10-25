@@ -38,5 +38,5 @@
 <rect x="187" y="103" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="202" y="103" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="217" y="103" width="12" height="12" rx="2" fill="#161b22"/>
-<text x="438" y="115" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">400</text>
+<text x="438" y="115" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">401</text>
 </svg>
