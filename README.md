@@ -161,6 +161,19 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | **Project Omega** | 🔥 In progress (~60%) | Fast vision models (PyTorch) + FastAPI serving + observability |
 | **Kali Auto-Suite** | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python) |
 | **infra-hardening-checks** | 🧪 Early stage | Automated container/config hardening checks for CI pipelines |
+| **[perimeter-watch](https://github.com/mgkvibez/perimeter-watch)** | 🛰️ Shipped | Continuous exposure monitoring: dangling-DNS takeover risk, exposed cloud buckets, secret scanning, alert digests |
+| **[mgk-recon](https://github.com/mgkvibez/mgk-recon)** | 🔍 Shipped | Evidence-based recon dossier: fingerprinting, redirect chains, CT-log monitoring, passive checks — every claim source-linked |
+| **[reportforge](https://github.com/mgkvibez/reportforge)** | 📄 Shipped | Burp Suite, ZAP and nuclei output → client-ready PDF + markdown pentest reports, zero dependencies |
+
+### Security tooling
+
+Three purpose-built security tools, open for personal and
+noncommercial use under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/):
+watch your perimeter with [perimeter-watch](https://github.com/mgkvibez/perimeter-watch),
+profile a target with [mgk-recon](https://github.com/mgkvibez/mgk-recon),
+and turn scanner output into a report a client will actually read with
+[reportforge](https://github.com/mgkvibez/reportforge). Python standard
+library only — `git clone` and run.
 
 ---
 
