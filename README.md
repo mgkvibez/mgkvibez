@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+mgkvibez;ML+Engineer+%7C+Backend+%2B+MLOps;I+build+it%2C+then+try+to+break+it." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+mgkvibez;Backend+%2B+Security+Tooling+%7C+Python;I+build+it%2C+then+try+to+break+it." alt="Typing SVG" />
 
 [![Profile views](https://komarev.com/ghpvc/?username=mgkvibez&color=00ff41&style=flat-square&label=Views)](https://github.com/mgkvibez)
 [![Snake status](https://img.shields.io/github/actions/workflow/status/mgkvibez/mgkvibez/snake.yml?label=snake%20animation&style=flat-square&color=00ff41)](https://github.com/mgkvibez/mgkvibez/actions/workflows/snake.yml)
@@ -16,12 +16,16 @@
 
 ## About me
 
-I'm a machine learning engineer focused on shipping models that actually survive production: fast inference, clean data pipelines, and infrastructure that's been stress-tested rather than just deployed and hoped for.
+I build Python tooling end to end — security automation, backend sandboxes and CLI apps people
+actually use. Everything public in my repos is tested and source-linked. Machine learning is
+the road I'm on (Project Omega, early stage), not a claim I've cashed yet — when the receipts
+land, they'll be right here.
 
-- 🔭 **Currently building:** Project Omega — lightweight vision models with FastAPI serving and full observability
+- 🔭 **Currently building:** the security tooling trio (perimeter-watch, mgk-recon, reportforge — all public),
+  and Project Omega — lightweight vision models with FastAPI serving, in early experiments
 - 🌱 **Currently deepening:** Linux internals, container hardening, and offensive-security tooling (so I can find the holes before someone else does)
-- 🧩 **Core stack:** PyTorch, FastAPI, Docker, Kubernetes, Linux
-- 💬 **Ask me about:** model serving, ML infra, or reproducible training pipelines
+- 🧩 **Core stack:** Python (stdlib-first), FastAPI, Docker, Linux
+- 💬 **Ask me about:** security automation, Python tooling, or the self-rendering cards on this page
 
 ---
 
@@ -29,11 +33,8 @@ I'm a machine learning engineer focused on shipping models that actually survive
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
@@ -158,7 +159,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 | Project | Status | Description |
 |---|---|---|
-| **Project Omega** | 🔥 In progress (~60%) | Fast vision models (PyTorch) + FastAPI serving + observability |
+| **Project Omega** | 🌱 Early stage | Fast vision models (PyTorch) + FastAPI serving + observability — receipts coming |
 | **Kali Auto-Suite** | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python) |
 | **infra-hardening-checks** | 🧪 Early stage | Automated container/config hardening checks for CI pipelines |
 | **[perimeter-watch](https://github.com/mgkvibez/perimeter-watch)** | 🛰️ Shipped | Continuous exposure monitoring: dangling-DNS takeover risk, exposed cloud buckets, secret scanning, alert digests |
