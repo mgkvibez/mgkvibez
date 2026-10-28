@@ -36,6 +36,9 @@ jobs:
           python cards/snake_gradient.py assets/images/github-contribution-grid-snake.svg light
           python cards/snake_gradient.py assets/images/github-contribution-grid-snake-dark.svg dark
 
+      - name: Rebase on latest main before committing
+        run: git pull --rebase --autostash origin main
+
       - name: Commit updated SVGs back to main
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
