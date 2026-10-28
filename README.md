@@ -199,22 +199,22 @@ library only — `git clone` and run.
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 502 total | ▲ 203 in 30d |
-| Last 30 days | 243 | see the activity card |
+| Contributions (365d) | 529 total | ▲ 230 in 30d |
+| Last 30 days | 270 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 502 | — |
-| Commits | 168 | — |
-| Pull requests | 55 | — |
+| Contributions | 529 | — |
+| Commits | 174 | — |
+| Pull requests | 63 | — |
 | Issues | 8 | — |
 | Reviews | 0 | — |
 | Current streak | 52d | — |
 | Longest streak | 52d | — |
 | Repositories | 33 | — |
 | Stars earned | 47 | — |
-| Followers | 21 | — |
-| Collaborative acts | 63 (12.5% of all) | — |
+| Followers | 22 | — |
+| Collaborative acts | 71 (13.4% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -226,27 +226,27 @@ library only — `git clone` and run.
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 19:00 (22 commits) |
-| Sample | 373 recent commits |
-| Nights, 22:00–06:00 | 25% of the sample |
+| Sample | 375 recent commits |
+| Nights, 22:00–06:00 | 24% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 488 |
+| 2026 | 515 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 0 | 2026-10-27 | occupied | private |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 277 | 1.2 MB | 2 | 2026-10-27 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 282 | 1.2 MB | 2 | 2026-10-28 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 16 | 196 kB | 2 | 2026-10-28 | occupied | public |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 16 | 224 kB | 2 | 2026-10-28 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 13 | 31 kB | 1 | 2026-10-28 | occupied | public |
-| [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 11 | 40 kB | 1 | 2026-10-28 | occupied | public |
-| [reportforge](https://github.com/mgkvibez/reportforge) | 10 | 28 kB | 1 | 2026-10-27 | occupied | public |
+| [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 12 | 41 kB | 1 | 2026-10-28 | occupied | public |
+| [reportforge](https://github.com/mgkvibez/reportforge) | 11 | 30 kB | 1 | 2026-10-28 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 7 | 110 kB | 0 | 2026-10-26 | occupied | public |

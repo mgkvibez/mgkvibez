@@ -192,7 +192,7 @@
 <rect x="846" y="128" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="862" y="128" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="878" y="128" width="13" height="13" rx="2" fill="#123d1f"/>
-<rect x="894" y="128" width="13" height="13" rx="2" fill="#1f7a33"/>
+<rect x="894" y="128" width="13" height="13" rx="2" fill="#00ff41"/>
 <text x="26" y="155" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">Thu</text>
 <rect x="30" y="144" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="46" y="144" width="13" height="13" rx="2" fill="#161b22"/>
@@ -418,7 +418,7 @@
 <rect x="878" y="192" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="894" y="192" width="13" height="13" rx="2" fill="#161b22"/>
 <line x1="30" y1="238" x2="890" y2="238" stroke="#1f2730" stroke-width="1"/>
-<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">502 contributions — 71 active days, 297 quiet. Bands are this year's own quartiles.</text>
+<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">529 contributions — 71 active days, 297 quiet. Bands are this year's own quartiles.</text>
 <rect x="687.8" y="250" width="13" height="13" rx="2" fill="#161b22"/>
 <text x="704.8" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">0</text>
 <rect x="716.1999999999999" y="250" width="13" height="13" rx="2" fill="#123d1f"/>
