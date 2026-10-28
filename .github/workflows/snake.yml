@@ -10,11 +10,13 @@ on:
 permissions:
   contents: write
 
-# One snake run at a time — back-to-back pushes used to race on the commit
-# step and both runs failed, which flipped the profile badge to "failing".
+# One snake run at a time. Runs QUEUE rather than cancel: a cancelled
+# latest run leaves the profile's workflow badge reading "failing" even
+# when the previous run succeeded, which is worse than a slightly stale
+# animation for a few minutes.
 concurrency:
   group: snake
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-snake:
