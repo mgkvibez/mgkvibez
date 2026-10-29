@@ -165,6 +165,10 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | **[perimeter-watch](https://github.com/mgkvibez/perimeter-watch)** | 🛰️ Shipped | Continuous exposure monitoring: dangling-DNS takeover risk, exposed cloud buckets, secret scanning, alert digests |
 | **[mgk-recon](https://github.com/mgkvibez/mgk-recon)** | 🔍 Shipped | Evidence-based recon dossier: fingerprinting, redirect chains, CT-log monitoring, passive checks — every claim source-linked |
 | **[reportforge](https://github.com/mgkvibez/reportforge)** | 📄 Shipped | Burp Suite, ZAP and nuclei output → client-ready PDF + markdown pentest reports, zero dependencies |
+| **[sentinel-skills](https://github.com/mgkvibez/sentinel-skills)** | 🛡️ Shipped | Five defensive security playbooks for coding agents: threat-model, triage-alert, review-diff-for-vulns, cve-research, harden-service |
+| **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** | 🩺 Shipped | Reads a failed CI log and returns the first real error, its causal chain and a fix, with line citations. Zero dependencies |
+| **[depdrift](https://github.com/mgkvibez/depdrift)** | 🔗 Shipped | Lockfile diff review: typosquats, install scripts, git deps, mirror registries. Fully offline |
+| **[migsafe](https://github.com/mgkvibez/migsafe)** | 🗄️ Shipped | PostgreSQL migration linter: flags the statement that locks your users table, with a fix per finding |
 
 ### Security tooling
 
@@ -175,6 +179,15 @@ profile a target with [mgk-recon](https://github.com/mgkvibez/mgk-recon),
 and turn scanner output into a report a client will actually read with
 [reportforge](https://github.com/mgkvibez/reportforge). Python standard
 library only — `git clone` and run.
+
+### Developer tooling (MIT)
+
+Four tools built for the work I actually do. All MIT, all tested, all install in one line:
+
+- **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** — `gh run view --log-failed | ci-whisper` turns 10k lines of noise into the one paragraph that matters
+- **[migsafe](https://github.com/mgkvibez/migsafe)** — `migsafe check migrations/` flags the lock, the rewrite and the irreversible step before deploy
+- **[depdrift](https://github.com/mgkvibez/depdrift)** — `depdrift review old.json package-lock.json` answers "what arrived, and is it sketchy?"
+- **[sentinel-skills](https://github.com/mgkvibez/sentinel-skills)** — `npx skills add mgkvibez/sentinel-skills` gives coding agents a defensive playbook instead of an instinct
 
 ---
 
