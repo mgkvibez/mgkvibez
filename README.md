@@ -221,22 +221,22 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 653 total | ▲ 350 in 30d |
-| Last 30 days | 392 | see the activity card |
+| Contributions (365d) | 664 total | ▲ 357 in 30d |
+| Last 30 days | 401 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 653 | — |
-| Commits | 257 | — |
+| Contributions | 664 | — |
+| Commits | 268 | — |
 | Pull requests | 67 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
-| Current streak | 54d | — |
+| Current streak | 0d | — |
 | Longest streak | 54d | — |
 | Repositories | 47 | — |
 | Stars earned | 81 | — |
 | Followers | 23 | — |
-| Collaborative acts | 83 (12.7% of all) | — |
+| Collaborative acts | 83 (12.5% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -248,37 +248,37 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 19:00 (22 commits) |
-| Sample | 453 recent commits |
-| Nights, 22:00–06:00 | 19% of the sample |
+| Sample | 462 recent commits |
+| Nights, 22:00–06:00 | 18% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 639 |
+| 2026 | 650 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 1 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 301 | 1.4 MB | 2 | 2026-10-30 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 302 | 1.5 MB | 2 | 2026-10-30 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 18 | 256 kB | 2 | 2026-10-30 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
+| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 15 | 144 kB | 5 | 2026-10-30 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 14 | 33 kB | 1 | 2026-10-29 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 14 | 45 kB | 1 | 2026-10-29 | occupied | public |
-| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 13 | 96 kB | 5 | 2026-10-30 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 12 | 32 kB | 1 | 2026-10-29 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 10 | 59 kB | 4 | 2026-10-29 | occupied | public |
-| [migsafe](https://github.com/mgkvibez/migsafe) | 9 | 70 kB | 3 | 2026-10-29 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 11 | 61 kB | 4 | 2026-10-30 | occupied | public |
+| [tokentracker](https://github.com/mgkvibez/tokentracker) | 10 | 67 kB | 2 | 2026-10-30 | occupied | public |
+| [migsafe](https://github.com/mgkvibez/migsafe) | 10 | 72 kB | 3 | 2026-10-30 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
-| [tokentracker](https://github.com/mgkvibez/tokentracker) | 7 | 38 kB | 2 | 2026-10-30 | occupied | public |
+| [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 7 | 69 kB | 2 | 2026-10-30 | occupied | public |
+| [paymock](https://github.com/mgkvibez/paymock) | 7 | 39 kB | 1 | 2026-10-30 | occupied | public |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 7 | 110 kB | 1 | 2026-10-26 | occupied | public |
 | [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 6 | 97 kB | 2 | 2026-10-30 | occupied | public |
-| [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 6 | 21 kB | 2 | 2026-10-29 | occupied | public |
-| [paymock](https://github.com/mgkvibez/paymock) | 6 | 37 kB | 1 | 2026-10-27 | occupied | public |
 | [voxserve](https://github.com/mgkvibez/voxserve) | 6 | 27 kB | 1 | 2026-10-27 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
