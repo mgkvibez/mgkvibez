@@ -221,59 +221,60 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 597 total | ▲ 294 in 30d |
-| Last 30 days | 336 | see the activity card |
+| Contributions (365d) | 641 total | ▲ 338 in 30d |
+| Last 30 days | 380 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 597 | — |
-| Commits | 216 | — |
-| Pull requests | 63 | — |
+| Contributions | 641 | — |
+| Commits | 248 | — |
+| Pull requests | 66 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
 | Current streak | 54d | — |
 | Longest streak | 54d | — |
-| Repositories | 38 | — |
-| Stars earned | 63 | — |
+| Repositories | 45 | — |
+| Stars earned | 79 | — |
 | Followers | 23 | — |
-| Collaborative acts | 79 (13.2% of all) | — |
+| Collaborative acts | 82 (12.8% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 75.1% | 17.7 MB |
-| Python | 18.4% | 4.3 MB |
+| TypeScript | 74.1% | 17.7 MB |
+| Python | 19.4% | 4.6 MB |
 | JavaScript | 4.1% | 1001.3 kB |
 | Other (10) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 19:00 (22 commits) |
-| Sample | 418 recent commits |
-| Nights, 22:00–06:00 | 21% of the sample |
+| Sample | 443 recent commits |
+| Nights, 22:00–06:00 | 19% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 583 |
+| 2026 | 627 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 1 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 293 | 1.4 MB | 2 | 2026-10-30 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 300 | 1.4 MB | 2 | 2026-10-30 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 18 | 256 kB | 2 | 2026-10-30 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 17 | 235 kB | 2 | 2026-10-29 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 14 | 33 kB | 1 | 2026-10-29 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 14 | 45 kB | 1 | 2026-10-29 | occupied | public |
-| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 12 | 79 kB | 4 | 2026-10-29 | occupied | public |
+| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 13 | 96 kB | 5 | 2026-10-30 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 12 | 32 kB | 1 | 2026-10-29 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 10 | 59 kB | 3 | 2026-10-29 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 10 | 59 kB | 4 | 2026-10-29 | occupied | public |
 | [migsafe](https://github.com/mgkvibez/migsafe) | 9 | 70 kB | 3 | 2026-10-29 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
+| [tokentracker](https://github.com/mgkvibez/tokentracker) | 7 | 38 kB | 2 | 2026-10-30 | occupied | public |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 7 | 110 kB | 1 | 2026-10-26 | occupied | public |
 | [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 6 | 21 kB | 2 | 2026-10-29 | occupied | public |
 | [paymock](https://github.com/mgkvibez/paymock) | 6 | 37 kB | 1 | 2026-10-27 | occupied | public |
@@ -281,7 +282,10 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
+| [flakedetective](https://github.com/mgkvibez/flakedetective) | 4 | 26 kB | 2 | 2026-10-30 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
+| [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 3 | 0 kB | 2 | 2026-10-30 | occupied | public |
+| [infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks) | 3 | 20 kB | 2 | 2026-10-30 | occupied | public |
 | [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 1 | 2026-10-23 | dormant | public |
 | [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
 | [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
@@ -289,6 +293,9 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
 | [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 2 | 2026-06-18 | dormant | public |
 | [bolt.dye](https://github.com/mgkvibez/bolt.dye) | 3 | 2.1 MB | 2 | 2026-06-18 | dormant | public |
+| [project-omega](https://github.com/mgkvibez/project-omega) | 2 | 75 kB | 2 | 2026-10-30 | occupied | public |
+| [kali-auto-suite](https://github.com/mgkvibez/kali-auto-suite) | 2 | 26 kB | 2 | 2026-10-30 | occupied | public |
+| [globahire](https://github.com/mgkvibez/globahire) | 2 | 81 kB | 2 | 2026-10-30 | occupied | public |
 | [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 24 kB | 2 | 2026-10-16 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
 | [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 2 | 2026-07-14 | dormant | public |
