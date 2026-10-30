@@ -169,6 +169,9 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** | 🩺 Shipped | Reads a failed CI log and returns the first real error, its causal chain and a fix, with line citations. Zero dependencies |
 | **[depdrift](https://github.com/mgkvibez/depdrift)** | 🔗 Shipped | Lockfile diff review: typosquats, install scripts, git deps, mirror registries. Fully offline |
 | **[migsafe](https://github.com/mgkvibez/migsafe)** | 🗄️ Shipped | PostgreSQL migration linter: flags the statement that locks your users table, with a fix per finding |
+| **[tokenwatch](https://github.com/mgkvibez/tokenwatch)** | 📊 Shipped | Token and cost observability for agent sessions: what ate the context, per session, per file, per skill. Local only |
+| **[flakedetective](https://github.com/mgkvibez/flakedetective)** | 🔍 Shipped | Runs your suite N times, tells flaky apart from broken, and hands you repro commands plus a quarantine file. [PyPI](https://pypi.org/project/flakedetective/) |
+| **[globahire](https://github.com/mgkvibez/globahire)** | 🛰️ Shipped | Personal job radar: watches public boards for roles that match your stack and pings once per real role. [PyPI](https://pypi.org/project/globahire/) |
 
 ### Security tooling
 
@@ -182,12 +185,15 @@ library only — `git clone` and run.
 
 ### Developer tooling (MIT)
 
-Four tools built for the work I actually do. All MIT, all tested, all install in one line:
+Seven tools built for the work I actually do. All MIT, all tested, all install in one line:
 
 - **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** — `gh run view --log-failed | ci-whisper` turns 10k lines of noise into the one paragraph that matters
 - **[migsafe](https://github.com/mgkvibez/migsafe)** — `migsafe check migrations/` flags the lock, the rewrite and the irreversible step before deploy
 - **[depdrift](https://github.com/mgkvibez/depdrift)** — `depdrift review old.json package-lock.json` answers "what arrived, and is it sketchy?"
 - **[sentinel-skills](https://github.com/mgkvibez/sentinel-skills)** — `npx skills add mgkvibez/sentinel-skills` gives coding agents a defensive playbook instead of an instinct
+- **[tokenwatch](https://github.com/mgkvibez/tokenwatch)** — `tokenwatch report ~/.claude/projects` ranks what actually ate the context, with an explicit (unattributed) bucket so the shares add up
+- **[flakedetective](https://github.com/mgkvibez/flakedetective)** — `pipx install flakedetective` then `flakedetective run --runs 10 -- pytest` separates flaky from broken and prints the loop that proves it
+- **[globahire](https://github.com/mgkvibez/globahire)** — `pipx install globahire` then `globahire watch --profile profile.yaml` pings once per genuinely new role, and never applies for you
 
 ---
 
