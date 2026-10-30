@@ -221,46 +221,46 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 641 total | ▲ 338 in 30d |
-| Last 30 days | 380 | see the activity card |
+| Contributions (365d) | 653 total | ▲ 350 in 30d |
+| Last 30 days | 392 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 641 | — |
-| Commits | 248 | — |
-| Pull requests | 66 | — |
+| Contributions | 653 | — |
+| Commits | 257 | — |
+| Pull requests | 67 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
 | Current streak | 54d | — |
 | Longest streak | 54d | — |
-| Repositories | 45 | — |
-| Stars earned | 79 | — |
+| Repositories | 47 | — |
+| Stars earned | 81 | — |
 | Followers | 23 | — |
-| Collaborative acts | 82 (12.8% of all) | — |
+| Collaborative acts | 83 (12.7% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 74.1% | 17.7 MB |
-| Python | 19.4% | 4.6 MB |
+| TypeScript | 73.6% | 17.7 MB |
+| Python | 20.0% | 4.8 MB |
 | JavaScript | 4.1% | 1001.3 kB |
 | Other (10) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Tue 19:00 (22 commits) |
-| Sample | 443 recent commits |
+| Sample | 453 recent commits |
 | Nights, 22:00–06:00 | 19% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 627 |
+| 2026 | 639 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 1 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 300 | 1.4 MB | 2 | 2026-10-30 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 301 | 1.4 MB | 2 | 2026-10-30 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 18 | 256 kB | 2 | 2026-10-30 | occupied | public |
@@ -276,15 +276,17 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
 | [tokentracker](https://github.com/mgkvibez/tokentracker) | 7 | 38 kB | 2 | 2026-10-30 | occupied | public |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 7 | 110 kB | 1 | 2026-10-26 | occupied | public |
+| [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 6 | 97 kB | 2 | 2026-10-30 | occupied | public |
 | [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 6 | 21 kB | 2 | 2026-10-29 | occupied | public |
 | [paymock](https://github.com/mgkvibez/paymock) | 6 | 37 kB | 1 | 2026-10-27 | occupied | public |
 | [voxserve](https://github.com/mgkvibez/voxserve) | 6 | 27 kB | 1 | 2026-10-27 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
+| [telegram-webhook-starter](https://github.com/mgkvibez/telegram-webhook-starter) | 4 | 26 kB | 1 | 2026-10-30 | occupied | public |
 | [flakedetective](https://github.com/mgkvibez/flakedetective) | 4 | 26 kB | 2 | 2026-10-30 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
-| [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 3 | 0 kB | 2 | 2026-10-30 | occupied | public |
+| [discord-webhook-starter](https://github.com/mgkvibez/discord-webhook-starter) | 3 | 23 kB | 1 | 2026-10-30 | occupied | public |
 | [infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks) | 3 | 20 kB | 2 | 2026-10-30 | occupied | public |
 | [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 1 | 2026-10-23 | dormant | public |
 | [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
