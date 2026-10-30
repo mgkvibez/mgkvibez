@@ -160,8 +160,8 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 | Project | Status | Description |
 |---|---|---|
 | **Project Omega** | 🌱 Early stage | Fast vision models (PyTorch) + FastAPI serving + observability — receipts coming |
-| **Kali Auto-Suite** | ⚙️ Planning | Automation for common pen-testing workflows (Bash, Python) |
-| **infra-hardening-checks** | 🧪 Early stage | Automated container/config hardening checks for CI pipelines |
+| **[kali-auto-suite](https://github.com/mgkvibez/kali-auto-suite)** | 🛰️ Shipped | Automation for common pen-testing workflows (Bash, Python): authorized, non-destructive recon, scope-gated, dry run by default, every attempt audited. `pipx install kaliauto` ([PyPI](https://pypi.org/project/kaliauto/)) |
+| **[infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks)** | 🛡️ Shipped | Automated container/config hardening checks for CI pipelines: Dockerfile, compose, Kubernetes and sshd rules, with SARIF for code scanning. `pipx install hardencheck` ([PyPI](https://pypi.org/project/hardencheck/)) |
 | **[perimeter-watch](https://github.com/mgkvibez/perimeter-watch)** | 🛰️ Shipped | Continuous exposure monitoring: dangling-DNS takeover risk, exposed cloud buckets, secret scanning, alert digests |
 | **[mgk-recon](https://github.com/mgkvibez/mgk-recon)** | 🔍 Shipped | Evidence-based recon dossier: fingerprinting, redirect chains, CT-log monitoring, passive checks — every claim source-linked |
 | **[reportforge](https://github.com/mgkvibez/reportforge)** | 📄 Shipped | Burp Suite, ZAP and nuclei output → client-ready PDF + markdown pentest reports, zero dependencies |
@@ -185,7 +185,7 @@ library only — `git clone` and run.
 
 ### Developer tooling (MIT)
 
-Seven tools built for the work I actually do. All MIT, all tested, all install in one line:
+Nine tools built for the work I actually do. All MIT, all tested, all install in one line:
 
 - **[ci-whisper](https://github.com/mgkvibez/ci-whisper)** — `gh run view --log-failed | ci-whisper` turns 10k lines of noise into the one paragraph that matters
 - **[migsafe](https://github.com/mgkvibez/migsafe)** — `migsafe check migrations/` flags the lock, the rewrite and the irreversible step before deploy
@@ -194,6 +194,8 @@ Seven tools built for the work I actually do. All MIT, all tested, all install i
 - **[tokentracker](https://github.com/mgkvibez/tokentracker)** — `tokentracker report ~/.claude/projects` ranks what actually ate the context, with an explicit (unattributed) bucket so the shares add up
 - **[flakedetective](https://github.com/mgkvibez/flakedetective)** — `pipx install flakedetective` then `flakedetective run --runs 10 -- pytest` separates flaky from broken and prints the loop that proves it
 - **[globahire](https://github.com/mgkvibez/globahire)** — `pipx install globahire` then `globahire watch --profile profile.yaml` pings once per genuinely new role, and never applies for you
+- **[infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks)** — `pipx install hardencheck` then `hardencheck scan .` flags root containers, leaked build args, `curl | sh`, privileged pods and root SSH before they merge, in text, JSON or SARIF
+- **[kali-auto-suite](https://github.com/mgkvibez/kali-auto-suite)** — `pipx install kaliauto`, name who authorized the work in `scope.json`, then `kaliauto scan --scope scope.json --execute`: dry run by default, out-of-scope targets refused, every attempt audited
 
 ---
 
