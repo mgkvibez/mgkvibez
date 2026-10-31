@@ -229,89 +229,90 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 665 total | ▲ 358 in 30d |
-| Last 30 days | 402 | see the activity card |
+| Contributions (365d) | 706 total | ▲ 399 in 30d |
+| Last 30 days | 443 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 665 | — |
-| Commits | 269 | — |
+| Contributions | 706 | — |
+| Commits | 309 | — |
 | Pull requests | 67 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
 | Current streak | 55d | — |
 | Longest streak | 55d | — |
-| Repositories | 47 | — |
+| Repositories | 48 | — |
 | Stars earned | 81 | — |
 | Followers | 23 | — |
-| Collaborative acts | 83 (12.5% of all) | — |
+| Collaborative acts | 83 (11.8% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 73.6% | 17.7 MB |
-| Python | 20.0% | 4.8 MB |
-| JavaScript | 4.1% | 1001.3 kB |
+| TypeScript | 73.4% | 17.7 MB |
+| Python | 20.2% | 4.9 MB |
+| JavaScript | 4.0% | 1001.3 kB |
 | Other (10) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
-| Busiest slot | Tue 19:00 (22 commits) |
-| Sample | 463 recent commits |
-| Nights, 22:00–06:00 | 18% of the sample |
+| Busiest slot | Sat 13:00 (35 commits) |
+| Sample | 500 recent commits |
+| Nights, 22:00–06:00 | 17% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 651 |
+| 2026 | 692 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 1 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 305 | 1.5 MB | 2 | 2026-10-31 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 310 | 1.5 MB | 2 | 2026-10-31 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 19 | 268 kB | 2 | 2026-10-31 | occupied | public |
-| [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 18 | 16.5 MB | 2 | 2026-10-16 | occupied | public |
-| [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 17 | 96 kB | 2 | 2026-10-15 | occupied | public |
-| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 15 | 144 kB | 5 | 2026-10-30 | occupied | public |
-| [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 14 | 33 kB | 1 | 2026-10-29 | occupied | public |
-| [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 14 | 45 kB | 1 | 2026-10-29 | occupied | public |
-| [reportforge](https://github.com/mgkvibez/reportforge) | 12 | 32 kB | 1 | 2026-10-29 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 11 | 61 kB | 4 | 2026-10-30 | occupied | public |
-| [tokentracker](https://github.com/mgkvibez/tokentracker) | 10 | 67 kB | 2 | 2026-10-30 | occupied | public |
-| [migsafe](https://github.com/mgkvibez/migsafe) | 10 | 72 kB | 3 | 2026-10-30 | occupied | public |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 20 | 269 kB | 2 | 2026-10-31 | occupied | public |
+| [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
+| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 19 | 179 kB | 5 | 2026-10-31 | occupied | public |
+| [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
+| [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 1 | 2026-10-31 | occupied | public |
+| [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 1 | 2026-10-31 | occupied | public |
+| [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 1 | 2026-10-31 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 4 | 2026-10-31 | occupied | public |
+| [migsafe](https://github.com/mgkvibez/migsafe) | 11 | 73 kB | 3 | 2026-10-31 | occupied | public |
+| [tokentracker](https://github.com/mgkvibez/tokentracker) | 11 | 68 kB | 2 | 2026-10-31 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 8 | 109 kB | 1 | 2026-10-31 | occupied | public |
+| [paymock](https://github.com/mgkvibez/paymock) | 8 | 40 kB | 1 | 2026-10-31 | occupied | public |
+| [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 8 | 70 kB | 2 | 2026-10-31 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
-| [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 7 | 69 kB | 2 | 2026-10-30 | occupied | public |
-| [paymock](https://github.com/mgkvibez/paymock) | 7 | 39 kB | 1 | 2026-10-30 | occupied | public |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 7 | 110 kB | 1 | 2026-10-26 | occupied | public |
-| [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 6 | 97 kB | 2 | 2026-10-30 | occupied | public |
-| [voxserve](https://github.com/mgkvibez/voxserve) | 6 | 27 kB | 1 | 2026-10-27 | occupied | public |
+| [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 7 | 65 kB | 2 | 2026-10-31 | occupied | public |
+| [voxserve](https://github.com/mgkvibez/voxserve) | 7 | 29 kB | 1 | 2026-10-31 | occupied | public |
+| [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 7 | 103 kB | 2 | 2026-10-31 | occupied | public |
+| [flakedetective](https://github.com/mgkvibez/flakedetective) | 6 | 38 kB | 2 | 2026-10-31 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
-| [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 6 | 64 kB | 2 | 2026-10-16 | occupied | public |
 | voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
-| [telegram-webhook-starter](https://github.com/mgkvibez/telegram-webhook-starter) | 4 | 26 kB | 1 | 2026-10-30 | occupied | public |
-| [flakedetective](https://github.com/mgkvibez/flakedetective) | 4 | 26 kB | 2 | 2026-10-30 | occupied | public |
-| [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 4 | 4 kB | 2 | 2026-10-16 | occupied | public |
-| [discord-webhook-starter](https://github.com/mgkvibez/discord-webhook-starter) | 3 | 23 kB | 1 | 2026-10-30 | occupied | public |
-| [infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks) | 3 | 20 kB | 2 | 2026-10-30 | occupied | public |
+| [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 5 | 4 kB | 2 | 2026-10-31 | occupied | public |
+| [telegram-webhook-starter](https://github.com/mgkvibez/telegram-webhook-starter) | 5 | 27 kB | 1 | 2026-10-31 | occupied | public |
+| [the-intel](https://github.com/mgkvibez/the-intel) | 4 | 1.5 MB | 2 | 2026-10-31 | occupied | public |
+| [bolt](https://github.com/mgkvibez/bolt) | 4 | 14.1 MB | 2 | 2026-10-31 | occupied | public |
+| [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 4 | 7 kB | 1 | 2026-10-31 | occupied | public |
+| [bolt.dye](https://github.com/mgkvibez/bolt.dye) | 4 | 2.1 MB | 2 | 2026-10-31 | occupied | public |
+| [infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks) | 4 | 21 kB | 2 | 2026-10-31 | occupied | public |
+| [discord-webhook-starter](https://github.com/mgkvibez/discord-webhook-starter) | 4 | 24 kB | 1 | 2026-10-31 | occupied | public |
+| [the-intels](https://github.com/mgkvibez/the-intels) | 3 | 25 kB | 2 | 2026-10-31 | occupied | public |
+| [open_hands](https://github.com/mgkvibez/open_hands) | 3 | 1 kB | 2 | 2026-10-31 | occupied | public |
+| [globahire](https://github.com/mgkvibez/globahire) | 3 | 81 kB | 2 | 2026-10-31 | occupied | public |
+| [kali-auto-suite](https://github.com/mgkvibez/kali-auto-suite) | 3 | 27 kB | 2 | 2026-10-31 | occupied | public |
+| [project-omega](https://github.com/mgkvibez/project-omega) | 3 | 75 kB | 2 | 2026-10-31 | occupied | public |
 | [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 1 | 2026-10-23 | dormant | public |
-| [pocketcrdt](https://github.com/mgkvibez/pocketcrdt) | 3 | 6 kB | 1 | 2026-10-20 | occupied | public |
-| [the-intel](https://github.com/mgkvibez/the-intel) | 3 | 1.5 MB | 2 | 2026-10-16 | occupied | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
-| [bolt](https://github.com/mgkvibez/bolt) | 3 | 14.1 MB | 2 | 2026-06-18 | dormant | public |
-| [bolt.dye](https://github.com/mgkvibez/bolt.dye) | 3 | 2.1 MB | 2 | 2026-06-18 | dormant | public |
-| [project-omega](https://github.com/mgkvibez/project-omega) | 2 | 75 kB | 2 | 2026-10-30 | occupied | public |
-| [kali-auto-suite](https://github.com/mgkvibez/kali-auto-suite) | 2 | 26 kB | 2 | 2026-10-30 | occupied | public |
-| [globahire](https://github.com/mgkvibez/globahire) | 2 | 81 kB | 2 | 2026-10-30 | occupied | public |
-| [the-intels](https://github.com/mgkvibez/the-intels) | 2 | 24 kB | 2 | 2026-10-16 | occupied | public |
+| [paystack-webhooks](https://github.com/mgkvibez/paystack-webhooks) | 2 | 21 kB | 0 | 2026-10-31 | occupied | public |
+| [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 2 | 5.7 MB | 2 | 2026-10-31 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
-| [open_hands](https://github.com/mgkvibez/open_hands) | 2 | 1 kB | 2 | 2026-07-14 | dormant | public |
 | Heimdall-II | 1 | 33 kB | 1 | 2026-10-29 | occupied | private |
 | openclaw | 1 | 53 kB | 1 | 2026-08-12 | quiet | private |
-| [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 1 | 5.7 MB | 2 | 2026-06-18 | dormant | public |
 | blog-agility-cms-nextjs | 1 | 154 kB | 1 | 2025-12-01 | dormant | private |
 | bolt.new | 1 | 841 kB | 1 | 2025-12-01 | dormant | private |
 
