@@ -27,6 +27,14 @@ land, they'll be right here.
 - 🧩 **Core stack:** Python (stdlib-first), FastAPI, Docker, Linux
 - 💬 **Ask me about:** security automation, Python tooling, or the self-rendering cards on this page
 
+## Sponsor
+
+If one of these tools saved you an afternoon, you can [sponsor the work](https://github.com/sponsors/mgkvibez).
+Sponsorship pays for the unglamorous parts: CI minutes, live provider testing, and the time to keep
+release gates honest instead of green-by-accident.
+
+<a href="https://github.com/sponsors/mgkvibez"><img src="https://img.shields.io/badge/sponsor-mgkvibez-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" alt="Sponsor mgkvibez"></a>
+
 ---
 
 ## Tech stack
