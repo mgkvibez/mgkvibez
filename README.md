@@ -229,8 +229,8 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 731 total | ▲ 422 in 30d |
-| Last 30 days | 467 | see the activity card |
+| Contributions (365d) | 731 total | ▲ 421 in 30d |
+| Last 30 days | 466 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
@@ -239,11 +239,11 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Pull requests | 69 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
-| Current streak | 56d | — |
+| Current streak | 0d | — |
 | Longest streak | 56d | — |
 | Repositories | 51 | — |
 | Stars earned | 84 | — |
-| Followers | 23 | — |
+| Followers | 24 | — |
 | Collaborative acts | 85 (11.6% of all) | — |
 
 | Language | Share | Tracked size |
@@ -268,7 +268,7 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 1 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 316 | 1.3 MB | 2 | 2026-11-01 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 317 | 1.3 MB | 2 | 2026-11-01 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 21 | 282 kB | 2 | 2026-11-01 | occupied | public |
@@ -312,9 +312,9 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
 | [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 2 | 5.7 MB | 2 | 2026-10-31 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
+| Heimdall-II | 1 | 33 kB | 1 | 2026-11-01 | occupied | private |
 | [postmortem-tracker](https://github.com/mgkvibez/postmortem-tracker) | 1 | 19 kB | 0 | 2026-11-01 | occupied | public |
 | [errgrade](https://github.com/mgkvibez/errgrade) | 1 | 19 kB | 1 | 2026-11-01 | occupied | public |
-| Heimdall-II | 1 | 33 kB | 1 | 2026-10-29 | occupied | private |
 | openclaw | 1 | 53 kB | 1 | 2026-08-12 | quiet | private |
 | blog-agility-cms-nextjs | 1 | 154 kB | 1 | 2025-12-01 | dormant | private |
 | bolt.new | 1 | 841 kB | 1 | 2025-12-01 | dormant | private |
