@@ -224,7 +224,7 @@
 <rect x="526" y="144" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="542" y="144" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="558" y="144" width="13" height="13" rx="2" fill="#161b22"/>
-<rect x="574" y="144" width="13" height="13" rx="2" fill="#00ff41"/>
+<rect x="574" y="144" width="13" height="13" rx="2" fill="#39d353"/>
 <rect x="590" y="144" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="606" y="144" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="622" y="144" width="13" height="13" rx="2" fill="#161b22"/>
@@ -408,17 +408,17 @@
 <rect x="830" y="192" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="846" y="192" width="13" height="13" rx="2" fill="#1f7a33"/>
 <rect x="862" y="192" width="13" height="13" rx="2" fill="#123d1f"/>
-<rect x="878" y="192" width="13" height="13" rx="2" fill="#1f7a33"/>
+<rect x="878" y="192" width="13" height="13" rx="2" fill="#00ff41"/>
 <line x1="30" y1="238" x2="890" y2="238" stroke="#1f2730" stroke-width="1"/>
-<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">722 contributions — 75 active days, 290 quiet. Bands are this year's own quartiles.</text>
-<rect x="677.0" y="250" width="13" height="13" rx="2" fill="#161b22"/>
-<text x="694.0" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">0</text>
-<rect x="705.4" y="250" width="13" height="13" rx="2" fill="#123d1f"/>
-<text x="722.4" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">1-1</text>
-<rect x="744.6" y="250" width="13" height="13" rx="2" fill="#1f7a33"/>
-<text x="761.6" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">2-9</text>
+<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">731 contributions — 75 active days, 290 quiet. Bands are this year's own quartiles.</text>
+<rect x="671.6" y="250" width="13" height="13" rx="2" fill="#161b22"/>
+<text x="688.6" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">0</text>
+<rect x="700.0" y="250" width="13" height="13" rx="2" fill="#123d1f"/>
+<text x="717.0" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">1-1</text>
+<rect x="739.2" y="250" width="13" height="13" rx="2" fill="#1f7a33"/>
+<text x="756.2" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">2-10</text>
 <rect x="783.8000000000001" y="250" width="13" height="13" rx="2" fill="#39d353"/>
-<text x="800.8000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">10-10</text>
+<text x="800.8000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">11-11</text>
 <rect x="833.8000000000001" y="250" width="13" height="13" rx="2" fill="#00ff41"/>
-<text x="850.8000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">11+</text>
+<text x="850.8000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">12+</text>
 </svg>
