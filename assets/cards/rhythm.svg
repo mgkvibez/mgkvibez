@@ -46,7 +46,7 @@
 <rect x="70" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="91" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="100" y="91" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="115" y="91" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="115" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="130" y="91" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="145" y="91" width="12" height="12" rx="2" fill="#39d353"/>
 <rect x="160" y="91" width="12" height="12" rx="2" fill="#1f7a33"/>
@@ -182,13 +182,13 @@
 <rect x="235" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="250" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="265" y="166" width="12" height="12" rx="2" fill="#00ff41"/>
-<rect x="280" y="166" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="280" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="295" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="310" y="166" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="325" y="166" width="12" height="12" rx="2" fill="#1f7a33"/>
+<rect x="325" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="340" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">527 commits sampled — busiest Sat 13:00, weekend 20%, nights 17%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">527 commits sampled — busiest Sat 13:00, weekend 19%, nights 17%</text>
 </svg>
