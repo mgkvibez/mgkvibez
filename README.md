@@ -229,26 +229,26 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 750 total | ▲ 438 in 30d |
-| Last 30 days | 484 | see the activity card |
+| Contributions (365d) | 761 total | ▲ 449 in 30d |
+| Last 30 days | 495 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 750 | — |
-| Commits | 336 | — |
-| Pull requests | 73 | — |
+| Contributions | 761 | — |
+| Commits | 340 | — |
+| Pull requests | 79 | — |
 | Issues | 16 | — |
 | Reviews | 0 | — |
 | Current streak | 58d | — |
 | Longest streak | 58d | — |
 | Repositories | 54 | — |
-| Stars earned | 99 | — |
-| Followers | 27 | — |
-| Collaborative acts | 89 (11.9% of all) | — |
+| Stars earned | 105 | — |
+| Followers | 31 | — |
+| Collaborative acts | 95 (12.5% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 72.4% | 17.7 MB |
+| TypeScript | 72.3% | 17.7 MB |
 | Python | 21.2% | 5.2 MB |
 | JavaScript | 4.0% | 1001.3 kB |
 | Other (10) | 2.4% | — |
@@ -256,22 +256,22 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (35 commits) |
-| Sample | 527 recent commits |
+| Sample | 532 recent commits |
 | Nights, 22:00–06:00 | 17% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 736 |
+| 2026 | 747 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 322 | 1.4 MB | 2 | 2026-11-03 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 323 | 1.4 MB | 2 | 2026-11-03 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 22 | 295 kB | 2 | 2026-11-02 | occupied | public |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 23 | 308 kB | 2 | 2026-11-03 | occupied | public |
 | [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
@@ -281,8 +281,8 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
 | [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 4 | 2026-10-31 | occupied | public |
 | [tokentracker](https://github.com/mgkvibez/tokentracker) | 11 | 68 kB | 2 | 2026-10-31 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 9 | 384 kB | 2 | 2026-11-03 | occupied | public |
 | [paymock](https://github.com/mgkvibez/paymock) | 9 | 42 kB | 2 | 2026-10-31 | occupied | public |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 8 | 109 kB | 2 | 2026-10-31 | occupied | public |
 | [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 8 | 70 kB | 2 | 2026-10-31 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
@@ -291,8 +291,9 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | [voxserve](https://github.com/mgkvibez/voxserve) | 7 | 29 kB | 2 | 2026-10-31 | occupied | public |
 | [flakedetective](https://github.com/mgkvibez/flakedetective) | 6 | 38 kB | 2 | 2026-10-31 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
-| voiceprint | 6 | 90 kB | 2 | 2026-10-15 | occupied | private |
-| [paystack-webhooks](https://github.com/mgkvibez/paystack-webhooks) | 5 | 50 kB | 1 | 2026-11-01 | occupied | public |
+| [voiceprint](https://github.com/mgkvibez/voiceprint) | 6 | 90 kB | 2 | 2026-10-15 | occupied | public |
+| [webhook-outbox](https://github.com/mgkvibez/webhook-outbox) | 5 | 39 kB | 2 | 2026-11-03 | occupied | public |
+| [paystack-webhooks](https://github.com/mgkvibez/paystack-webhooks) | 5 | 50 kB | 2 | 2026-11-01 | occupied | public |
 | [doc-drift](https://github.com/mgkvibez/doc-drift) | 5 | 20 kB | 2 | 2026-10-31 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 5 | 4 kB | 3 | 2026-10-31 | occupied | public |
 | [telegram-webhook-starter](https://github.com/mgkvibez/telegram-webhook-starter) | 5 | 27 kB | 1 | 2026-10-31 | occupied | public |
@@ -311,12 +312,11 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 2 | 2026-10-23 | dormant | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
-| [webhook-outbox](https://github.com/mgkvibez/webhook-outbox) | 2 | 27 kB | 0 | 2026-11-02 | occupied | public |
-| [errgrade](https://github.com/mgkvibez/errgrade) | 2 | 27 kB | 1 | 2026-11-02 | occupied | public |
+| [errgrade](https://github.com/mgkvibez/errgrade) | 2 | 27 kB | 2 | 2026-11-02 | occupied | public |
 | [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 2 | 5.7 MB | 2 | 2026-10-31 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
-| [codeowners-drift](https://github.com/mgkvibez/codeowners-drift) | 1 | 13 kB | 1 | 2026-11-02 | occupied | public |
-| [postmortem-tracker](https://github.com/mgkvibez/postmortem-tracker) | 1 | 19 kB | 1 | 2026-11-02 | occupied | public |
+| [codeowners-drift](https://github.com/mgkvibez/codeowners-drift) | 1 | 13 kB | 2 | 2026-11-02 | occupied | public |
+| [postmortem-tracker](https://github.com/mgkvibez/postmortem-tracker) | 1 | 19 kB | 2 | 2026-11-02 | occupied | public |
 | Heimdall-II | 1 | 33 kB | 1 | 2026-11-01 | occupied | private |
 | openclaw | 1 | 53 kB | 1 | 2026-08-12 | quiet | private |
 | blog-agility-cms-nextjs | 1 | 154 kB | 1 | 2025-12-01 | dormant | private |
