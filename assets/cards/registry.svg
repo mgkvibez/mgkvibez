@@ -20,30 +20,30 @@
 <text x="500" y="113" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">PARAMS</text>
 <text x="620" y="113" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">LAST DEPLOY</text>
 <text x="890" y="113" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="end" font-weight="normal">TRAIN LOSS</text>
-<text x="30" y="126" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">standalone-webcontainer</text>
+<text x="30" y="126" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">mgkvibez</text>
 <text x="260" y="126" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.0</text>
 <text x="360" y="126" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
-<text x="500" y="126" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">384K params</text>
+<text x="500" y="126" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">1.5M params</text>
 <text x="620" y="126" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-11-03</text>
 <text x="890" y="126" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.00</text>
 <rect x="24" y="132" width="872" height="26" rx="0" fill="#11151c" opacity="0.6"/>
-<text x="30" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">openclaw-profile-cards</text>
+<text x="30" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">standalone-webcontainer</text>
 <text x="260" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.0</text>
 <text x="360" y="152" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
-<text x="500" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">308K params</text>
+<text x="500" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">384K params</text>
 <text x="620" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-11-03</text>
 <text x="890" y="152" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.00</text>
-<text x="30" y="178" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">webhook-outbox</text>
+<text x="30" y="178" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">openclaw-profile-cards</text>
 <text x="260" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.0</text>
 <text x="360" y="178" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
-<text x="500" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">39K params</text>
+<text x="500" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">308K params</text>
 <text x="620" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-11-03</text>
 <text x="890" y="178" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.00</text>
 <rect x="24" y="184" width="872" height="26" rx="0" fill="#11151c" opacity="0.6"/>
-<text x="30" y="204" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">mgkvibez</text>
+<text x="30" y="204" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">webhook-outbox</text>
 <text x="260" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.0</text>
 <text x="360" y="204" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
-<text x="500" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">1.4M params</text>
+<text x="500" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">39K params</text>
 <text x="620" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-11-03</text>
 <text x="890" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.00</text>
 <text x="30" y="230" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">idemcheck</text>
@@ -294,7 +294,7 @@
 <text x="620" y="1192" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-10-23</text>
 <text x="890" y="1192" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.03</text>
 <text x="30" y="1218" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">ron-weasley-ii</text>
-<text x="260" y="1218" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.17</text>
+<text x="260" y="1218" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v2.18</text>
 <text x="360" y="1218" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">serving</text>
 <text x="500" y="1218" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2.3M params</text>
 <text x="620" y="1218" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-10-16</text>
@@ -359,7 +359,7 @@
 <text x="620" y="1452" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2026-06-18</text>
 <text x="890" y="1452" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="end" font-weight="normal">0.38</text>
 <text x="30" y="1478" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="bold">blog-agility-cms-nextjs</text>
-<text x="260" y="1478" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v1.336</text>
+<text x="260" y="1478" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">v1.337</text>
 <text x="360" y="1478" fill="#f85149" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">deprecated</text>
 <text x="500" y="1478" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">154K params</text>
 <text x="620" y="1478" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" text-anchor="start" font-weight="normal">2025-12-01</text>

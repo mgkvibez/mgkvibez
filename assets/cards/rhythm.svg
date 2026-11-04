@@ -16,7 +16,7 @@
 <text x="222" y="74" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">12</text>
 <text x="312" y="74" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">18</text>
 <text x="34" y="86" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Mon</text>
-<rect x="40" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
+<rect x="40" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="55" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="70" y="76" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="85" y="76" width="12" height="12" rx="2" fill="#123d1f"/>
