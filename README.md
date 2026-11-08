@@ -229,49 +229,49 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 904 total | ▲ 592 in 30d |
-| Last 30 days | 633 | see the activity card |
+| Contributions (365d) | 922 total | ▲ 610 in 30d |
+| Last 30 days | 651 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 904 | — |
-| Commits | 443 | — |
-| Pull requests | 98 | — |
+| Contributions | 922 | — |
+| Commits | 460 | — |
+| Pull requests | 99 | — |
 | Issues | 17 | — |
 | Reviews | 1 | — |
 | Current streak | 63d | — |
 | Longest streak | 63d | — |
 | Repositories | 60 | — |
-| Stars earned | 105 | — |
+| Stars earned | 111 | — |
 | Followers | 36 | — |
-| Collaborative acts | 116 (12.8% of all) | — |
+| Collaborative acts | 117 (12.7% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 73.2% | 18.6 MB |
-| Python | 20.5% | 5.2 MB |
-| JavaScript | 3.8% | 1001.3 kB |
+| TypeScript | 73.2% | 18.7 MB |
+| Python | 20.6% | 5.2 MB |
+| JavaScript | 3.8% | 1005.0 kB |
 | Other (10) | 2.4% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (34 commits) |
-| Sample | 591 recent commits |
-| Nights, 22:00–06:00 | 18% of the sample |
+| Sample | 594 recent commits |
+| Nights, 22:00–06:00 | 17% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 890 |
+| 2026 | 908 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 344 | 1.8 MB | 2 | 2026-11-08 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 345 | 1.8 MB | 2 | 2026-11-08 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 102 | 855 kB | 2 | 2026-11-08 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 88 | 814 kB | 2 | 2026-11-08 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 28 | 384 kB | 2 | 2026-11-08 | occupied | public |
 | [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
@@ -303,6 +303,9 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | [bolt.dye](https://github.com/mgkvibez/bolt.dye) | 4 | 2.1 MB | 2 | 2026-10-31 | occupied | public |
 | [infra-hardening-checks](https://github.com/mgkvibez/infra-hardening-checks) | 4 | 21 kB | 2 | 2026-10-31 | occupied | public |
 | [discord-webhook-starter](https://github.com/mgkvibez/discord-webhook-starter) | 4 | 24 kB | 1 | 2026-10-31 | occupied | public |
+| [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 3 | 13 kB | 1 | 2026-11-08 | occupied | public |
+| [signaldaw](https://github.com/mgkvibez/signaldaw) | 3 | 21 kB | 1 | 2026-11-08 | occupied | public |
+| [xlparity](https://github.com/mgkvibez/xlparity) | 3 | 17 kB | 1 | 2026-11-08 | occupied | public |
 | [idemcheck](https://github.com/mgkvibez/idemcheck) | 3 | 33 kB | 2 | 2026-11-02 | occupied | public |
 | [the-intels](https://github.com/mgkvibez/the-intels) | 3 | 25 kB | 2 | 2026-10-31 | occupied | public |
 | [open_hands](https://github.com/mgkvibez/open_hands) | 3 | 1 kB | 2 | 2026-10-31 | occupied | public |
@@ -312,12 +315,9 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | [webcontainer](https://github.com/mgkvibez/webcontainer) | 3 | 10 kB | 2 | 2026-10-23 | dormant | public |
 | lisa | 3 | 69 kB | 1 | 2026-08-13 | quiet | private |
 | Agents | 3 | 7 kB | 1 | 2026-07-22 | dormant | private |
-| [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
-| [xlparity](https://github.com/mgkvibez/xlparity) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
-| [brepcad](https://github.com/mgkvibez/brepcad) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
-| [reflowpdf](https://github.com/mgkvibez/reflowpdf) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
-| [signaldaw](https://github.com/mgkvibez/signaldaw) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
-| [elfwasm](https://github.com/mgkvibez/elfwasm) | 2 | 0 kB | 0 | 2026-11-08 | occupied | public |
+| [brepcad](https://github.com/mgkvibez/brepcad) | 2 | 17 kB | 1 | 2026-11-08 | occupied | public |
+| [reflowpdf](https://github.com/mgkvibez/reflowpdf) | 2 | 16 kB | 1 | 2026-11-08 | occupied | public |
+| [elfwasm](https://github.com/mgkvibez/elfwasm) | 2 | 16 kB | 1 | 2026-11-08 | occupied | public |
 | [errgrade](https://github.com/mgkvibez/errgrade) | 2 | 27 kB | 2 | 2026-11-02 | occupied | public |
 | [bolt.gives](https://github.com/mgkvibez/bolt.gives) | 2 | 5.7 MB | 2 | 2026-10-31 | occupied | public |
 | qttx-app | 2 | 2 kB | 1 | 2026-10-16 | occupied | private |
