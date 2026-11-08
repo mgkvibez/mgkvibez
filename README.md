@@ -229,22 +229,22 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 879 total | ▲ 567 in 30d |
-| Last 30 days | 608 | see the activity card |
+| Contributions (365d) | 882 total | ▲ 570 in 30d |
+| Last 30 days | 611 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 879 | — |
-| Commits | 430 | — |
+| Contributions | 882 | — |
+| Commits | 431 | — |
 | Pull requests | 96 | — |
 | Issues | 17 | — |
 | Reviews | 1 | — |
-| Current streak | 0d | — |
-| Longest streak | 62d | — |
+| Current streak | 63d | — |
+| Longest streak | 63d | — |
 | Repositories | 54 | — |
 | Stars earned | 105 | — |
 | Followers | 35 | — |
-| Collaborative acts | 114 (13.0% of all) | — |
+| Collaborative acts | 114 (12.9% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -263,15 +263,15 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 865 |
+| 2026 | 868 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 341 | 1.8 MB | 2 | 2026-11-07 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 343 | 1.8 MB | 2 | 2026-11-08 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 88 | 772 kB | 2 | 2026-11-07 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 88 | 795 kB | 2 | 2026-11-08 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 27 | 363 kB | 2 | 2026-11-07 | occupied | public |
 | [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
