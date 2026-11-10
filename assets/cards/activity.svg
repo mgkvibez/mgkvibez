@@ -11,8 +11,8 @@
 <text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">contributions.activity · last 365 days</text>
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="56" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">contributions</text>
-<text x="18" y="96" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="34" text-anchor="start" font-weight="700">1028</text>
-<text x="111.6" y="92" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">▲ 714 in 30d</text>
+<text x="18" y="96" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="34" text-anchor="start" font-weight="700">1091</text>
+<text x="111.6" y="92" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">▲ 777 in 30d</text>
 <rect x="18.0" y="118" width="98.5" height="48" rx="6" fill="#1f2730"/>
 <text x="26.0" y="134" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">current streak</text>
 <text x="26.0" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="start" font-weight="700">65d</text>
@@ -21,7 +21,7 @@
 <text x="134.5" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="start" font-weight="700">65d</text>
 <rect x="235.0" y="118" width="98.5" height="48" rx="6" fill="#1f2730"/>
 <text x="243.0" y="134" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">commits</text>
-<text x="243.0" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="start" font-weight="700">535</text>
+<text x="243.0" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="start" font-weight="700">582</text>
 <rect x="343.5" y="118" width="98.5" height="48" rx="6" fill="#1f2730"/>
 <text x="351.5" y="134" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">stars earned</text>
 <text x="351.5" y="152" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="start" font-weight="700">117</text>
@@ -29,31 +29,31 @@
 <rect x="18.0" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
 <rect x="32.13333333333333" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
 <rect x="46.266666666666666" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
-<rect x="60.4" y="218.22222222222223" width="12.133333333333333" height="3.7777777777777777" rx="1" fill="#00ff41"/>
-<rect x="74.53333333333333" y="209.40740740740742" width="12.133333333333333" height="12.592592592592592" rx="1" fill="#00ff41"/>
-<rect x="88.66666666666666" y="218.64197530864197" width="12.133333333333333" height="3.3580246913580245" rx="1" fill="#00ff41"/>
+<rect x="60.4" y="218.4" width="12.133333333333333" height="3.6" rx="1" fill="#00ff41"/>
+<rect x="74.53333333333333" y="210.0" width="12.133333333333333" height="12.0" rx="1" fill="#00ff41"/>
+<rect x="88.66666666666666" y="218.8" width="12.133333333333333" height="3.2" rx="1" fill="#00ff41"/>
 <rect x="102.8" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
-<rect x="116.93333333333334" y="208.14814814814815" width="12.133333333333333" height="13.851851851851851" rx="1" fill="#00ff41"/>
-<rect x="131.06666666666666" y="210.2469135802469" width="12.133333333333333" height="11.753086419753085" rx="1" fill="#00ff41"/>
+<rect x="116.93333333333334" y="208.8" width="12.133333333333333" height="13.200000000000001" rx="1" fill="#00ff41"/>
+<rect x="131.06666666666666" y="210.8" width="12.133333333333333" height="11.2" rx="1" fill="#00ff41"/>
 <rect x="145.2" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
-<rect x="159.33333333333331" y="219.06172839506172" width="12.133333333333333" height="2.9382716049382713" rx="1" fill="#00ff41"/>
-<rect x="173.46666666666667" y="214.8641975308642" width="12.133333333333333" height="7.135802469135802" rx="1" fill="#00ff41"/>
+<rect x="159.33333333333331" y="219.2" width="12.133333333333333" height="2.8" rx="1" fill="#00ff41"/>
+<rect x="173.46666666666667" y="215.2" width="12.133333333333333" height="6.800000000000001" rx="1" fill="#00ff41"/>
 <rect x="187.6" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
 <rect x="201.73333333333332" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
-<rect x="215.86666666666667" y="214.02469135802468" width="12.133333333333333" height="7.9753086419753085" rx="1" fill="#00ff41"/>
-<rect x="230.0" y="195.1358024691358" width="12.133333333333333" height="26.864197530864196" rx="1" fill="#00ff41"/>
-<rect x="244.13333333333333" y="208.14814814814815" width="12.133333333333333" height="13.851851851851851" rx="1" fill="#00ff41"/>
-<rect x="258.26666666666665" y="193.87654320987656" width="12.133333333333333" height="28.123456790123456" rx="1" fill="#00ff41"/>
-<rect x="272.4" y="193.45679012345678" width="12.133333333333333" height="28.54320987654321" rx="1" fill="#00ff41"/>
-<rect x="286.5333333333333" y="200.59259259259258" width="12.133333333333333" height="21.40740740740741" rx="1" fill="#00ff41"/>
-<rect x="300.66666666666663" y="215.28395061728395" width="12.133333333333333" height="6.716049382716049" rx="1" fill="#00ff41"/>
-<rect x="314.8" y="214.02469135802468" width="12.133333333333333" height="7.9753086419753085" rx="1" fill="#00ff41"/>
-<rect x="328.93333333333334" y="201.4320987654321" width="12.133333333333333" height="20.567901234567902" rx="1" fill="#00ff41"/>
-<rect x="343.06666666666666" y="198.07407407407408" width="12.133333333333333" height="23.925925925925927" rx="1" fill="#00ff41"/>
-<rect x="357.2" y="213.60493827160494" width="12.133333333333333" height="8.395061728395062" rx="1" fill="#00ff41"/>
+<rect x="215.86666666666667" y="214.4" width="12.133333333333333" height="7.6000000000000005" rx="1" fill="#00ff41"/>
+<rect x="230.0" y="196.4" width="12.133333333333333" height="25.6" rx="1" fill="#00ff41"/>
+<rect x="244.13333333333333" y="208.8" width="12.133333333333333" height="13.200000000000001" rx="1" fill="#00ff41"/>
+<rect x="258.26666666666665" y="195.2" width="12.133333333333333" height="26.8" rx="1" fill="#00ff41"/>
+<rect x="272.4" y="194.8" width="12.133333333333333" height="27.200000000000003" rx="1" fill="#00ff41"/>
+<rect x="286.5333333333333" y="201.6" width="12.133333333333333" height="20.4" rx="1" fill="#00ff41"/>
+<rect x="300.66666666666663" y="215.6" width="12.133333333333333" height="6.4" rx="1" fill="#00ff41"/>
+<rect x="314.8" y="214.4" width="12.133333333333333" height="7.6000000000000005" rx="1" fill="#00ff41"/>
+<rect x="328.93333333333334" y="202.4" width="12.133333333333333" height="19.599999999999998" rx="1" fill="#00ff41"/>
+<rect x="343.06666666666666" y="199.2" width="12.133333333333333" height="22.799999999999997" rx="1" fill="#00ff41"/>
+<rect x="357.2" y="214.0" width="12.133333333333333" height="8.0" rx="1" fill="#00ff41"/>
 <rect x="371.3333333333333" y="220" width="12.133333333333333" height="2" rx="1" fill="#00ff41"/>
-<rect x="385.46666666666664" y="219.4814814814815" width="12.133333333333333" height="2.518518518518518" rx="1" fill="#00ff41"/>
-<rect x="399.59999999999997" y="205.62962962962962" width="12.133333333333333" height="16.37037037037037" rx="1" fill="#00ff41"/>
-<rect x="413.73333333333335" y="188.0" width="12.133333333333333" height="34.0" rx="1" fill="#00ff41"/>
-<rect x="427.8666666666667" y="212.76543209876544" width="12.133333333333333" height="9.234567901234568" rx="1" fill="#00ff41"/>
+<rect x="385.46666666666664" y="219.6" width="12.133333333333333" height="2.4" rx="1" fill="#00ff41"/>
+<rect x="399.59999999999997" y="206.4" width="12.133333333333333" height="15.6" rx="1" fill="#00ff41"/>
+<rect x="413.73333333333335" y="189.6" width="12.133333333333333" height="32.4" rx="1" fill="#00ff41"/>
+<rect x="427.8666666666667" y="188.0" width="12.133333333333333" height="34.0" rx="1" fill="#00ff41"/>
 </svg>
