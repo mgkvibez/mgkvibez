@@ -229,48 +229,48 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1006 total | ▲ 692 in 30d |
-| Last 30 days | 733 | see the activity card |
+| Contributions (365d) | 1028 total | ▲ 714 in 30d |
+| Last 30 days | 755 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1006 | — |
-| Commits | 520 | — |
-| Pull requests | 118 | — |
+| Contributions | 1028 | — |
+| Commits | 535 | — |
+| Pull requests | 125 | — |
 | Issues | 17 | — |
 | Reviews | 1 | — |
-| Current streak | 0d | — |
-| Longest streak | 64d | — |
+| Current streak | 65d | — |
+| Longest streak | 65d | — |
 | Repositories | 60 | — |
 | Stars earned | 117 | — |
-| Followers | 34 | — |
-| Collaborative acts | 136 (13.5% of all) | — |
+| Followers | 33 | — |
+| Collaborative acts | 143 (13.9% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 73.6% | 19.1 MB |
-| Python | 20.3% | 5.3 MB |
+| TypeScript | 73.7% | 19.2 MB |
+| Python | 20.2% | 5.3 MB |
 | JavaScript | 3.8% | 1011.4 kB |
-| Other (10) | 2.4% | — |
+| Other (10) | 2.3% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (34 commits) |
 | Sample | 610 recent commits |
-| Nights, 22:00–06:00 | 17% of the sample |
+| Nights, 22:00–06:00 | 18% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 992 |
+| 2026 | 1014 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 349 | 1.9 MB | 2 | 2026-11-09 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 351 | 1.9 MB | 2 | 2026-11-10 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 142 | 1.3 MB | 2 | 2026-11-09 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 156 | 1.1 MB | 2 | 2026-11-10 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 29 | 402 kB | 2 | 2026-11-09 | occupied | public |
 | [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
