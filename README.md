@@ -229,58 +229,58 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1091 total | ▲ 777 in 30d |
-| Last 30 days | 818 | see the activity card |
+| Contributions (365d) | 1100 total | ▲ 785 in 30d |
+| Last 30 days | 826 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1091 | — |
-| Commits | 582 | — |
-| Pull requests | 140 | — |
+| Contributions | 1100 | — |
+| Commits | 588 | — |
+| Pull requests | 143 | — |
 | Issues | 17 | — |
 | Reviews | 1 | — |
-| Current streak | 65d | — |
+| Current streak | 0d | — |
 | Longest streak | 65d | — |
 | Repositories | 60 | — |
 | Stars earned | 117 | — |
 | Followers | 32 | — |
-| Collaborative acts | 158 (14.5% of all) | — |
+| Collaborative acts | 161 (14.6% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 73.9% | 19.8 MB |
-| Python | 20.1% | 5.4 MB |
+| TypeScript | 74.0% | 19.9 MB |
+| Python | 20.0% | 5.4 MB |
 | JavaScript | 3.7% | 1011.4 kB |
 | Other (11) | 2.3% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (34 commits) |
-| Sample | 635 recent commits |
+| Sample | 638 recent commits |
 | Nights, 22:00–06:00 | 17% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1077 |
+| 2026 | 1086 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 352 | 1.9 MB | 2 | 2026-11-10 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 353 | 2.0 MB | 2 | 2026-11-10 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 185 | 3.6 MB | 2 | 2026-11-10 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 188 | 3.7 MB | 2 | 2026-11-10 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 30 | 415 kB | 2 | 2026-11-10 | occupied | public |
 | [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
 | [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 3 | 2026-11-01 | occupied | public |
+| [elfwasm](https://github.com/mgkvibez/elfwasm) | 15 | 192 kB | 2 | 2026-11-10 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 2 | 2026-10-31 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 2 | 2026-10-31 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
-| [elfwasm](https://github.com/mgkvibez/elfwasm) | 12 | 114 kB | 2 | 2026-11-10 | occupied | public |
 | [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 4 | 2026-10-31 | occupied | public |
 | [tokentracker](https://github.com/mgkvibez/tokentracker) | 11 | 68 kB | 2 | 2026-10-31 | occupied | public |
 | [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 10 | 80 kB | 2 | 2026-11-10 | occupied | public |
