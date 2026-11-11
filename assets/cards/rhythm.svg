@@ -80,14 +80,14 @@
 <rect x="205" y="106" width="12" height="12" rx="2" fill="#1f7a33"/>
 <rect x="220" y="106" width="12" height="12" rx="2" fill="#00ff41"/>
 <rect x="235" y="106" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="250" y="106" width="12" height="12" rx="2" fill="#39d353"/>
-<rect x="265" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
-<rect x="280" y="106" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="250" y="106" width="12" height="12" rx="2" fill="#00ff41"/>
+<rect x="265" y="106" width="12" height="12" rx="2" fill="#39d353"/>
+<rect x="280" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="295" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="310" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="325" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="340" y="106" width="12" height="12" rx="2" fill="#161b22"/>
-<rect x="355" y="106" width="12" height="12" rx="2" fill="#161b22"/>
+<rect x="355" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <rect x="370" y="106" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="106" width="12" height="12" rx="2" fill="#123d1f"/>
 <text x="34" y="131" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="end" font-weight="normal">Thu</text>
@@ -190,5 +190,5 @@
 <rect x="355" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="370" y="166" width="12" height="12" rx="2" fill="#161b22"/>
 <rect x="385" y="166" width="12" height="12" rx="2" fill="#123d1f"/>
-<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">648 commits sampled — busiest Sat 13:00, weekend 19%, nights 15%</text>
+<text x="18" y="213" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">659 commits sampled — busiest Sat 13:00, weekend 19%, nights 15%</text>
 </svg>
