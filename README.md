@@ -229,76 +229,76 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1103 total | ▲ 788 in 30d |
-| Last 30 days | 829 | see the activity card |
+| Contributions (365d) | 1138 total | ▲ 823 in 30d |
+| Last 30 days | 864 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1103 | — |
-| Commits | 591 | — |
-| Pull requests | 143 | — |
+| Contributions | 1138 | — |
+| Commits | 614 | — |
+| Pull requests | 155 | — |
 | Issues | 17 | — |
 | Reviews | 1 | — |
 | Current streak | 66d | — |
 | Longest streak | 66d | — |
 | Repositories | 60 | — |
-| Stars earned | 117 | — |
+| Stars earned | 128 | — |
 | Followers | 32 | — |
-| Collaborative acts | 161 (14.6% of all) | — |
+| Collaborative acts | 173 (15.2% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 74.0% | 19.9 MB |
-| Python | 20.0% | 5.4 MB |
-| JavaScript | 3.7% | 1011.4 kB |
+| TypeScript | 74.4% | 20.3 MB |
+| Python | 19.7% | 5.4 MB |
+| JavaScript | 3.6% | 1011.4 kB |
 | Other (11) | 2.3% | — |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (34 commits) |
-| Sample | 640 recent commits |
-| Nights, 22:00–06:00 | 17% of the sample |
+| Sample | 648 recent commits |
+| Nights, 22:00–06:00 | 15% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1089 |
+| 2026 | 1124 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 355 | 2.0 MB | 2 | 2026-11-11 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 356 | 2.0 MB | 3 | 2026-11-11 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 188 | 3.7 MB | 2 | 2026-11-10 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 204 | 7.5 MB | 3 | 2026-11-11 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
-| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 30 | 415 kB | 2 | 2026-11-10 | occupied | public |
-| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 5 | 2026-11-02 | occupied | public |
+| [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |
+| [elfwasm](https://github.com/mgkvibez/elfwasm) | 24 | 497 kB | 3 | 2026-11-11 | occupied | public |
+| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 6 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
-| [elfwasm](https://github.com/mgkvibez/elfwasm) | 17 | 230 kB | 2 | 2026-11-11 | occupied | public |
 | [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 3 | 2026-11-01 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 2 | 2026-10-31 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 2 | 2026-10-31 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 4 | 2026-10-31 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 5 | 2026-10-31 | occupied | public |
 | [tokentracker](https://github.com/mgkvibez/tokentracker) | 11 | 68 kB | 2 | 2026-10-31 | occupied | public |
-| [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 10 | 80 kB | 2 | 2026-11-10 | occupied | public |
-| [xlparity](https://github.com/mgkvibez/xlparity) | 10 | 66 kB | 2 | 2026-11-10 | occupied | public |
-| [reflowpdf](https://github.com/mgkvibez/reflowpdf) | 9 | 112 kB | 2 | 2026-11-10 | occupied | public |
+| [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 10 | 80 kB | 3 | 2026-11-10 | occupied | public |
+| [xlparity](https://github.com/mgkvibez/xlparity) | 10 | 66 kB | 3 | 2026-11-10 | occupied | public |
+| [reflowpdf](https://github.com/mgkvibez/reflowpdf) | 9 | 112 kB | 3 | 2026-11-10 | occupied | public |
 | [paymock](https://github.com/mgkvibez/paymock) | 9 | 42 kB | 2 | 2026-10-31 | occupied | public |
 | [sentinel-skills](https://github.com/mgkvibez/sentinel-skills) | 8 | 70 kB | 2 | 2026-10-31 | occupied | public |
 | kratos-ii | 8 | 108 kB | 2 | 2026-09-15 | quiet | private |
 | odia | 8 | 4.3 MB | 1 | 2026-06-18 | dormant | private |
-| [brepcad](https://github.com/mgkvibez/brepcad) | 7 | 61 kB | 2 | 2026-11-10 | occupied | public |
+| [brepcad](https://github.com/mgkvibez/brepcad) | 7 | 61 kB | 3 | 2026-11-10 | occupied | public |
 | [voiceprint](https://github.com/mgkvibez/voiceprint) | 7 | 96 kB | 2 | 2026-11-05 | occupied | public |
 | [agentic-harness-orchestrator](https://github.com/mgkvibez/agentic-harness-orchestrator) | 7 | 103 kB | 2 | 2026-10-31 | occupied | public |
 | [sharpsharp-bmoni](https://github.com/mgkvibez/sharpsharp-bmoni) | 7 | 65 kB | 2 | 2026-10-31 | occupied | public |
 | [voxserve](https://github.com/mgkvibez/voxserve) | 7 | 29 kB | 2 | 2026-10-31 | occupied | public |
-| [signaldaw](https://github.com/mgkvibez/signaldaw) | 6 | 40 kB | 2 | 2026-11-10 | occupied | public |
+| [signaldaw](https://github.com/mgkvibez/signaldaw) | 6 | 40 kB | 3 | 2026-11-10 | occupied | public |
 | [flakedetective](https://github.com/mgkvibez/flakedetective) | 6 | 38 kB | 2 | 2026-10-31 | occupied | public |
 | ma-lab | 6 | 98 kB | 2 | 2026-10-16 | occupied | private |
-| [webhook-outbox](https://github.com/mgkvibez/webhook-outbox) | 5 | 39 kB | 2 | 2026-11-03 | occupied | public |
+| [webhook-outbox](https://github.com/mgkvibez/webhook-outbox) | 5 | 39 kB | 3 | 2026-11-03 | occupied | public |
 | [paystack-webhooks](https://github.com/mgkvibez/paystack-webhooks) | 5 | 50 kB | 2 | 2026-11-01 | occupied | public |
 | [doc-drift](https://github.com/mgkvibez/doc-drift) | 5 | 20 kB | 2 | 2026-10-31 | occupied | public |
 | [Agentic-project](https://github.com/mgkvibez/Agentic-project) | 5 | 4 kB | 3 | 2026-10-31 | occupied | public |
