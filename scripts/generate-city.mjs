@@ -189,10 +189,10 @@ function assignSlots(months) {
   return newestFirst.map((month, i) => ({ ...month, ...slots[i % slots.length] }));
 }
 
-function heightFor(count, peak) {
-  const scaled = HEIGHT_BASE + HEIGHT_K * Math.sqrt(Math.max(0, count));
+function heightFor(count, peak, tower = { k: HEIGHT_K, cap: HEIGHT_CAP }) {
+  const scaled = HEIGHT_BASE + tower.k * Math.sqrt(Math.max(0, count));
   const eased = peak > 0 ? Math.min(1, Math.sqrt(count / Math.max(1, peak))) : 0;
-  return Math.min(HEIGHT_CAP, scaled * (0.55 + 0.45 * eased));
+  return Math.min(tower.cap, scaled * (0.55 + 0.45 * eased));
 }
 
 /* ------------------------------------------------------------------- themes */
@@ -221,6 +221,7 @@ const THEMES = {
     hudText: "#f7e6c2",
     hudDim: "#b99a6b",
     accent: "#e6c07b",
+    tower: { k: 19, cap: 186, fx: 26, fz: 16, three: 128, two: 70 },
   },
   neon: {
     key: "neon",
@@ -246,6 +247,7 @@ const THEMES = {
     hudDim: "#5d9cb0",
     accent: "#00ff41",
     neon: ["#22d3ee", "#f472b6", "#00ff41"],
+    tower: { k: 25, cap: 226, fx: 20, fz: 13, three: 104, two: 58 },
   },
 };
 
@@ -272,6 +274,15 @@ class Scene {
 
   push(...items) {
     this.parts.push(...items);
+  }
+
+  rawPoly(points, fill, extra = "") {
+    const d = points.map(([x, y]) => `${n1(x)},${n1(y)}`).join(" ");
+    this.parts.push(`<polygon points="${d}" fill="${fill}"${extra}/>`);
+  }
+
+  raw(fragment) {
+    this.parts.push(fragment);
   }
 
   poly(points, fill, extra = "") {
@@ -350,6 +361,7 @@ function buildCity(days, themeKey) {
   const theme = THEMES[themeKey];
   const st = statsOf(days);
   const peak = Math.max(1, ...days.map((d) => d.count));
+  const tw = theme.tower;
   const months = assignSlots(monthsOf(days));
   const rnd = mulberry32(fnv1a(`${days[days.length - 1].date}|${themeKey}|v2`));
   const scene = new Scene();
@@ -393,17 +405,6 @@ function buildCity(days, themeKey) {
   scene.minY = Math.min(scene.minY, backObj.minY);
   scene.maxX = Math.max(scene.maxX, backObj.maxX);
   scene.maxY = Math.max(scene.maxY, backObj.maxY);
-
-  /* --- ground plane: one diamond, same projection as the towers ----------- */
-  const groundPolys = {
-    plate: [
-      [x0 - pad, z0 - pad],
-      [CITY_X + pad, z0 - pad],
-      [CITY_X + pad, waterStart],
-      [x0 - pad, waterStart],
-    ],
-  };
-  scene.poly(isoPoly(groundPolys.plate), theme.ground, ` stroke="${theme.groundEdge}" stroke-width="1.5"`);
 
   /* --- streets: lighter strips in the gaps between districts -------------- */
   const streetRects = [];
@@ -486,9 +487,9 @@ function buildCity(days, themeKey) {
   const busiestDate = st.busiest.date;
 
   lots.forEach((lot, index) => {
-    const h = heightFor(lot.day.count, peak);
-    const footprintX = 25;
-    const footprintZ = 15;
+    const h = heightFor(lot.day.count, peak, tw);
+    const footprintX = tw.fx;
+    const footprintZ = tw.fz;
     const isEmptyQuiet = lot.day.count === 0;
 
     if (!isEmptyQuiet && parkLots.has(index) && lot.day.count <= 1) {
@@ -526,7 +527,7 @@ function buildCity(days, themeKey) {
     scene.poly(shadow, "#000000", ' opacity="0.26"');
 
     // Art Deco / glass towers stack 1-3 setbacks
-    const tiers = h > 132 ? 3 : h > 74 ? 2 : 1;
+    const tiers = h > tw.three ? 3 : h > tw.two ? 2 : 1;
     let remaining = h;
     let fx = footprintX;
     let fz = footprintZ;
@@ -617,41 +618,20 @@ function buildCity(days, themeKey) {
     }
   });
 
-  /* --- bay: at ground level, along the city's front edge ------------------ */
-  const waterQuad = [
-    [x0 - pad - 60, waterStart],
-    [CITY_X + pad + 60, waterStart],
-    [CITY_X + pad + 60, waterStart + 470],
-    [x0 - pad - 60, waterStart + 470],
-  ];
-  const waterPoly = isoPoly(waterQuad);
-  scene.poly(waterPoly, `url(#water-${theme.key})`);
-  // shoreline
-  scene.line(
-    iso(x0 - pad - 60, waterStart)[0],
-    iso(x0 - pad - 60, waterStart)[1],
-    iso(CITY_X + pad + 60, waterStart)[0],
-    iso(CITY_X + pad + 60, waterStart)[1],
-    theme.accent,
-    1.2,
-    0.5,
-  );
-
   // reflections: front-row towers mirrored into the bay, faded and blurred
   const nearEdge = lots
     .filter((l) => l.z > CITY_Z - DIST_Z)
     .sort((a, b) => b.day.count - a.day.count)
     .slice(0, 16);
   for (const lot of nearEdge) {
-    const h = heightFor(lot.day.count, peak);
+    const h = heightFor(lot.day.count, peak, tw);
     if (h < 24) continue;
     const base = iso(lot.x, waterStart + 20);
     const w = 9 + Math.min(12, h / 14);
-    scene.parts.push(
-      `<rect x="${n1(base[0] - w / 2)}" y="${n1(base[1])}" width="${n1(w)}" height="${n1(h * 0.55)}" fill="${theme.faces.top}" opacity="0.22" filter="url(#blur-${theme.key})"/>`,
-      `<rect x="${n1(base[0] - w / 6)}" y="${n1(base[1])}" width="${n1(w / 3)}" height="${n1(h * 0.7)}" fill="${theme.win}" opacity="0.14" filter="url(#blur-${theme.key})"/>`,
+    scene.raw(
+      `<rect x="${n1(base[0] - w / 2)}" y="${n1(base[1])}" width="${n1(w)}" height="${n1(h * 0.55)}" fill="${theme.faces.top}" opacity="0.22" filter="url(#blur-${theme.key})"/>` +
+        `<rect x="${n1(base[0] - w / 6)}" y="${n1(base[1])}" width="${n1(w / 3)}" height="${n1(h * 0.7)}" fill="${theme.win}" opacity="0.14" filter="url(#blur-${theme.key})"/>`,
     );
-    scene.track([[base[0] - w, base[1] + h * 0.7]]);
   }
 
   /* --- overlays that belong to the city --------------------------------- */
@@ -711,6 +691,36 @@ function buildCity(days, themeKey) {
   const tx = (VIEW_W - bw * scale) / 2 - scene.minX * scale;
   const ty = (VIEW_H - bh * scale) / 2 - scene.minY * scale;
 
+  const toCanvas = (wx, wz) => {
+    const [sx, sy] = iso(wx, wz);
+    return [sx * scale + tx, sy * scale + ty];
+  };
+  const LAND_X = CITY_X + 1500;
+  const landQuad = [
+    [-1500, -360],
+    [LAND_X, -360],
+    [LAND_X, waterStart],
+    [-1500, waterStart],
+  ].map(([wx, wz]) => toCanvas(wx, wz));
+  // water on both exposed sides, so the city reads as a peninsula and no empty
+  // slab of ground runs off to a canvas corner
+  const waterFront = [
+    [-9000, waterStart],
+    [LAND_X + 9000, waterStart],
+    [LAND_X + 9000, waterStart + 24000],
+    [-9000, waterStart + 24000],
+  ].map(([wx, wz]) => toCanvas(wx, wz));
+  const waterRight = [
+    [LAND_X, -9000],
+    [LAND_X + 9000, -9000],
+    [LAND_X + 9000, waterStart],
+    [LAND_X, waterStart],
+  ].map(([wx, wz]) => toCanvas(wx, wz));
+  const shoreA = toCanvas(-9000, waterStart);
+  const shoreB = toCanvas(LAND_X + 9000, waterStart);
+  const shoreC = toCanvas(LAND_X, -9000);
+  const shoreD = toCanvas(LAND_X, waterStart);
+
   const horizonY = ty + (iso(0, -70, 0)[1] - scene.minY) * scale;
 
   /* --- sky, sun, clouds: canvas coords, above the fitted city ------------ */
@@ -750,7 +760,7 @@ function buildCity(days, themeKey) {
     <stop offset="45%" stop-color="${theme.sun.halo}" stop-opacity="0.55"/>
     <stop offset="100%" stop-color="${theme.sun.halo}" stop-opacity="0"/>
   </radialGradient>
-  <linearGradient id="water-${theme.key}" x1="0" y1="0" x2="0.35" y2="1">
+  <linearGradient id="water-${theme.key}" gradientUnits="userSpaceOnUse" x1="0" y1="${n1(ty + iso(0, waterStart)[1] * scale)}" x2="0" y2="${VIEW_H}">
     <stop offset="0%" stop-color="${theme.water[0]}"/>
     <stop offset="45%" stop-color="${theme.water[1]}"/>
     <stop offset="100%" stop-color="${theme.water[2]}"/>
@@ -797,6 +807,10 @@ function buildCity(days, themeKey) {
 <circle cx="${n1(sun.x)}" cy="${n1(sun.y)}" r="${sun.r * 3.2}" fill="url(#sun-${theme.key})"/>
 <circle cx="${n1(sun.x)}" cy="${n1(sun.y)}" r="${sun.r}" fill="${theme.sun.colour}" opacity="0.92"/>
 ${clouds.join("")}
+<polygon points="${landQuad.map(([x, y]) => `${n1(x)},${n1(y)}`).join(" ")}" fill="${theme.ground}"/>
+<polygon points="${waterFront.map(([x, y]) => `${n1(x)},${n1(y)}`).join(" ")}" fill="url(#water-${theme.key})"/>
+<polygon points="${waterRight.map(([x, y]) => `${n1(x)},${n1(y)}`).join(" ")}" fill="url(#water-${theme.key})"/>
+<polyline points="${n1(shoreA[0])},${n1(shoreA[1])} ${n1(shoreD[0])},${n1(shoreD[1])} ${n1(shoreC[0])},${n1(shoreC[1])}" fill="none" stroke="${theme.accent}" stroke-width="1.4" opacity="0.5"/>
 <g transform="translate(${n1(tx)} ${n1(ty)}) scale(${n1(scale * 100) / 100})">
 ${scene.toString()}
 </g>
