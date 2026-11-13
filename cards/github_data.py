@@ -36,6 +36,7 @@ import urllib.error
 import urllib.request
 
 API = "https://api.github.com/graphql"
+UPSTREAM_WINDOW_DAYS = 120
 
 YEAR_SPAN = 6
 
@@ -52,6 +53,20 @@ query($login: String!) {
       totalIssueContributions
       totalPullRequestReviewContributions
       restrictedContributionsCount
+      pullRequestContributions(first: 100, orderBy: {direction: DESC}) {
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          pullRequest {
+            number
+            state
+            createdAt
+            updatedAt
+            mergedAt
+            isDraft
+            repository { nameWithOwner }
+          }
+        }
+      }
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -145,6 +160,55 @@ def _commit_sample(raw_user, limit_per_repo=50):
     return stamps
 
 
+def _upstream(cc, login, now):
+    """Group my pull requests by the upstream repo they target.
+
+    Only repos I do not own, and only pull requests touched inside the window —
+    "currently contributing to" should not accumulate every repo I ever sent a
+    patch to.
+    """
+    nodes = ((cc.get("pullRequestContributions") or {}).get("nodes")) or []
+    rows = {}
+    for node in nodes:
+        pr = (node or {}).get("pullRequest") or {}
+        repo = ((pr.get("repository") or {}).get("nameWithOwner")) or ""
+        if not repo:
+            continue
+        owner, _, name = repo.partition("/")
+        if owner.lower() == login.lower():
+            continue
+        stamp = (pr.get("mergedAt") or pr.get("updatedAt")
+                 or pr.get("createdAt"))
+        if not stamp:
+            continue
+        touched = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+        days = max(0, (now - touched).days)
+        if days > UPSTREAM_WINDOW_DAYS:
+            continue
+        row = rows.setdefault(repo, {
+            "repo": repo, "owner": owner, "name": name,
+            "url": f"https://github.com/{repo}",
+            "open": 0, "merged": 0, "closed": 0,
+            "last_days": days, "prs": [],
+        })
+        if pr.get("mergedAt"):
+            state = "merged"
+            row["merged"] += 1
+        elif pr.get("state") == "OPEN":
+            state = "open"
+            row["open"] += 1
+        else:
+            state = "closed"
+            row["closed"] += 1
+        row["last_days"] = min(row["last_days"], days)
+        row["prs"].append({"number": pr["number"], "state": state,
+                           "days": days})
+    for row in rows.values():
+        row["prs"].sort(key=lambda p: p["number"], reverse=True)
+    # open work first, then whatever moved most recently
+    return sorted(rows.values(), key=lambda r: (-r["open"], r["last_days"]))
+
+
 def _normalize(raw, login, now=None):
     user = raw["data"]["user"]
     cal = user["contributionsCollection"]["contributionCalendar"]
@@ -187,9 +251,77 @@ def _normalize(raw, login, now=None):
             "restricted": cc.get("restrictedContributionsCount") or 0,
         },
         "years": _year_list(user, login, now),
+        "upstream": _upstream(cc, login, now),
+        "upstream_window_days": UPSTREAM_WINDOW_DAYS,
         "commit_sample": _commit_sample(user),
         "repo_langs": repo_langs,
     }
+
+
+PR_PAGE_QUERY = """
+query($login: String!, $after: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      pullRequestContributions(first: 100, after: $after,
+                               orderBy: {direction: DESC}) {
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          pullRequest {
+            number
+            state
+            createdAt
+            updatedAt
+            mergedAt
+            isDraft
+            repository { nameWithOwner }
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+def _pr_page(login, token, after):
+    body = json.dumps({"query": PR_PAGE_QUERY,
+                       "variables": {"login": login, "after": after}}).encode()
+    req = urllib.request.Request(
+        API, data=body,
+        headers={"Authorization": f"bearer {token}",
+                 "Content-Type": "application/json",
+                 "User-Agent": "mgkvibez-cards"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = json.load(resp)
+    if raw.get("errors"):
+        raise RuntimeError(f"GraphQL page failed: {raw['errors']}")
+    return raw["data"]["user"]["contributionsCollection"]["pullRequestContributions"]
+
+
+def _page_all_prs(login, token, raw, max_pages=4):
+    """Top up the pull request list past the first hundred.
+
+    GitHub answers the collection's first page by creation date, so my own
+    busiest repo can occupy most of it; without this, the upstream list silently
+    loses projects that only sent one or two pull requests.
+    """
+    cc = raw["data"]["user"]["contributionsCollection"]
+    block = cc.get("pullRequestContributions") or {}
+    nodes = block.get("nodes") or []
+    info = block.get("pageInfo") or {}
+    pages = 0
+    while info.get("hasNextPage") and pages < max_pages:
+        try:
+            nxt = _pr_page(login, token, info["endCursor"])
+        except Exception as exc:                    # noqa: BLE001
+            print(f"warning: stopped paging pull requests ({exc})")
+            break
+        nodes.extend(nxt.get("nodes") or [])
+        info = nxt.get("pageInfo") or {}
+        pages += 1
+    block["nodes"] = nodes
+    cc["pullRequestContributions"] = block
+    return pages
 
 
 def fetch_raw(login, token, now=None):
@@ -229,6 +361,9 @@ def fetch_raw(login, token, now=None):
         raise RuntimeError(f"GraphQL failed: {raw.get('errors')}")
     raw["login"] = login
     raw["fetched_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    pages = _page_all_prs(login, token, raw)
+    if pages:
+        print(f"paged {pages} extra pull request page(s)")
     return raw
 
 

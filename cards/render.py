@@ -11,7 +11,8 @@ import os
 from . import (card_activity, card_city, card_collab, card_drift,
                 card_graph, card_heatmap, card_languages, card_portscan,
                 card_registry, card_rhythm, card_scope, card_training,
-                card_ubuntu, card_years, github_data, history, table)
+                card_ubuntu, card_upstream, card_years, github_data, history,
+                table)
 
 # Simple cards take just the profile dict; the archive-aware ones also
 # receive the snapshot history so they can move, not just measure.
@@ -30,6 +31,7 @@ CARDS = {
     "collab.svg": card_collab.render,
     "drift.svg": card_drift.render,
     "graph.svg": card_graph.render,
+    "upstream.svg": card_upstream.render,
 }
 
 # cards that read the snapshot archive (data, entries) -> svg
@@ -74,6 +76,8 @@ def main():
         with open("README.md") as f:
             readme = f.read()
         updated = table.update(readme, table.build(data, entries))
+        updated = card_upstream.update_readme(
+            updated, card_upstream.readme_block(data))
         if updated != readme:
             with open("README.md", "w") as f:
                 f.write(updated)

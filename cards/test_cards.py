@@ -8,7 +8,8 @@ import tempfile
 from . import (card_activity, card_city, card_collab, card_drift,
                 card_graph, card_heatmap, card_languages, card_portscan,
                 card_registry, card_rhythm, card_scope, card_training,
-                card_ubuntu, card_years, github_data, history, stats, table)
+                card_ubuntu, card_upstream, card_years, github_data, history,
+                stats, table)
 
 FIXTURE = "testdata/profile.json"
 _DATA = None    # loaded lazily so a missing fixture never breaks import
@@ -316,3 +317,65 @@ class TableTest(unittest.TestCase):
         self.assertIn("BLOCK-TWO", second)
         self.assertNotIn("BLOCK-ONE", second)
         self.assertIn("read me", second)
+
+class UpstreamCardTest(unittest.TestCase):
+    """The upstream rail reads data["upstream"], so it is tested from a
+    synthetic profile: the captured fixture predates the PR query."""
+
+    ROWS = [
+        {"repo": "nolar/kopf", "owner": "nolar", "name": "kopf",
+         "url": "https://github.com/nolar/kopf", "open": 2, "merged": 0,
+         "closed": 0, "last_days": 2,
+         "prs": [{"number": 752, "state": "open", "days": 2},
+                 {"number": 744, "state": "open", "days": 11}]},
+        {"repo": "rabbitstack/fibratus", "owner": "rabbitstack",
+         "name": "fibratus", "url": "https://github.com/rabbitstack/fibratus",
+         "open": 0, "merged": 2, "closed": 0, "last_days": 9,
+         "prs": [{"number": 751, "state": "merged", "days": 9},
+                 {"number": 750, "state": "merged", "days": 9}]},
+    ]
+
+    def _data(self, rows):
+        profile = dict(data())
+        profile["upstream"] = rows
+        profile["upstream_window_days"] = 120
+        return profile
+
+    def test_rail_renders_every_repo_and_pr(self):
+        svg = card_upstream.render(self._data(self.ROWS))
+        ET.fromstring(svg)
+        for needle in ("nolar", "kopf", "rabbitstack", "fibratus",
+                       "#752 open", "#750 merged", "upstream --track"):
+            self.assertIn(needle, svg)
+        # the rail itself: one node per repo (the window dots are r="2.5")
+        self.assertEqual(svg.count('r="3.6"'), len(self.ROWS))
+
+    def test_empty_state_is_not_blank(self):
+        svg = card_upstream.render(self._data([]))
+        ET.fromstring(svg)
+        self.assertIn("no upstream activity in the window", svg)
+
+    def test_chips_collapse_past_three(self):
+        row = dict(self.ROWS[0])
+        row["prs"] = [{"number": 900 + i, "state": "open", "days": 1}
+                      for i in range(5)]
+        svg = card_upstream.render(self._data([row]))
+        self.assertIn("#900 open", svg)
+        self.assertIn("+2", svg)
+        self.assertNotIn("#903", svg)
+
+    def test_readme_block_lists_clickable_repos(self):
+        block = card_upstream.readme_block(self._data(self.ROWS))
+        self.assertIn("2 projects", block)
+        self.assertIn("[nolar/kopf](https://github.com/nolar/kopf)", block)
+        self.assertIn("[#750](https://github.com/rabbitstack/fibratus/pull/750)",
+                      block)
+
+    def test_readme_block_replaces_only_its_markers(self):
+        page = ("before\n<!-- upstream:start -->\nstale\n"
+                "<!-- upstream:end -->\nafter\n")
+        out = card_upstream.update_readme(page, "fresh")
+        self.assertIn("fresh", out)
+        self.assertNotIn("stale", out)
+        self.assertTrue(out.startswith("before"))
+        self.assertTrue(out.endswith("after\n"))
