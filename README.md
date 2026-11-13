@@ -121,23 +121,10 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 <p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>. The snake starts electric blue and turns terminal green as it eats through the year — keyframe colours interpolated over its run, repainted after every regeneration.</i></p>
 
-## My Contribution City
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/city-neon.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/city-gold.svg">
-  <img src="assets/city-neon.svg" alt="Contribution city: one isometric building per day of the last year, taller on busier days" width="100%">
-</picture>
-
-<!-- city:stats:start -->**1,214 contributions** · 68-day current streak · 68-day longest · busiest day 94 on 2026-11-10<!-- city:stats:end -->
-
-<sub>Every day of the last year is one building, taller and more detailed the busier that day was; quiet days are plazas and empty lots. Regenerated every six hours by <a href=".github/workflows/update-city.yml"><code>update-city.yml</code></a>.</sub>
-
 ### Contribution city
 
 <div align="center">
-  <a href="https://mgkvibez.github.io/contribution-city/"><img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%"></a>
-  <sub><b><a href="https://mgkvibez.github.io/contribution-city/">step into the city in 3D →</a></b> one tower per contribution day, drag to orbit, hover for the date. <a href="https://github.com/mgkvibez/contribution-city">source</a></sub>
+  <img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%">
 </div>
 
 <p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Private repos rise as dark towers on the far edge — anonymous silhouettes, names only, no stats. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
