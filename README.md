@@ -92,15 +92,15 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 ## GitHub analytics
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=mgkvibez&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" alt="GitHub stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mgkvibez&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&text_color=c9d1d9" alt="Top languages" />
+  <img height="165em" src="https://github-stats-extended.vercel.app/api?username=mgkvibez&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" alt="GitHub stats" />
+  <img height="165em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mgkvibez&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&text_color=c9d1d9" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mgkvibez&theme=github-dark-blue&hide_border=true&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=mgkvibez&theme=github-dark-blue&hide_border=true&background=0a0a0a&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" alt="GitHub streak" />
 </div>
 
-> Stats are rendered live by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) — no local generation or workflow needed, so they're always current.
+> Stats are rendered live by [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the maintained successor. The original [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) now says in its own readme that it is no longer maintained, and its public Vercel deployment answers `503 DEPLOYMENT_PAUSED`, which is why these two cards were blank. Same parameters, same look, maintained host.
 
 <div align="center">
   <img src="assets/cards/graph.svg" alt="Activity graph: the year's contributions accumulated, rendered from the contribution calendar" width="100%" />
