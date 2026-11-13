@@ -30,7 +30,9 @@ account existed come back empty and are simply absent from the list.
 """
 import datetime as dt
 import json
+import time
 import os
+import urllib.error
 import urllib.request
 
 API = "https://api.github.com/graphql"
@@ -191,7 +193,14 @@ def _normalize(raw, login, now=None):
 
 
 def fetch_raw(login, token, now=None):
-    """Live GraphQL response, unnormalized — the fixture is saved from this."""
+    """Live GraphQL response, unnormalized — the fixture is saved from this.
+
+    GitHub answers this query with 502 Bad Gateway often enough to matter:
+    on 2026-11-13 two of three plain attempts failed, and each failure took
+    the whole hourly render down with it, so the cards silently stopped
+    updating. The gateway failure is transient and idempotent here, so it is
+    retried; a real API error still raises on the first answer.
+    """
     now = now or dt.datetime.now(dt.timezone.utc)
     query = QUERY % _year_aliases(now)
     body = json.dumps({"query": query, "variables": {"login": login}}).encode()
@@ -200,8 +209,22 @@ def fetch_raw(login, token, now=None):
         headers={"Authorization": f"bearer {token}",
                  "Content-Type": "application/json",
                  "User-Agent": "mgkvibez-cards"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        raw = json.load(resp)
+    raw = None
+    for attempt, wait in enumerate((0, 4, 10)):
+        if wait:
+            time.sleep(wait)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                raw = json.load(resp)
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code < 500 or attempt == 2:
+                raise
+        except urllib.error.URLError:
+            if attempt == 2:
+                raise
+    if raw is None:
+        raise RuntimeError("GraphQL unreachable after 3 attempts")
     if raw.get("errors") or not raw.get("data", {}).get("user"):
         raise RuntimeError(f"GraphQL failed: {raw.get('errors')}")
     raw["login"] = login
