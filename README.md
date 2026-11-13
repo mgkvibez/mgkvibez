@@ -252,7 +252,7 @@ Every project where I have a pull request open, or landed one in the last four m
 14. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 4d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
 15. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 4d — [#111](https://github.com/y49/tlive/pull/111)
 16. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 4d — [#192](https://github.com/Budibase/docs/pull/192)
-17. [openbao/openbao](https://github.com/openbao/openbao) — last 5d — [#4422](https://github.com/openbao/openbao/pull/4422)
+17. [openbao/openbao](https://github.com/openbao/openbao) — last 6d — [#4422](https://github.com/openbao/openbao/pull/4422)
 18. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 6d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
 19. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 7d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
 20. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 7d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
@@ -295,22 +295,22 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1226 total | ▲ 911 in 30d |
-| Last 30 days | 950 | see the activity card |
+| Contributions (365d) | 1228 total | ▲ 913 in 30d |
+| Last 30 days | 952 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1226 | ▲ 911 in 30d |
-| Commits | 681 | ▲ 605 in 30d |
+| Contributions | 1228 | ▲ 913 in 30d |
+| Commits | 682 | ▲ 606 in 30d |
 | Pull requests | 176 | ▲ 169 in 30d |
 | Issues | 17 | ▲ 16 in 30d |
-| Reviews | 1 | ▲ 1 in 30d |
+| Reviews | 2 | ▲ 2 in 30d |
 | Current streak | 68d | — |
 | Longest streak | 68d | — |
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 194 (15.8% of all) | — |
+| Collaborative acts | 195 (15.9% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -322,19 +322,19 @@ Every project where I have a pull request open, or landed one in the last four m
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sat 13:00 (30 commits) |
-| Sample | 674 recent commits |
+| Sample | 677 recent commits |
 | Nights, 22:00–06:00 | 14% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1212 |
+| 2026 | 1214 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 385 | 2.2 MB | 3 | 2026-11-13 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 386 | 2.2 MB | 3 | 2026-11-13 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 224 | 8.7 MB | 3 | 2026-11-13 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
@@ -344,10 +344,10 @@ Every project where I have a pull request open, or landed one in the last four m
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
 | [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 3 | 2026-11-01 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 15 | 62 kB | 5 | 2026-11-13 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 2 | 2026-10-31 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 2 | 2026-10-31 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 12 | 62 kB | 5 | 2026-10-31 | occupied | public |
 | [tokentracker](https://github.com/mgkvibez/tokentracker) | 11 | 68 kB | 2 | 2026-10-31 | occupied | public |
 | [ooxml-writer](https://github.com/mgkvibez/ooxml-writer) | 10 | 80 kB | 3 | 2026-11-10 | occupied | public |
 | [xlparity](https://github.com/mgkvibez/xlparity) | 10 | 66 kB | 3 | 2026-11-10 | occupied | public |
