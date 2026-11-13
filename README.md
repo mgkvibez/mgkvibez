@@ -121,6 +121,22 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 
 <p><i>Auto-generated daily by <a href=".github/workflows/snake.yml">.github/workflows/snake.yml</a>. The snake starts electric blue and turns terminal green as it eats through the year — keyframe colours interpolated over its run, repainted after every regeneration.</i></p>
 
+### Arcade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/images/arcade-pacman-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/images/arcade-pacman.svg" />
+  <img alt="Pac-Man: a player and four ghosts eating their way through my contribution graph" src="assets/images/arcade-pacman.svg" width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/images/arcade-galaga-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/images/arcade-galaga.svg" />
+  <img alt="Galaga: a fighter ship firing lasers across my contribution graph" src="assets/images/arcade-galaga.svg" width="100%" />
+</picture>
+
+<p><i>Pac-Man and Galaga, played over the same contribution calendar. Generated daily by <a href=".github/workflows/arcade.yml"><code>arcade.yml</code></a> with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, pinned by commit so an upstream force-push cannot change what runs here.</i></p>
+
 ### Contribution city
 
 <div align="center">

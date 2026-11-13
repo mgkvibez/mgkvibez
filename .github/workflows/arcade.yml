@@ -1,0 +1,78 @@
+name: arcade
+
+# Pac-Man and Galaga, drawn from the same contribution calendar as the snake.
+# Third-party action pinned by commit; outputs land in dist/ and are copied to
+# assets/images with stable names before the rebase-and-commit step, exactly
+# like the snake job.
+on:
+  schedule:
+    - cron: "30 0 * * *"     # daily, half an hour after the snake
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Queue, never cancel: a cancelled head run leaves the badge red.
+concurrency:
+  group: arcade
+  cancel-in-progress: false
+
+jobs:
+  arcade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man and Galaga graphs
+        # pinned 2026-11-13 to abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@70945878b1118303b37b88060fc7145e1a57d7b1
+        with:
+          github_user_name: mgkvibez
+          # CARDS_TOKEN is the owner's PAT, so private contributions count.
+          # Falls back to the built-in token (public only) if it is missing.
+          github_token: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+          games: pacman,galaga
+          hide_month_labels: "false"
+
+      - name: Collect the generated SVGs
+        run: |
+          set -euo pipefail
+          mkdir -p assets/images
+          for game in pacman galaga; do
+            for variant in "" "-dark"; do
+              src="dist/${game}-contribution-graph${variant}.svg"
+              dst="assets/images/arcade-${game}${variant}.svg"
+              if [ ! -s "$src" ]; then
+                echo "::error::expected $src from the action, but it is missing or empty"
+                exit 1
+              fi
+              cp "$src" "$dst"
+              echo "$dst  $(wc -c < "$dst") bytes"
+            done
+          done
+
+      - name: Refuse to commit a blank or static graph
+        run: |
+          set -euo pipefail
+          for f in assets/images/arcade-*.svg; do
+            size=$(wc -c < "$f")
+            if [ "$size" -lt 20000 ]; then
+              echo "::error::$f looks empty ($size bytes)"
+              exit 1
+            fi
+            if ! grep -qE "<animate|@keyframes|<style" "$f"; then
+              echo "::error::$f contains no animation"
+              exit 1
+            fi
+          done
+          echo "all four graphs carry animation and real content"
+
+      - name: Rebase on latest main before committing
+        run: git pull --rebase --autostash origin main
+
+      - name: Commit updated arcade SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh arcade contribution graphs"
+          file_pattern: assets/images/arcade-*.svg
