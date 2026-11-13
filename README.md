@@ -129,7 +129,8 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 ### Contribution city
 
 <div align="center">
-  <img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%">
+  <a href="https://mgkvibez.github.io/contribution-city/"><img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%"></a>
+  <sub><b><a href="https://mgkvibez.github.io/contribution-city/">step into the city in 3D →</a></b> one tower per contribution day, drag to orbit, hover for the date. <a href="https://github.com/mgkvibez/contribution-city">source</a></sub>
 </div>
 
 <p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Private repos rise as dark towers on the far edge — anonymous silhouettes, names only, no stats. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
