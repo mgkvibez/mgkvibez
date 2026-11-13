@@ -295,14 +295,14 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1220 total | ▲ 905 in 30d |
-| Last 30 days | 944 | see the activity card |
+| Contributions (365d) | 1226 total | ▲ 911 in 30d |
+| Last 30 days | 950 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1220 | ▲ 905 in 30d |
-| Commits | 678 | ▲ 602 in 30d |
-| Pull requests | 173 | ▲ 166 in 30d |
+| Contributions | 1226 | ▲ 911 in 30d |
+| Commits | 681 | ▲ 605 in 30d |
+| Pull requests | 176 | ▲ 169 in 30d |
 | Issues | 17 | ▲ 16 in 30d |
 | Reviews | 1 | ▲ 1 in 30d |
 | Current streak | 68d | — |
@@ -310,12 +310,12 @@ Every project where I have a pull request open, or landed one in the last four m
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 191 (15.7% of all) | — |
+| Collaborative acts | 194 (15.8% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 74.9% | 20.9 MB |
-| Python | 19.3% | 5.4 MB |
+| TypeScript | 75.1% | 21.2 MB |
+| Python | 19.1% | 5.4 MB |
 | JavaScript | 3.6% | 1.0 MB |
 | Other (11) | 2.2% | — |
 
@@ -323,20 +323,20 @@ Every project where I have a pull request open, or landed one in the last four m
 |---|---:|
 | Busiest slot | Sat 13:00 (30 commits) |
 | Sample | 674 recent commits |
-| Nights, 22:00–06:00 | 13% of the sample |
+| Nights, 22:00–06:00 | 14% of the sample |
 | Clock | UTC — every stamp came back without an offset |
 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1206 |
+| 2026 | 1212 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 383 | 2.2 MB | 3 | 2026-11-13 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 385 | 2.2 MB | 3 | 2026-11-13 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 222 | 8.6 MB | 3 | 2026-11-13 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 224 | 8.7 MB | 3 | 2026-11-13 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [elfwasm](https://github.com/mgkvibez/elfwasm) | 52 | 1.9 MB | 3 | 2026-11-13 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |
