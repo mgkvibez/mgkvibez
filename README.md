@@ -135,7 +135,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
   <img alt="Galaga: a fighter ship firing lasers across my contribution graph" src="assets/images/arcade-galaga.svg" width="100%" />
 </picture>
 
-<p><i>Pac-Man and Galaga, played over the same contribution calendar. Generated daily by <a href=".github/workflows/arcade.yml"><code>arcade.yml</code></a> with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, pinned by commit so an upstream force-push cannot change what runs here.</i></p>
+<p><i>Pac-Man and Galaga, played over the same contribution calendar. Generated daily by <a href=".github/workflows/arcade.yml"><code>arcade.yml</code></a> with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, pinned by commit so an upstream force-push cannot change what runs here, then repainted and framed by <a href="scripts/arcade-retheme.mjs"><code>scripts/arcade-retheme.mjs</code></a>: GitHub's stock greens become this profile's phosphor ramp, each game sits in a CRT window, and the score line underneath is drawn from the live calendar rather than the game's own tally.</i></p>
 
 ### Contribution city
 

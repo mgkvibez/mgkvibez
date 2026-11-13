@@ -35,22 +35,20 @@ jobs:
           games: pacman,galaga
           hide_month_labels: "false"
 
-      - name: Collect the generated SVGs
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Retheme into the profile palette and frame the games
+        env:
+          CARDS_TOKEN: ${{ secrets.CARDS_TOKEN }}
         run: |
           set -euo pipefail
-          mkdir -p assets/images
-          for game in pacman galaga; do
-            for variant in "" "-dark"; do
-              src="dist/${game}-contribution-graph${variant}.svg"
-              dst="assets/images/arcade-${game}${variant}.svg"
-              if [ ! -s "$src" ]; then
-                echo "::error::expected $src from the action, but it is missing or empty"
-                exit 1
-              fi
-              cp "$src" "$dst"
-              echo "$dst  $(wc -c < "$dst") bytes"
-            done
-          done
+          # Reads the action's dist/ output, repaints GitHub's stock greens onto
+          # this profile's phosphor ramp and sets each game in a CRT window with
+          # a live score line. Aborts without touching assets/ if it cannot.
+          node scripts/arcade-retheme.mjs --in dist --out assets/images
 
       - name: Refuse to commit a blank or static graph
         run: |
@@ -66,7 +64,15 @@ jobs:
               exit 1
             fi
           done
-          echo "all four graphs carry animation and real content"
+          node -e '
+            const fs = require("fs");
+            for (const f of fs.readdirSync("assets/images").filter((n) => n.startsWith("arcade-"))) {
+              const s = fs.readFileSync("assets/images/" + f, "utf8");
+              if (!s.startsWith("<svg") || !s.includes("</svg>")) { console.error(f + " is not a single SVG"); process.exit(1); }
+              if (!s.includes(`arcade --`)) { console.error(f + " is missing the frame"); process.exit(1); }
+            }
+            console.log("all four graphs carry animation, real content and the CRT frame");
+          '
 
       - name: Rebase on latest main before committing
         run: git pull --rebase --autostash origin main
@@ -75,4 +81,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh arcade contribution graphs"
-          file_pattern: assets/images/arcade-*.svg
+          file_pattern: assets/images/arcade-*.svg assets/.arcade-stats.json
