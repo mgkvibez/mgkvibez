@@ -105,11 +105,6 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
 <div align="center">
   <img src="assets/cards/graph.svg" alt="Activity graph: the year's contributions accumulated, rendered from the contribution calendar" width="100%" />
 
-<div align="center">
-  <a href="https://mgkvibez.github.io/contribution-city/"><img src="assets/cards/city.svg" alt="Contribution city: every contribution day as a tower, every repo a landmark" width="100%" /></a>
-
-  <sub><b><a href="https://mgkvibez.github.io/contribution-city/">step into the city in 3D →</a></b> — one tower per contribution day, drag to orbit, hover for the date. <a href="https://github.com/mgkvibez/contribution-city">source</a></sub>
-</div>
 </div>
 
 > The graph is generated here, not embedded from a widget service. The upstream activity-graph widget has now lost its hosting three times (Heroku free tier, Cyclic, then a Vercel deployment returning `402 Payment Required`), which is what left a blank box in this section. `cards/card_graph.py` draws the same reading from the contribution calendar that every other card already uses, so it cannot be switched off by somebody else's billing.
