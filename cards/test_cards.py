@@ -6,9 +6,9 @@ import os
 import tempfile
 
 from . import (card_activity, card_city, card_collab, card_drift,
-                card_heatmap, card_languages, card_portscan, card_registry,
-                card_rhythm, card_scope, card_training, card_ubuntu,
-                card_years, github_data, history, stats, table)
+                card_graph, card_heatmap, card_languages, card_portscan,
+                card_registry, card_rhythm, card_scope, card_training,
+                card_ubuntu, card_years, github_data, history, stats, table)
 
 FIXTURE = "testdata/profile.json"
 _DATA = None    # loaded lazily so a missing fixture never breaks import
@@ -33,6 +33,11 @@ class CardsTest(unittest.TestCase):
         for n in needles:
             self.assertIn(n, svg)
         return svg
+
+    def test_graph_card(self):
+        svg = self._render(card_graph, "contributions, cumulative", "<path")
+        # the curve must actually rise: the last cumulative value is the total
+        self.assertIn(f"{self.data['total']:,}", svg)
 
     def test_fixture_shape(self):
         self.assertGreater(self.data["total"], 0)
@@ -278,8 +283,14 @@ class HistoryArchiveTest(unittest.TestCase):
             entries = history.load(path)
             self.assertEqual(len(entries), 1)
             self.assertIn("langs", entries[0])
-            ago = history.days_ago(entries, 28)
-            self.assertIsNone(ago)            # snapshot is brand new
+            # Brand new means "not yet 28 days old", so the window has to be
+            # measured from the snapshot's own date. Using the wall clock made
+            # this pass until exactly 28 days after the fixture was captured,
+            # then fail on a day nobody had touched the code — which is how it
+            # broke the hourly cards run on 2026-11-13.
+            today = __import__("datetime").date.fromisoformat(entries[0]["date"])
+            ago = history.days_ago(entries, 28, now=today)
+            self.assertIsNone(ago)
 
     def test_days_ago_finds_oldest_match(self):
         entries = [{"date": "2026-09-01", "langs": {}},
