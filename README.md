@@ -231,14 +231,14 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1192 total | ▲ 877 in 30d |
-| Last 30 days | 916 | see the activity card |
+| Contributions (365d) | 1194 total | ▲ 879 in 30d |
+| Last 30 days | 918 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1192 | ▲ 877 in 30d |
-| Commits | 848 | ▲ 772 in 30d |
-| Pull requests | 181 | ▲ 174 in 30d |
+| Contributions | 1194 | ▲ 879 in 30d |
+| Commits | 652 | ▲ 576 in 30d |
+| Pull requests | 173 | ▲ 166 in 30d |
 | Issues | 17 | ▲ 16 in 30d |
 | Reviews | 1 | ▲ 1 in 30d |
 | Current streak | 68d | — |
@@ -246,7 +246,7 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 199 (16.7% of all) | — |
+| Collaborative acts | 191 (16.0% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -265,12 +265,12 @@ Ten tools built for the work I actually do. All MIT, all tested, all install in 
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1178 |
+| 2026 | 1180 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 363 | 2.0 MB | 3 | 2026-11-13 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 365 | 2.0 MB | 3 | 2026-11-13 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 221 | 8.5 MB | 3 | 2026-11-13 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
