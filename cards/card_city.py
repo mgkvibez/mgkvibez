@@ -18,11 +18,13 @@ import datetime as dt
 
 from . import svg, theme
 
-W, H = 920, 470
-GROUND = 352                     # buildings stand on this baseline
+W, H = 920, 600
+GROUND = 470                     # buildings stand on this baseline
 LEFT, RIGHT = 34, W - 34
-MAX_H, MIN_H = 252, 48
-TOP_N = 10                       # city limits: tallest ten towers
+MAX_H, MIN_H = 292, 56
+TOP_N = 10                       # front row: the ten tallest
+BACK_MAX = 18                    # middle tier, in perspective
+FAR_MAX = 24                     # far tier: everything else
 WAT = dt.timezone(dt.timedelta(hours=1))   # West African Time, UTC+1
 
 # facade (dark) + cap (bright) per primary language
@@ -186,16 +188,87 @@ def _dark_towers(out, dark, left, right, txt):
                             8.5, "end"))
 
 
+def _tower(out, r, x, bw, h, phase, season, rank, lit_mult, dim=1.0, floors=3):
+    """One building: stepped setbacks, a window grid per setback, rooftop cap.
+
+    Setbacks are what stop a tower reading as a coloured rectangle: each
+    segment up is narrower than the one below it, in proportion, so even a
+    short building still looks like a building. `dim` fades a tower for the
+    back row, where distance should read as haze rather than as a smaller
+    copy of the same thing.
+    """
+    facade, cap = LANG.get(r["language"], DEFAULT_FACADE)
+    frac = _lit_frac(r) * lit_mult
+
+    segs = []
+    heights = [0.56, 0.28, 0.16] if floors == 3 else [0.62, 0.38]
+    cw = bw
+    cy = GROUND
+    for share in heights:
+        sh = h * share
+        cy -= sh
+        segs.append((x + (bw - cw) / 2, cy, cw, sh))
+        cw *= 0.82
+
+    for sx, sy, sw, sh in segs:
+        out.append(svg.rect(sx, sy, sw, sh, facade, opacity=dim))
+        # light falls from the top-left, so the far edge of every face sits in
+        # shadow: one gradient over the whole face, not per-window decoration
+        out.append(f'<rect x="{sx:.1f}" y="{sy:.1f}" width="{sw:.1f}" '
+                   f'height="{sh:.1f}" fill="url(#tlit)" '
+                   f'opacity="{0.55 * dim:.2f}"/>\n')
+        out.append(svg.line(sx, sy, sx + sw, sy, theme.BORDER, 1, opacity=dim))
+
+        cols = max(2, int(sw / 9))
+        rows = max(2, int(sh / 11))
+        gx = sw / (cols + 0.4)
+        gy = sh / (rows + 0.4)
+        for ci in range(cols):
+            for ri in range(rows):
+                lit = (_hash(r["name"] + str(ci) + "x" + str(ri)
+                             + str(int(sy))) % 100) < frac * 100
+                out.append(svg.rect(sx + gx * (ci + 0.5) - 1.8,
+                                    sy + gy * (ri + 0.5) - 2.4,
+                                    3.6, 4.8, LIT if lit else UNLIT,
+                                    opacity=dim))
+
+    tx, ty, tw, _ = segs[-1]
+    out.append(svg.rect(tx, ty, tw, 3, cap, opacity=dim))
+    if season == "winter":
+        out.append(svg.rect(tx, ty + 3, tw, 2.2, "#eef4fb",
+                            opacity=0.75 * dim))
+    # roof furniture: the landmark aerial, a plant room for the next two, and
+    # a rank badge only where a rank is being claimed (never on the back row)
+    if rank == 1:
+        mx = tx + tw / 2
+        out.append(svg.line(mx, ty, mx, ty - 22, cap, 2, opacity=dim))
+        out.append(f'<circle cx="{mx}" cy="{ty - 26}" r="3" fill="#ff5f57">'
+                   f'<animate attributeName="opacity" values="1;0.1;1" '
+                   f'dur="1.6s" repeatCount="indefinite"/></circle>\n')
+    elif rank is not None and rank <= 3:
+        out.append(svg.rect(tx + tw * 0.3, ty - 7, tw * 0.22, 7, facade,
+                            opacity=dim))
+    if rank is not None:
+        out.append(svg.rect(tx + 2, ty - 15, 12, 11, theme.PANEL, rx=2))
+        out.append(svg.text(tx + 8, ty - 6, str(rank), theme.DIM, 8, "middle"))
+
+
 def render(data):
     login = data["login"]
     now = _clock(data)
     phase, season = _phase(now), _season(now)
     pub = [r for r in data["repos"] if not r.get("private", False)]
     dark = [r for r in data["repos"] if r.get("private", False)]
-    repos = sorted(pub, key=_score, reverse=True)[:TOP_N]
-    n = len(repos)
-    out = [svg.svg_open(W, H, f"Contribution city ({season}, {phase}): "
-                              f"repos as ranked skyscrapers ({login})")]
+    ranked = sorted(pub, key=_score, reverse=True)
+    repos = ranked[:TOP_N]
+
+    # the directory below the skyline names every repo, so the canvas is sized
+    # to the list rather than the list being cut to the canvas
+    dcols = 4
+    drows = max(1, (len(pub) + dcols - 1) // dcols)
+    height = max(600, GROUND + 52 + drows * 13 + 34)
+    out = [svg.svg_open(W, height, f"Contribution city ({season}, {phase}): "
+                                   f"{len(pub)} repos as a ranked skyline ({login})")]
 
     # sky
     top, bottom = SKY[phase]
@@ -203,6 +276,12 @@ def render(data):
                f'<stop offset="0" stop-color="{top}"/>'
                f'<stop offset="1" stop-color="{bottom}"/></linearGradient>\n')
     out.append(svg.rect(12, 12, W - 24, GROUND - 12, "url(#sky)", rx=8))
+    # one light direction for the whole city: bright edge, shaded edge
+    out.append('<linearGradient id="tlit" x1="0" y1="0" x2="1" y2="0">'
+               '<stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>'
+               '<stop offset="0.55" stop-color="#ffffff" stop-opacity="0.02"/>'
+               '<stop offset="1" stop-color="#000000" stop-opacity="0.30"/>'
+               '</linearGradient>\n')
 
     # celestial body: sun by day, moon by night
     if phase == "night":
@@ -240,79 +319,88 @@ def render(data):
     out.append(svg.text(30, 34, cmd, hdr, 13))
     out.append(svg.cursor(30 + svg.text_w(cmd, 13) + 4, 21, hdr))
 
-    # public skyscrapers get the main skyline; dark towers the far edge
-    cluster_w = min(230, 34 * min(len(dark), 8) + 30) if dark else 0
+    # public skyscrapers in three depth tiers, so every repo stands on the
+    # canvas: the ten tallest in front at full height, the next tier behind at
+    # 0.66, the remainder at 0.40. Drawn far to near, each tier hazed, so
+    # depth reads as distance instead of as a row of shrunken copies.
+    cluster_w = min(210, 30 * min(len(dark), 8) + 26) if dark else 0
     cluster_left = RIGHT - cluster_w
-    public_right = cluster_left - 14 if dark else RIGHT
-
+    public_right = cluster_left - 16 if dark else RIGHT
     max_score = _score(repos[0]) if repos else 1.0
-    slot = (public_right - LEFT) / max(1, n)
     lit_mult = WINDOW_LIT[phase]
-    for i, r in enumerate(repos):
-        h = MIN_H + (MAX_H - MIN_H) * (_score(r) / max_score) ** 0.5
-        bw = min(slot * 0.62, 84)
+
+    front = ranked[:TOP_N]
+    mid = ranked[TOP_N:TOP_N + BACK_MAX]
+    far = ranked[TOP_N + BACK_MAX:TOP_N + BACK_MAX + FAR_MAX]
+    overflow = max(0, len(ranked) - TOP_N - BACK_MAX - FAR_MAX)
+
+    def _row(buildings, scale, dim, floors, badges):
+        """One tier: shared slot maths, then one _tower per building."""
+        if not buildings:
+            return
+        slot = (public_right - LEFT) / len(buildings)
+        bw_cap = 60 * scale
+        for i, r in enumerate(buildings):
+            h = (MIN_H + (MAX_H - MIN_H) * (_score(r) / max_score) ** 0.5) * scale
+            bw = min(slot * (0.6 if badges else 0.56), bw_cap)
+            x = LEFT + i * slot + (slot - bw) / 2
+            rank = i + 1 if badges else None
+            _tower(out, r, x, bw, h, phase, season, rank, lit_mult,
+                   dim=dim, floors=floors)
+
+    def _haze(density):
+        out.append(f'<linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">'
+                   f'<stop offset="0" stop-color="{bottom}" stop-opacity="0.06"/>'
+                   f'<stop offset="1" stop-color="{bottom}" '
+                   f'stop-opacity="{density}"/></linearGradient>\n')
+        out.append(svg.rect(12, GROUND - MAX_H * 0.72, W - 24,
+                            MAX_H * 0.72, "url(#haze)"))
+
+    _row(far, 0.40, 0.34, 2, False)
+    _haze(0.34)
+    _row(mid, 0.66, 0.55, 2, False)
+    _haze(0.22)
+    _row(front, 1.0, 1.0, 3, True)
+
+    # wet asphalt: a short column of the cap colour under each front tower
+    slot = (public_right - LEFT) / max(1, len(front))
+    for i, r in enumerate(front):
+        bw = min(slot * 0.6, 60)
         x = LEFT + i * slot + (slot - bw) / 2
-        y = GROUND - h
-        facade, cap = LANG.get(r["language"], DEFAULT_FACADE)
-        out.append(svg.rect(x, y, bw, h, facade))
-        out.append(svg.rect(x, y, bw, 3, cap))                    # rooftop cap
-        if season == "winter":                       # snow settles on roofs
-            out.append(svg.rect(x, y + 3, bw, 2.5, "#eef4fb", opacity=0.8))
-        out.append(svg.line(x, y + h, x + bw, y + h, theme.BORDER))
+        _, cap = LANG.get(r["language"], DEFAULT_FACADE)
+        out.append(svg.rect(x, GROUND, bw, 20, cap, opacity=0.09))
+        out.append(svg.rect(x, GROUND + 20, bw, 10, cap, opacity=0.04))
 
-        # window grid, lit deterministically by recency and time of day
-        cols = max(2, int(bw / 10))
-        rows = max(2, int(h / 12))
-        gx = bw / (cols + 0.5)
-        gy = h / (rows + 0.5)
-        frac = _lit_frac(r) * lit_mult
-        for ci in range(cols):
-            for ri in range(rows):
-                lit = (_hash(r["name"] + str(ci) + "x" + str(ri))
-                       % 100) < frac * 100
-                wx = x + gx * (ci + 0.5) - 2.5
-                wy = y + gy * (ri + 0.5) - 3
-                out.append(svg.rect(wx, wy, 5, 6, LIT if lit else UNLIT))
-
-        # rank badge on the rooftop corner
-        out.append(svg.rect(x + 2, y - 15, 11, 11, theme.PANEL, rx=2))
-        out.append(svg.text(x + 7.5, y - 6, str(i + 1), theme.DIM, 8,
-                            "middle"))
-
-        # the tallest tower wears the blinking beacon
-        if i == 0:
-            mx = x + bw / 2
-            out.append(svg.line(mx, y, mx, y - 20, cap, 2))
-            out.append(f'<circle cx="{mx}" cy="{y - 24}" r="3" '
-                       f'fill="#ff5f57">'
-                       f'<animate attributeName="opacity" values="1;0.1;1" '
-                       f'dur="1.6s" repeatCount="indefinite"/></circle>\n')
+    if overflow:
+        out.append(svg.text(public_right, GROUND - 8,
+                            f"+{overflow} more in the directory", theme.DIM,
+                            9, "end"))
 
     if dark:
         dark_txt = "#16324a" if phase == "day" else theme.DIM
         _dark_towers(out, dark, cluster_left, RIGHT, dark_txt)
 
-    # ground and city directory
-    out.append(svg.rect(12, GROUND, W - 24, H - GROUND - 12, theme.PANEL))
+    # ground and city directory — every public repo, not the first ten
+    out.append(svg.rect(12, GROUND, W - 24, height - GROUND - 12, theme.PANEL))
     out.append(svg.line(12, GROUND, W - 12, GROUND, theme.BORDER))
-    dcmd = "$ city directory --rank commits+size+stars+recency"
+    dcmd = ("$ city directory --rank commits+size+stars+recency"
+            f" -- {len(pub)} public")
     out.append(svg.text(30, GROUND + 20, dcmd, theme.GREEN, 11))
 
-    for j, r in enumerate(repos[:10]):
-        col, row = j // 5, j % 5
-        dx = 30 + col * ((W - 60) / 2)
-        dy = GROUND + 38 + row * 13
-        name = r["name"] if len(r["name"]) <= 18 else r["name"][:17] + "…"
+    for j, r in enumerate(ranked):
+        col, row = j // drows, j % drows
+        dx = 30 + col * ((W - 60) / dcols)
+        dy = GROUND + 40 + row * 13
+        name = r["name"] if len(r["name"]) <= 17 else r["name"][:16] + "…"
         c = r.get("commits", 0)
-        line = (f"{j + 1}. {name} — {c} commit{'s' if c != 1 else ''} · "
-                f"{_size(r)} · ★{r['stars']} · {_ago(r)}")
-        out.append(svg.text(dx, dy, line, theme.DIM, 10))
+        line = (f"{j + 1}. {name} — {c}c · ★{r['stars']} · {_ago(r)}")
+        out.append(svg.text(dx, dy, line, theme.DIM, 9))
 
     total_commits = sum(x.get("commits", 0) for x in pub)
     pop = (f"population: {total_commits} commits across {len(pub)} repos"
            + (f" · {min(len(dark), 8)} dark towers (private, names only)"
               if dark else "")
            + f" · {season} · {phase} · rendered hourly in WAT")
-    out.append(svg.text(W / 2, H - 20, pop, theme.DIM, 10, "middle"))
+    out.append(svg.text(W / 2, height - 18, pop, theme.DIM, 10, "middle"))
     out.append(svg.svg_close())
     return "".join(out)
