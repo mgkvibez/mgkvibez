@@ -8,7 +8,7 @@ Prints each file written so the workflow log reads as a record.
 import argparse
 import os
 
-from . import (card_activity, card_city, card_collab, card_drift,
+from . import (card_activity, card_collab, card_drift,
                 card_graph, card_heatmap, card_languages, card_portscan,
                 card_registry, card_rhythm, card_scope, card_training,
                 card_ubuntu, card_upstream, card_years, github_data, history,
@@ -22,7 +22,6 @@ CARDS = {
     "registry.svg": card_registry.render,
     "scope.svg": card_scope.render,
     "ubuntu.svg": card_ubuntu.render,
-    "city.svg": card_city.render,
     "heatmap.svg": card_heatmap.render,
     "languages.svg": card_languages.render,
     "rhythm.svg": card_rhythm.render,

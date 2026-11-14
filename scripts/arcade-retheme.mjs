@@ -206,7 +206,6 @@ function compose({ source, game, label, dark, stats }) {
 
 const GAMES = [
   { key: "pacman", label: "PAC-MAN" },
-  { key: "galaga", label: "GALAGA" },
 ];
 
 const stats = SAMPLE

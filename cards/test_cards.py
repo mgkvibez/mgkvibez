@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import os
 import tempfile
 
-from . import (card_activity, card_city, card_collab, card_drift,
+from . import (card_activity, card_collab, card_drift,
                 card_graph, card_heatmap, card_languages, card_portscan,
                 card_registry, card_rhythm, card_scope, card_training,
                 card_ubuntu, card_upstream, card_years, github_data, history,
@@ -50,45 +50,6 @@ class CardsTest(unittest.TestCase):
             self.assertIn("commits", r)
             self.assertGreaterEqual(r["commits"], 0)
             self.assertIn("private", r)
-
-    def test_city_day_sky(self):
-        from . import card_city
-        svg = card_city.render(self.data)
-        ET.fromstring(svg)
-        self.assertIn("skyline --owner github.com/mgkvibez", svg)
-        self.assertIn("population:", svg)
-        self.assertIn("repeatCount=\"indefinite\"", svg)   # beacon blinks
-        pub = [r for r in self.data["repos"] if not r["private"]]
-        ranked = sorted(pub, key=card_city._score, reverse=True)
-        self.assertIn("1. " + ranked[0]["name"][:8], svg)  # public ranks only
-        # private repos: dark towers, names only, no stats
-        priv = [r for r in self.data["repos"] if r["private"]]
-        self.assertGreater(len(priv), 0)
-        self.assertIn(priv[0]["name"], svg)
-        self.assertNotIn(priv[0]["name"] + " — ", svg)
-        self.assertIn("dark towers (private, names only)", svg)
-        # fixture snapshot 11:50Z = 12:50 WAT -> day: sun, no moon, autumn
-        self.assertIn("#ffd75e", svg)                 # sun
-        self.assertNotIn("#e8edf5", svg)              # no moon
-        self.assertIn("autumn · day", svg)
-
-    def test_city_night_wat(self):
-        from . import card_city
-        data = dict(self.data, fetched_at="2026-09-16T21:30:00Z")  # 22:30 WAT
-        svg = card_city.render(data)
-        ET.fromstring(svg)
-        self.assertIn("#e8edf5", svg)                 # moon
-        self.assertIn("#d7843c", svg)                 # autumn leaves fall
-        self.assertIn("autumn · night", svg)
-
-    def test_city_winter_snow(self):
-        from . import card_city
-        data = dict(self.data, fetched_at="2027-01-10T13:00:00Z")  # winter
-        svg = card_city.render(data)
-        ET.fromstring(svg)
-        self.assertIn("winter", svg)
-        self.assertIn("#eef4fb", svg)                 # snow on rooftops
-        self.assertNotIn("#d7843c", svg)             # no autumn leaves
 
     def test_training(self):
         svg = self._render(card_training, "train_contributor.py",

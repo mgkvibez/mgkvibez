@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Pac-Man and Galaga graphs
+      - name: Generate the Pac-Man graph
         # pinned 2026-11-13 to abozanona/pacman-contribution-graph@main
         uses: abozanona/pacman-contribution-graph@70945878b1118303b37b88060fc7145e1a57d7b1
         with:
@@ -32,7 +32,7 @@ jobs:
           # CARDS_TOKEN is the owner's PAT, so private contributions count.
           # Falls back to the built-in token (public only) if it is missing.
           github_token: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
-          games: pacman,galaga
+          games: pacman
           hide_month_labels: "false"
 
       - name: Set up Node
@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Retheme into the profile palette and frame the games
+      - name: Retheme into the profile palette and frame the game
         env:
           CARDS_TOKEN: ${{ secrets.CARDS_TOKEN }}
         run: |

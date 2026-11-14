@@ -1,4 +1,12 @@
 <div align="center">
+  <img src="assets/hero.svg" alt="Terminal boot sequence: an ssh session that types out mgkvibez's public repos, stars, followers, focus areas and top languages" width="100%">
+</div>
+
+<p align="center"><sub>Fifteen seconds of terminal instead of a paragraph about myself.</sub></p>
+
+---
+
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+mgkvibez;Backend+%2B+Security+Tooling+%7C+Python;I+build+it%2C+then+try+to+break+it." alt="Typing SVG" />
 
@@ -129,21 +137,7 @@ Every repo is a service on host `github.com/mgkvibez` — open if pushed in the 
   <img alt="Pac-Man: a player and four ghosts eating their way through my contribution graph" src="assets/images/arcade-pacman.svg" width="100%" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/images/arcade-galaga-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/images/arcade-galaga.svg" />
-  <img alt="Galaga: a fighter ship firing lasers across my contribution graph" src="assets/images/arcade-galaga.svg" width="100%" />
-</picture>
-
-<p><i>Pac-Man and Galaga, played over the same contribution calendar. Generated daily by <a href=".github/workflows/arcade.yml"><code>arcade.yml</code></a> with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, pinned by commit so an upstream force-push cannot change what runs here, then repainted and framed by <a href="scripts/arcade-retheme.mjs"><code>scripts/arcade-retheme.mjs</code></a>: GitHub's stock greens become this profile's phosphor ramp, each game sits in a CRT window, and the score line underneath is drawn from the live calendar rather than the game's own tally.</i></p>
-
-### Contribution city
-
-<div align="center">
-  <img src="assets/cards/city.svg" alt="Contribution city: every repo a skyscraper, ranked by commits" width="100%">
-</div>
-
-<p><i>Every repo is a skyscraper: height ranks commits (with codebase size and stars as tie-breakers), window lights track how recently it was pushed, the facade is tinted by its primary language, and the tallest tower wears the blinking beacon. Private repos rise as dark towers on the far edge — anonymous silhouettes, names only, no stats. The sky keeps real West African Time — sun by day, moon and stars by night, windows dimming at dawn — and the seasons pass through it: snow in winter, petals in spring, falling leaves in autumn. Re-rendered hourly, so a new repo gets its skyscraper within the hour.</i></p>
+<p><i>Pac-Man, played over the contribution calendar. Generated daily by <a href=".github/workflows/arcade.yml"><code>arcade.yml</code></a> with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, pinned by commit so an upstream force-push cannot change what runs here, then repainted and framed by <a href="scripts/arcade-retheme.mjs"><code>scripts/arcade-retheme.mjs</code></a>: GitHub's stock greens become this profile's phosphor ramp, the game sits in a CRT window, and the score line underneath is drawn from the live calendar rather than the game's own tally.</i></p>
 
 ### Contribution heatmap
 
@@ -237,7 +231,7 @@ Every project where I have a pull request open, or landed one in the last four m
 34 projects · 13 open · 46 merged in the last 120 days
 
 1. [nolar/kopf](https://github.com/nolar/kopf) — 2 open · last 2d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
-2. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 1d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
+2. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 2d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
 3. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 3d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
 4. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 open · last 4d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
 5. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 4d — [#436](https://github.com/vmfunc/sif/pull/436)
@@ -250,15 +244,15 @@ Every project where I have a pull request open, or landed one in the last four m
 12. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 16d — [#52443](https://github.com/supabase/supabase/pull/52443)
 13. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 1d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
 14. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 4d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
-15. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 4d — [#111](https://github.com/y49/tlive/pull/111)
-16. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 4d — [#192](https://github.com/Budibase/docs/pull/192)
+15. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 5d — [#111](https://github.com/y49/tlive/pull/111)
+16. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 5d — [#192](https://github.com/Budibase/docs/pull/192)
 17. [openbao/openbao](https://github.com/openbao/openbao) — last 6d — [#4422](https://github.com/openbao/openbao/pull/4422)
 18. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 6d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
-19. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 7d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
-20. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 7d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
-21. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 8d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
-22. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 9d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
-23. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 9d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
+19. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 7d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
+20. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 8d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
+21. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 9d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
+22. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 9d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
+23. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 9d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
 24. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 10d — [#962](https://github.com/wainmann/agent-manager/pull/962)
 25. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 11d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
 26. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 14d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
@@ -295,14 +289,14 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1229 total | ▲ 897 in 30d |
-| Last 30 days | 944 | see the activity card |
+| Contributions (365d) | 1232 total | ▲ 900 in 30d |
+| Last 30 days | 947 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1229 | ▲ 906 in 30d |
-| Commits | 682 | ▲ 605 in 30d |
-| Pull requests | 177 | ▲ 170 in 30d |
+| Contributions | 1232 | ▲ 909 in 30d |
+| Commits | 883 | ▲ 806 in 30d |
+| Pull requests | 185 | ▲ 178 in 30d |
 | Issues | 17 | ▲ 9 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
 | Current streak | 69d | — |
@@ -310,7 +304,7 @@ Every project where I have a pull request open, or landed one in the last four m
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 196 (15.9% of all) | — |
+| Collaborative acts | 204 (16.6% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -329,14 +323,14 @@ Every project where I have a pull request open, or landed one in the last four m
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1215 |
+| 2026 | 1218 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 387 | 2.3 MB | 3 | 2026-11-13 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 390 | 2.4 MB | 3 | 2026-11-14 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 224 | 8.8 MB | 3 | 2026-11-13 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 225 | 8.8 MB | 3 | 2026-11-14 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [elfwasm](https://github.com/mgkvibez/elfwasm) | 52 | 1.9 MB | 3 | 2026-11-13 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |
