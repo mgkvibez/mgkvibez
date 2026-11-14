@@ -68,4 +68,7 @@ jobs:
             exit 0
           fi
           git commit -m "cards: refresh from live profile data"
+          # another workflow may have committed while we were rendering; snake
+          # and arcade both rebase first, and this one was losing that race
+          git pull --rebase --autostash origin main
           git push
