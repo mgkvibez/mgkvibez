@@ -17,18 +17,18 @@
 <circle cx="129.2" cy="94" r="4" fill="#00ff41"/>
 <text x="438" y="98" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▲ 2.2 pt</text>
 <text x="18" y="124" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">TypeScript</text>
-<line x1="359.4015974406699" y1="120" x2="366.0" y2="120" stroke="#1f2730" stroke-width="2"/>
+<line x1="359.3592795951484" y1="120" x2="366.0" y2="120" stroke="#1f2730" stroke-width="2"/>
 <circle cx="359.4" cy="120" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
 <circle cx="366.0" cy="120" r="4" fill="#00ff41"/>
 <text x="438" y="124" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▲ 2.0 pt</text>
 <text x="18" y="150" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">JavaScript</text>
-<line x1="137.5166568894491" y1="146" x2="133.62369343315171" y2="146" stroke="#1f2730" stroke-width="2"/>
+<line x1="137.51389097929376" y1="146" x2="133.7698442448089" y2="146" stroke="#1f2730" stroke-width="2"/>
 <circle cx="137.5" cy="146" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
-<circle cx="133.6" cy="146" r="4" fill="#00ff41"/>
+<circle cx="133.8" cy="146" r="4" fill="#00ff41"/>
 <text x="438" y="150" fill="#f85149" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▼ 1.2 pt</text>
 <text x="18" y="176" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">Python</text>
-<line x1="186.60394252085098" y1="172" x2="184.45962325687861" y2="172" stroke="#1f2730" stroke-width="2"/>
+<line x1="186.59242659303436" y1="172" x2="184.25548690737344" y2="172" stroke="#1f2730" stroke-width="2"/>
 <circle cx="186.6" cy="172" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
-<circle cx="184.5" cy="172" r="4" fill="#00ff41"/>
+<circle cx="184.3" cy="172" r="4" fill="#00ff41"/>
 <text x="438" y="176" fill="#f85149" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▼ 0.7 pt</text>
 </svg>

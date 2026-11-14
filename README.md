@@ -228,42 +228,43 @@ Every project where I have a pull request open, or landed one in the last four m
 <img src="assets/cards/upstream.svg" alt="Upstream rail: every project I contribute to drawn as a node on a branch rail, with the pull request numbers open or merged against each and how recently it moved" width="100%" />
 
 <!-- upstream:start -->
-34 projects · 13 open · 46 merged in the last 120 days
+35 projects · 14 open · 46 merged in the last 120 days
 
-1. [nolar/kopf](https://github.com/nolar/kopf) — 2 open · last 2d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
-2. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 2d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
-3. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 3d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
-4. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 open · last 4d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
-5. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 4d — [#436](https://github.com/vmfunc/sif/pull/436)
-6. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 5d — [#5547](https://github.com/anchore/syft/pull/5547)
-7. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 5d — [#303](https://github.com/portainer/portainer-docs/pull/303)
-8. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 14d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
-9. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 16d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
-10. [prisma/web](https://github.com/prisma/web) — 1 open · last 16d — [#8635](https://github.com/prisma/web/pull/8635)
-11. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — 1 open · last 16d — [#14230](https://github.com/ohmyzsh/ohmyzsh/pull/14230)
-12. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 16d — [#52443](https://github.com/supabase/supabase/pull/52443)
-13. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 1d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
-14. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 4d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
-15. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 5d — [#111](https://github.com/y49/tlive/pull/111)
-16. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 5d — [#192](https://github.com/Budibase/docs/pull/192)
-17. [openbao/openbao](https://github.com/openbao/openbao) — last 6d — [#4422](https://github.com/openbao/openbao/pull/4422)
-18. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 6d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
-19. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 7d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
-20. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 8d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
-21. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 9d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
-22. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 9d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
-23. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 9d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
-24. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 10d — [#962](https://github.com/wainmann/agent-manager/pull/962)
-25. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 11d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
-26. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 14d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
-27. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 14d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
-28. [dab00gieman/campusflow-hades-ii](https://github.com/dab00gieman/campusflow-hades-ii) — 12 merged · last 17d — [#31](https://github.com/dab00gieman/campusflow-hades-ii/pull/31) [#30](https://github.com/dab00gieman/campusflow-hades-ii/pull/30) [#29](https://github.com/dab00gieman/campusflow-hades-ii/pull/29) [#28](https://github.com/dab00gieman/campusflow-hades-ii/pull/28)
-29. [dab00gieman/campusflow-zeus-ii](https://github.com/dab00gieman/campusflow-zeus-ii) — 14 merged · last 17d — [#22](https://github.com/dab00gieman/campusflow-zeus-ii/pull/22) [#21](https://github.com/dab00gieman/campusflow-zeus-ii/pull/21) [#20](https://github.com/dab00gieman/campusflow-zeus-ii/pull/20) [#19](https://github.com/dab00gieman/campusflow-zeus-ii/pull/19)
-30. [dab00gieman/dab00gieman](https://github.com/dab00gieman/dab00gieman) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/dab00gieman/pull/1)
-31. [dab00gieman/Bolt.diy](https://github.com/dab00gieman/Bolt.diy) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/Bolt.diy/pull/1)
-32. [dab00gieman/Group-Blue](https://github.com/dab00gieman/Group-Blue) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/Group-Blue/pull/1)
-33. [dab00gieman/python_study](https://github.com/dab00gieman/python_study) — 3 merged · last 25d — [#6](https://github.com/dab00gieman/python_study/pull/6) [#5](https://github.com/dab00gieman/python_study/pull/5) [#4](https://github.com/dab00gieman/python_study/pull/4)
-34. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 29d — [#23](https://github.com/melodexs/campus_flow/pull/23)
+1. [nolar/kopf](https://github.com/nolar/kopf) — 2 open · last 3d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
+2. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 open · last 0d — [#273](https://github.com/gy15901580825/Argus/pull/273)
+3. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 open · last 0d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
+4. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 2d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
+5. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 3d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
+6. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 4d — [#436](https://github.com/vmfunc/sif/pull/436)
+7. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 5d — [#5547](https://github.com/anchore/syft/pull/5547)
+8. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 6d — [#303](https://github.com/portainer/portainer-docs/pull/303)
+9. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 15d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
+10. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 16d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
+11. [prisma/web](https://github.com/prisma/web) — 1 open · last 16d — [#8635](https://github.com/prisma/web/pull/8635)
+12. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — 1 open · last 16d — [#14230](https://github.com/ohmyzsh/ohmyzsh/pull/14230)
+13. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 16d — [#52443](https://github.com/supabase/supabase/pull/52443)
+14. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 1d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
+15. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 4d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
+16. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 5d — [#111](https://github.com/y49/tlive/pull/111)
+17. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 5d — [#192](https://github.com/Budibase/docs/pull/192)
+18. [openbao/openbao](https://github.com/openbao/openbao) — last 6d — [#4422](https://github.com/openbao/openbao/pull/4422)
+19. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 6d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
+20. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 7d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
+21. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 8d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
+22. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 9d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
+23. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 9d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
+24. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 9d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
+25. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 10d — [#962](https://github.com/wainmann/agent-manager/pull/962)
+26. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 11d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
+27. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 14d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
+28. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 14d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
+29. [dab00gieman/campusflow-hades-ii](https://github.com/dab00gieman/campusflow-hades-ii) — 12 merged · last 17d — [#31](https://github.com/dab00gieman/campusflow-hades-ii/pull/31) [#30](https://github.com/dab00gieman/campusflow-hades-ii/pull/30) [#29](https://github.com/dab00gieman/campusflow-hades-ii/pull/29) [#28](https://github.com/dab00gieman/campusflow-hades-ii/pull/28)
+30. [dab00gieman/campusflow-zeus-ii](https://github.com/dab00gieman/campusflow-zeus-ii) — 14 merged · last 17d — [#22](https://github.com/dab00gieman/campusflow-zeus-ii/pull/22) [#21](https://github.com/dab00gieman/campusflow-zeus-ii/pull/21) [#20](https://github.com/dab00gieman/campusflow-zeus-ii/pull/20) [#19](https://github.com/dab00gieman/campusflow-zeus-ii/pull/19)
+31. [dab00gieman/dab00gieman](https://github.com/dab00gieman/dab00gieman) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/dab00gieman/pull/1)
+32. [dab00gieman/Bolt.diy](https://github.com/dab00gieman/Bolt.diy) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/Bolt.diy/pull/1)
+33. [dab00gieman/Group-Blue](https://github.com/dab00gieman/Group-Blue) — 1 merged · last 25d — [#1](https://github.com/dab00gieman/Group-Blue/pull/1)
+34. [dab00gieman/python_study](https://github.com/dab00gieman/python_study) — 3 merged · last 25d — [#6](https://github.com/dab00gieman/python_study/pull/6) [#5](https://github.com/dab00gieman/python_study/pull/5) [#4](https://github.com/dab00gieman/python_study/pull/4)
+35. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 29d — [#23](https://github.com/melodexs/campus_flow/pull/23)
 <!-- upstream:end -->
 
 > Rendered hourly by `cards/card_upstream.py` from the pull requests I authored, in the same pass as the other cards. Repositories I own are excluded and the window is four months, so it stays a picture of where I am working now rather than a list of everything I ever touched. Open work sits at the top; a node turns amber while something is waiting on a maintainer and green once it lands.
@@ -289,14 +290,14 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1237 total | ▲ 905 in 30d |
-| Last 30 days | 952 | see the activity card |
+| Contributions (365d) | 1239 total | ▲ 907 in 30d |
+| Last 30 days | 954 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1237 | ▲ 914 in 30d |
+| Contributions | 1239 | ▲ 916 in 30d |
 | Commits | 689 | ▲ 612 in 30d |
-| Pull requests | 178 | ▲ 171 in 30d |
+| Pull requests | 179 | ▲ 172 in 30d |
 | Issues | 17 | ▲ 9 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
 | Current streak | 69d | — |
@@ -304,12 +305,12 @@ Every project where I have a pull request open, or landed one in the last four m
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 197 (15.9% of all) | — |
+| Collaborative acts | 198 (16.0% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
 | TypeScript | 75.0% | 21.2 MB |
-| Python | 19.2% | 5.4 MB |
+| Python | 19.1% | 5.4 MB |
 | JavaScript | 3.6% | 1.0 MB |
 | Other (11) | 2.2% | — |
 
@@ -323,14 +324,14 @@ Every project where I have a pull request open, or landed one in the last four m
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1223 |
+| 2026 | 1225 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 395 | 2.4 MB | 3 | 2026-11-14 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 396 | 2.5 MB | 3 | 2026-11-14 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 225 | 8.8 MB | 3 | 2026-11-14 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 225 | 8.4 MB | 3 | 2026-11-14 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [elfwasm](https://github.com/mgkvibez/elfwasm) | 52 | 1.9 MB | 3 | 2026-11-13 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |

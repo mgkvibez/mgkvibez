@@ -11,18 +11,18 @@
 <text x="230.0" y="24" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">contributions.collab</text>
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="52" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">collaborative acts</text>
-<text x="18" y="74" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" text-anchor="start" font-weight="700">197</text>
-<text x="64.0" y="74" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">15.9% of all contributions (689 commits the rest)</text>
+<text x="18" y="74" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" text-anchor="start" font-weight="700">198</text>
+<text x="64.0" y="74" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">16.0% of all contributions (689 commits the rest)</text>
 <text x="18" y="100" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">pull requests</text>
-<text x="18" y="112" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">▲ 171 in 30d</text>
+<text x="18" y="112" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">▲ 172 in 30d</text>
 <rect x="122" y="88" width="250.0" height="12" rx="2" fill="#00ff41"/>
-<text x="438" y="100" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">178</text>
+<text x="438" y="100" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">179</text>
 <text x="18" y="134" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">issues</text>
 <text x="18" y="146" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">▲ 9 in 30d</text>
-<rect x="122" y="122" width="23.876404494382022" height="12" rx="2" fill="#00ff41"/>
+<rect x="122" y="122" width="23.743016759776534" height="12" rx="2" fill="#00ff41"/>
 <text x="438" y="134" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">17</text>
 <text x="18" y="168" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">reviews</text>
 <text x="18" y="180" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" text-anchor="start" font-weight="normal">▲ 2 in 30d</text>
-<rect x="122" y="156" width="2.8089887640449436" height="12" rx="2" fill="#00ff41"/>
+<rect x="122" y="156" width="2.793296089385475" height="12" rx="2" fill="#00ff41"/>
 <text x="438" y="168" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="end" font-weight="normal">2</text>
 </svg>
