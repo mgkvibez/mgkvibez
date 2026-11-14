@@ -39,6 +39,9 @@ const LANG_COLOURS = {
   TypeScript: "#3178c6", Python: "#3572a5", JavaScript: "#f1e05a",
   Shell: "#89e051", HTML: "#e34c26", SCSS: "#c6538c", Go: "#00add8",
   Rust: "#dea584", Dockerfile: "#384d54", CSS: "#563d7c", Makefile: "#427819",
+  Assembly: "#6e4c13", C: "#555555", "C++": "#f34b7d", PowerShell: "#012456",
+  Nix: "#7e7eff", Lua: "#000080", Batchfile: "#c1f12e", Java: "#b07219",
+  Ruby: "#701516", "Jupyter Notebook": "#da5b0b", "Vim Script": "#199f4b",
 };
 
 const esc = (s) =>
@@ -113,7 +116,7 @@ async function fetchLive() {
         repos: user.repositories.totalCount,
         stars: user.repositories.nodes.reduce((n, r) => n + r.stargazerCount, 0),
         followers: user.followers.totalCount,
-        languages: [...sizes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5),
+        languages: [...sizes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 9),
       };
     } catch (error) {
       last = error;
@@ -167,7 +170,7 @@ function build(data) {
     ["FOLLOWERS", `${data.followers}`, FG],
   ];
 
-  const rowGap = 27;
+  const rowGap = 25;
   const rowsSvg = rows
     .map(([label, value, colour], i) => {
       const y = blockTop + 26 + i * rowGap;
@@ -181,22 +184,30 @@ function build(data) {
   const focusY = blockTop + 26 + rows.length * rowGap + 10;
   const focus = `<g class="row" style="--d:2.8s">
       <text x="316" y="${focusY}" class="lbl">FOCUS</text>
-      <text x="430" y="${focusY}" fill="${FG}">security tooling · CI/testing infra · AI agent tooling</text>
+      <text x="430" y="${focusY}" fill="${FG}">machine learning · AI engineering · security tooling</text>
     </g>`;
 
-  const langY = focusY + 32;
+  const langStartY = focusY + 30;
+  const lineHeight = 21;
   let cursorX = 430;
+  let line = 0;
   const langSvg = data.languages
     .map(([name], i) => {
-      const x = cursorX;
       const label = name;
-      const slot = `<g class="row" style="--d:${(3.2 + i * 0.14).toFixed(2)}s">
-        <circle cx="${x + 5}" cy="${langY - 4}" r="5" fill="${LANG_COLOURS[name] || DIM}"/>
-        <text x="${x + 18}" y="${langY}" fill="${FG}">${esc(label)}</text>
+      const width = 18 + label.length * 9.6 + 22;   // dot, name, breathing room
+      if (cursorX + width > 1140 && line === 0) {   // wrap once, then stop
+        cursorX = 430;
+        line = 1;
+      }
+      const x = cursorX;
+      const y = langStartY + line * lineHeight;
+      cursorX += width;
+      return `<g class="row" style="--d:${(3.2 + i * 0.12).toFixed(2)}s">
+        <circle cx="${x + 5}" cy="${y - 4}" r="4.5" fill="${LANG_COLOURS[name] || DIM}"/>
+        <text x="${x + 17}" y="${y}" fill="${FG}">${esc(label)}</text>
       </g>`;
-      cursorX += 26 + label.length * 7.6;
-      return slot;
     })
+    .filter(Boolean)
     .join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="heroTitle heroDesc">

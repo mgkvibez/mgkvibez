@@ -80,37 +80,49 @@
         <text x="316" y="178" class="lbl">HOST</text>
         <text x="430" y="178" fill="#c9d1d9">@mgkvibez</text>
       </g><g class="row" style="--d:2.12s">
-        <text x="316" y="205" class="lbl">UPTIME</text>
-        <text x="430" y="205" fill="#c9d1d9">1y 9m  since Feb 2025</text>
+        <text x="316" y="203" class="lbl">UPTIME</text>
+        <text x="430" y="203" fill="#c9d1d9">1y 9m  since Feb 2025</text>
       </g><g class="row" style="--d:2.24s">
-        <text x="316" y="232" class="lbl">REPOS</text>
-        <text x="430" y="232" fill="#c9d1d9">47 public</text>
+        <text x="316" y="228" class="lbl">REPOS</text>
+        <text x="430" y="228" fill="#c9d1d9">47 public</text>
       </g><g class="row" style="--d:2.36s">
-        <text x="316" y="259" class="lbl">STARS</text>
-        <text x="430" y="259" fill="#00ff41">110</text>
+        <text x="316" y="253" class="lbl">STARS</text>
+        <text x="430" y="253" fill="#00ff41">110</text>
       </g><g class="row" style="--d:2.48s">
-        <text x="316" y="286" class="lbl">FOLLOWERS</text>
-        <text x="430" y="286" fill="#c9d1d9">31</text>
+        <text x="316" y="278" class="lbl">FOLLOWERS</text>
+        <text x="430" y="278" fill="#c9d1d9">31</text>
       </g>
     <g class="row" style="--d:2.8s">
-      <text x="316" y="323" class="lbl">FOCUS</text>
-      <text x="430" y="323" fill="#c9d1d9">security tooling · CI/testing infra · AI agent tooling</text>
+      <text x="316" y="313" class="lbl">FOCUS</text>
+      <text x="430" y="313" fill="#c9d1d9">machine learning · AI engineering · security tooling</text>
     </g>
     <g class="row" style="--d:3.20s">
-        <circle cx="435" cy="351" r="5" fill="#3178c6"/>
-        <text x="448" y="355" fill="#c9d1d9">TypeScript</text>
-      </g><g class="row" style="--d:3.34s">
-        <circle cx="537" cy="351" r="5" fill="#3572a5"/>
-        <text x="550" y="355" fill="#c9d1d9">Python</text>
-      </g><g class="row" style="--d:3.48s">
-        <circle cx="608.6" cy="351" r="5" fill="#f1e05a"/>
-        <text x="621.6" y="355" fill="#c9d1d9">JavaScript</text>
-      </g><g class="row" style="--d:3.62s">
-        <circle cx="710.6" cy="351" r="5" fill="#89e051"/>
-        <text x="723.6" y="355" fill="#c9d1d9">Shell</text>
-      </g><g class="row" style="--d:3.76s">
-        <circle cx="774.6" cy="351" r="5" fill="#e34c26"/>
-        <text x="787.6" y="355" fill="#c9d1d9">HTML</text>
+        <circle cx="435" cy="339" r="4.5" fill="#3178c6"/>
+        <text x="447" y="343" fill="#c9d1d9">TypeScript</text>
+      </g><g class="row" style="--d:3.32s">
+        <circle cx="571" cy="339" r="4.5" fill="#3572a5"/>
+        <text x="583" y="343" fill="#c9d1d9">Python</text>
+      </g><g class="row" style="--d:3.44s">
+        <circle cx="668.6" cy="339" r="4.5" fill="#f1e05a"/>
+        <text x="680.6" y="343" fill="#c9d1d9">JavaScript</text>
+      </g><g class="row" style="--d:3.56s">
+        <circle cx="804.6" cy="339" r="4.5" fill="#89e051"/>
+        <text x="816.6" y="343" fill="#c9d1d9">Shell</text>
+      </g><g class="row" style="--d:3.68s">
+        <circle cx="892.6" cy="339" r="4.5" fill="#e34c26"/>
+        <text x="904.6" y="343" fill="#c9d1d9">HTML</text>
+      </g><g class="row" style="--d:3.80s">
+        <circle cx="971" cy="339" r="4.5" fill="#c6538c"/>
+        <text x="983" y="343" fill="#c9d1d9">SCSS</text>
+      </g><g class="row" style="--d:3.92s">
+        <circle cx="1049.4" cy="339" r="4.5" fill="#563d7c"/>
+        <text x="1061.4" y="343" fill="#c9d1d9">CSS</text>
+      </g><g class="row" style="--d:4.04s">
+        <circle cx="435" cy="360" r="4.5" fill="#6e4c13"/>
+        <text x="447" y="364" fill="#c9d1d9">Assembly</text>
+      </g><g class="row" style="--d:4.16s">
+        <circle cx="551.8" cy="360" r="4.5" fill="#8b949e"/>
+        <text x="563.8" y="364" fill="#c9d1d9">PHP</text>
       </g>
 
     <path d="M 32 378 H 1168" stroke="#1f2730" stroke-opacity="0.8"/>
