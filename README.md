@@ -238,10 +238,10 @@ Every project where I have a pull request open, or landed one in the last four m
 
 1. [nolar/kopf](https://github.com/nolar/kopf) — 2 open · last 2d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
 2. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 1d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
-3. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 open · last 3d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
-4. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 3d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
-5. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 4d — [#5547](https://github.com/anchore/syft/pull/5547)
-6. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 4d — [#436](https://github.com/vmfunc/sif/pull/436)
+3. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 3d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
+4. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 open · last 4d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
+5. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 4d — [#436](https://github.com/vmfunc/sif/pull/436)
+6. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 5d — [#5547](https://github.com/anchore/syft/pull/5547)
 7. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 5d — [#303](https://github.com/portainer/portainer-docs/pull/303)
 8. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 14d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
 9. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 16d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
@@ -295,27 +295,27 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1228 total | ▲ 913 in 30d |
-| Last 30 days | 952 | see the activity card |
+| Contributions (365d) | 1229 total | ▲ 897 in 30d |
+| Last 30 days | 944 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1228 | ▲ 913 in 30d |
-| Commits | 682 | ▲ 606 in 30d |
-| Pull requests | 176 | ▲ 169 in 30d |
-| Issues | 17 | ▲ 16 in 30d |
+| Contributions | 1229 | ▲ 906 in 30d |
+| Commits | 682 | ▲ 605 in 30d |
+| Pull requests | 177 | ▲ 170 in 30d |
+| Issues | 17 | ▲ 9 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
-| Current streak | 68d | — |
-| Longest streak | 68d | — |
+| Current streak | 69d | — |
+| Longest streak | 69d | — |
 | Repositories | 60 | — |
 | Stars earned | 128 | ▲ 86 in 30d |
 | Followers | 31 | ▲ 10 in 30d |
-| Collaborative acts | 195 (15.9% of all) | — |
+| Collaborative acts | 196 (15.9% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| TypeScript | 75.1% | 21.2 MB |
-| Python | 19.1% | 5.4 MB |
+| TypeScript | 75.0% | 21.2 MB |
+| Python | 19.2% | 5.4 MB |
 | JavaScript | 3.6% | 1.0 MB |
 | Other (11) | 2.2% | — |
 
@@ -329,14 +329,14 @@ Every project where I have a pull request open, or landed one in the last four m
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1214 |
+| 2026 | 1215 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 386 | 2.2 MB | 3 | 2026-11-13 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 387 | 2.3 MB | 3 | 2026-11-13 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | occupied | private |
-| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 224 | 8.7 MB | 3 | 2026-11-13 | occupied | public |
+| [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 224 | 8.8 MB | 3 | 2026-11-13 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | occupied | private |
 | [elfwasm](https://github.com/mgkvibez/elfwasm) | 52 | 1.9 MB | 3 | 2026-11-13 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |
@@ -344,7 +344,7 @@ Every project where I have a pull request open, or landed one in the last four m
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
 | [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 3 | 2026-11-01 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 15 | 62 kB | 5 | 2026-11-13 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 15 | 73 kB | 5 | 2026-11-13 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 2 | 2026-10-31 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 2 | 2026-10-31 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
@@ -396,7 +396,7 @@ Every project where I have a pull request open, or landed one in the last four m
 
 _Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me._
 
-_Generated by `cards/` on 2026-11-13, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
+_Generated by `cards/` on 2026-11-14, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
 <!-- cards:table:end -->
 
 </details>
