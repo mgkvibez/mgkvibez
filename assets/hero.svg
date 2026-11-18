@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Terminal boot sequence for mgkvibez</title>
-  <desc id="heroDesc">A CRT terminal types an ssh session, then prints 47 public repositories, 121 stars, 33 followers and the top languages.</desc>
+  <desc id="heroDesc">A CRT terminal types an ssh session, then prints 47 public repositories, 124 stars, 33 followers and the top languages.</desc>
   <defs>
     <linearGradient id="shieldFill" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00ff41" stop-opacity="0.22"/>
@@ -87,7 +87,7 @@
         <text x="430" y="228" fill="#c9d1d9">47 public</text>
       </g><g class="row" style="--d:2.36s">
         <text x="316" y="253" class="lbl">STARS</text>
-        <text x="430" y="253" fill="#00ff41">121</text>
+        <text x="430" y="253" fill="#00ff41">124</text>
       </g><g class="row" style="--d:2.48s">
         <text x="316" y="278" class="lbl">FOLLOWERS</text>
         <text x="430" y="278" fill="#c9d1d9">33</text>
