@@ -12,22 +12,22 @@
 <circle cx="26" cy="20" r="5" fill="#ff5f57"/><circle cx="44" cy="20" r="5" fill="#febc2e"/><circle cx="62" cy="20" r="5" fill="#28c840"/>
 <text x="18" y="56" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">share of tracked bytes, then → now</text>
 <text x="18" y="98" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">Other (11)</text>
-<line x1="122.0" y1="94" x2="129.075388626614" y2="94" stroke="#1f2730" stroke-width="2"/>
+<line x1="122.0" y1="94" x2="129.07258120750922" y2="94" stroke="#1f2730" stroke-width="2"/>
 <circle cx="122.0" cy="94" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
 <circle cx="129.1" cy="94" r="4" fill="#00ff41"/>
 <text x="438" y="98" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▲ 2.2 pt</text>
 <text x="18" y="124" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">Python</text>
-<line x1="179.18044914134742" y1="120" x2="182.8672432741311" y2="120" stroke="#1f2730" stroke-width="2"/>
+<line x1="179.18044914134742" y1="120" x2="182.84309197013343" y2="120" stroke="#1f2730" stroke-width="2"/>
 <circle cx="179.2" cy="120" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
-<circle cx="182.9" cy="120" r="4" fill="#00ff41"/>
+<circle cx="182.8" cy="120" r="4" fill="#00ff41"/>
 <text x="438" y="124" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▲ 1.1 pt</text>
 <text x="18" y="150" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">JavaScript</text>
-<line x1="135.56988110964332" y1="146" x2="133.50738687520516" y2="146" stroke="#1f2730" stroke-width="2"/>
+<line x1="135.56988110964332" y1="146" x2="133.50282089876703" y2="146" stroke="#1f2730" stroke-width="2"/>
 <circle cx="135.6" cy="146" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
 <circle cx="133.5" cy="146" r="4" fill="#00ff41"/>
 <text x="438" y="150" fill="#f85149" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▼ 0.6 pt</text>
 <text x="18" y="176" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" text-anchor="start" font-weight="normal">TypeScript</text>
-<line x1="366.0" y1="172" x2="364.8749481989507" y2="172" stroke="#1f2730" stroke-width="2"/>
+<line x1="366.0" y1="172" x2="364.9064728984912" y2="172" stroke="#1f2730" stroke-width="2"/>
 <circle cx="366.0" cy="172" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/>
 <circle cx="364.9" cy="172" r="4" fill="#00ff41"/>
 <text x="438" y="176" fill="#f85149" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">▼ 0.3 pt</text>
