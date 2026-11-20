@@ -235,22 +235,22 @@ Every project where I have a pull request open, or landed one in the last four m
 3. [yoheimuta/protolint](https://github.com/yoheimuta/protolint) — 1 open · last 3d — [#595](https://github.com/yoheimuta/protolint/pull/595)
 4. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 7d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
 5. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 9d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
-6. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 10d — [#5547](https://github.com/anchore/syft/pull/5547)
-7. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 10d — [#436](https://github.com/vmfunc/sif/pull/436)
+6. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 10d — [#436](https://github.com/vmfunc/sif/pull/436)
+7. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 11d — [#5547](https://github.com/anchore/syft/pull/5547)
 8. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 11d — [#303](https://github.com/portainer/portainer-docs/pull/303)
 9. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 20d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
 10. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 22d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
 11. [prisma/web](https://github.com/prisma/web) — 1 open · last 22d — [#8635](https://github.com/prisma/web/pull/8635)
 12. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — 1 open · last 22d — [#14230](https://github.com/ohmyzsh/ohmyzsh/pull/14230)
 13. [JosssphZhou/poki](https://github.com/JosssphZhou/poki) — 1 merged · last 4d — [#380](https://github.com/JosssphZhou/poki/pull/380)
-14. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 4d — [#273](https://github.com/gy15901580825/Argus/pull/273)
-15. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 4d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
-16. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 5d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
+14. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 4d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
+15. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 5d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
+16. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 5d — [#273](https://github.com/gy15901580825/Argus/pull/273)
 17. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 7d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
 18. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 10d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
 19. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 10d — [#111](https://github.com/y49/tlive/pull/111)
 20. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 10d — [#192](https://github.com/Budibase/docs/pull/192)
-21. [openbao/openbao](https://github.com/openbao/openbao) — last 11d — [#4422](https://github.com/openbao/openbao/pull/4422)
+21. [openbao/openbao](https://github.com/openbao/openbao) — last 12d — [#4422](https://github.com/openbao/openbao/pull/4422)
 22. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 12d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
 23. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 13d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
 24. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 13d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
@@ -259,8 +259,8 @@ Every project where I have a pull request open, or landed one in the last four m
 27. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 15d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
 28. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 16d — [#962](https://github.com/wainmann/agent-manager/pull/962)
 29. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 17d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
-30. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 19d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
-31. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 20d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
+30. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 20d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
+31. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 20d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
 32. [dab00gieman/campusflow-hades-ii](https://github.com/dab00gieman/campusflow-hades-ii) — 12 merged · last 23d — [#31](https://github.com/dab00gieman/campusflow-hades-ii/pull/31) [#30](https://github.com/dab00gieman/campusflow-hades-ii/pull/30) [#29](https://github.com/dab00gieman/campusflow-hades-ii/pull/29) [#28](https://github.com/dab00gieman/campusflow-hades-ii/pull/28)
 33. [dab00gieman/campusflow-zeus-ii](https://github.com/dab00gieman/campusflow-zeus-ii) — 14 merged · last 23d — [#22](https://github.com/dab00gieman/campusflow-zeus-ii/pull/22) [#21](https://github.com/dab00gieman/campusflow-zeus-ii/pull/21) [#20](https://github.com/dab00gieman/campusflow-zeus-ii/pull/20) [#19](https://github.com/dab00gieman/campusflow-zeus-ii/pull/19)
 34. [dab00gieman/dab00gieman](https://github.com/dab00gieman/dab00gieman) — 1 merged · last 31d — [#1](https://github.com/dab00gieman/dab00gieman/pull/1)
@@ -293,17 +293,17 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1304 total | ▲ 779 in 30d |
-| Last 30 days | 916 | see the activity card |
+| Contributions (365d) | 1304 total | ▲ 778 in 30d |
+| Last 30 days | 915 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1304 | ▲ 908 in 30d |
-| Commits | 731 | ▲ 623 in 30d |
-| Pull requests | 198 | ▲ 167 in 30d |
+| Contributions | 1304 | ▲ 891 in 30d |
+| Commits | 731 | ▲ 617 in 30d |
+| Pull requests | 198 | ▲ 163 in 30d |
 | Issues | 18 | ▲ 10 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
-| Current streak | 74d | — |
+| Current streak | 0d | — |
 | Longest streak | 74d | — |
 | Repositories | 60 | — |
 | Stars earned | 143 | ▲ 96 in 30d |
@@ -332,7 +332,7 @@ Every project where I have a pull request open, or landed one in the last four m
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 424 | 3.2 MB | 3 | 2026-11-19 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 425 | 3.2 MB | 3 | 2026-11-19 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | quiet | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 242 | 9.1 MB | 3 | 2026-11-19 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | quiet | private |
@@ -394,7 +394,7 @@ Every project where I have a pull request open, or landed one in the last four m
 
 _Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me._
 
-_Generated by `cards/` on 2026-11-19, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
+_Generated by `cards/` on 2026-11-20, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
 <!-- cards:table:end -->
 
 </details>
