@@ -127,7 +127,7 @@
 
     <path d="M 32 378 H 1168" stroke="#1f2730" stroke-opacity="0.8"/>
     <text x="40" y="400" class="lbl" style="font-size:11.5px">read-only session · rendered from the live GitHub API · no credentials stored</text>
-    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-21</text>
+    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-22</text>
 
     <rect x="9" y="48" width="1182" height="364" fill="url(#scanlines)" pointer-events="none"/>
     <g clip-path="url(#sweepClip)">
