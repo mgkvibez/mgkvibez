@@ -76,8 +76,8 @@
 <rect x="782" y="96" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="798" y="96" width="13" height="13" rx="2" fill="#123d1f"/>
 <rect x="814" y="96" width="13" height="13" rx="2" fill="#00ff41"/>
-<rect x="830" y="96" width="13" height="13" rx="2" fill="#39d353"/>
-<rect x="846" y="96" width="13" height="13" rx="2" fill="#39d353"/>
+<rect x="830" y="96" width="13" height="13" rx="2" fill="#00ff41"/>
+<rect x="846" y="96" width="13" height="13" rx="2" fill="#00ff41"/>
 <rect x="862" y="96" width="13" height="13" rx="2" fill="#00ff41"/>
 <rect x="878" y="96" width="13" height="13" rx="2" fill="#39d353"/>
 <rect x="894" y="96" width="13" height="13" rx="2" fill="#39d353"/>
@@ -136,7 +136,7 @@
 <rect x="846" y="112" width="13" height="13" rx="2" fill="#00ff41"/>
 <rect x="862" y="112" width="13" height="13" rx="2" fill="#00ff41"/>
 <rect x="878" y="112" width="13" height="13" rx="2" fill="#39d353"/>
-<rect x="894" y="112" width="13" height="13" rx="2" fill="#161b22"/>
+<rect x="894" y="112" width="13" height="13" rx="2" fill="#39d353"/>
 <text x="26" y="139" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">Wed</text>
 <rect x="30" y="128" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="46" y="128" width="13" height="13" rx="2" fill="#161b22"/>
@@ -364,7 +364,7 @@
 <text x="26" y="203" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="end" font-weight="normal">Sun</text>
 <rect x="30" y="192" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="46" y="192" width="13" height="13" rx="2" fill="#161b22"/>
-<rect x="62" y="192" width="13" height="13" rx="2" fill="#39d353"/>
+<rect x="62" y="192" width="13" height="13" rx="2" fill="#1f7a33"/>
 <rect x="78" y="192" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="94" y="192" width="13" height="13" rx="2" fill="#161b22"/>
 <rect x="110" y="192" width="13" height="13" rx="2" fill="#161b22"/>
@@ -418,7 +418,7 @@
 <rect x="878" y="192" width="13" height="13" rx="2" fill="#1f7a33"/>
 <rect x="894" y="192" width="13" height="13" rx="2" fill="#161b22"/>
 <line x1="30" y1="238" x2="890" y2="238" stroke="#1f2730" stroke-width="1"/>
-<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">1320 contributions — 97 active days, 270 quiet. Bands are this year's own quartiles.</text>
+<text x="30" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="start" font-weight="normal">1323 contributions — 98 active days, 269 quiet. Bands are this year's own quartiles.</text>
 <rect x="682.4000000000001" y="250" width="13" height="13" rx="2" fill="#161b22"/>
 <text x="699.4000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">0</text>
 <rect x="710.8000000000001" y="250" width="13" height="13" rx="2" fill="#123d1f"/>
@@ -426,7 +426,7 @@
 <rect x="750.0000000000001" y="250" width="13" height="13" rx="2" fill="#1f7a33"/>
 <text x="767.0000000000001" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">2-2</text>
 <rect x="789.2000000000002" y="250" width="13" height="13" rx="2" fill="#39d353"/>
-<text x="806.2000000000002" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">3-19</text>
+<text x="806.2000000000002" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">3-18</text>
 <rect x="833.8000000000002" y="250" width="13" height="13" rx="2" fill="#00ff41"/>
-<text x="850.8000000000002" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">20+</text>
+<text x="850.8000000000002" y="260" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="start" font-weight="normal">19+</text>
 </svg>
