@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Terminal boot sequence for mgkvibez</title>
-  <desc id="heroDesc">A CRT terminal types an ssh session, then prints 47 public repositories, 125 stars, 33 followers and the top languages.</desc>
+  <desc id="heroDesc">A CRT terminal types an ssh session, then prints 47 public repositories, 122 stars, 31 followers and the top languages.</desc>
   <defs>
     <linearGradient id="shieldFill" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#00ff41" stop-opacity="0.22"/>
@@ -87,10 +87,10 @@
         <text x="430" y="228" fill="#c9d1d9">47 public</text>
       </g><g class="row" style="--d:2.36s">
         <text x="316" y="253" class="lbl">STARS</text>
-        <text x="430" y="253" fill="#00ff41">125</text>
+        <text x="430" y="253" fill="#00ff41">122</text>
       </g><g class="row" style="--d:2.48s">
         <text x="316" y="278" class="lbl">FOLLOWERS</text>
-        <text x="430" y="278" fill="#c9d1d9">33</text>
+        <text x="430" y="278" fill="#c9d1d9">31</text>
       </g>
     <g class="row" style="--d:2.8s">
       <text x="316" y="313" class="lbl">FOCUS</text>
@@ -127,7 +127,7 @@
 
     <path d="M 32 378 H 1168" stroke="#1f2730" stroke-opacity="0.8"/>
     <text x="40" y="400" class="lbl" style="font-size:11.5px">read-only session · rendered from the live GitHub API · no credentials stored</text>
-    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-23</text>
+    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-24</text>
 
     <rect x="9" y="48" width="1182" height="364" fill="url(#scanlines)" pointer-events="none"/>
     <g clip-path="url(#sweepClip)">

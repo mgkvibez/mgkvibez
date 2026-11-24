@@ -231,43 +231,43 @@ Every project where I have a pull request open, or landed one in the last four m
 38 projects · 12 open · 50 merged in the last 120 days
 
 1. [nolar/kopf](https://github.com/nolar/kopf) — 1 open · last 1d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
-2. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 3d — [#52443](https://github.com/supabase/supabase/pull/52443)
-3. [yoheimuta/protolint](https://github.com/yoheimuta/protolint) — 1 open · last 6d — [#595](https://github.com/yoheimuta/protolint/pull/595)
+2. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 4d — [#52443](https://github.com/supabase/supabase/pull/52443)
+3. [yoheimuta/protolint](https://github.com/yoheimuta/protolint) — 1 open · last 7d — [#595](https://github.com/yoheimuta/protolint/pull/595)
 4. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 11d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
-5. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 12d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
-6. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 13d — [#436](https://github.com/vmfunc/sif/pull/436)
-7. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 14d — [#5547](https://github.com/anchore/syft/pull/5547)
+5. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 13d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
+6. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 14d — [#5547](https://github.com/anchore/syft/pull/5547)
+7. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 14d — [#436](https://github.com/vmfunc/sif/pull/436)
 8. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 15d — [#303](https://github.com/portainer/portainer-docs/pull/303)
 9. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 24d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
-10. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 25d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
-11. [prisma/web](https://github.com/prisma/web) — 1 open · last 25d — [#8635](https://github.com/prisma/web/pull/8635)
+10. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 26d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
+11. [prisma/web](https://github.com/prisma/web) — 1 open · last 26d — [#8635](https://github.com/prisma/web/pull/8635)
 12. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — 1 open · last 26d — [#14230](https://github.com/ohmyzsh/ohmyzsh/pull/14230)
-13. [JosssphZhou/poki](https://github.com/JosssphZhou/poki) — 1 merged · last 7d — [#380](https://github.com/JosssphZhou/poki/pull/380)
-14. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 8d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
-15. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 8d — [#273](https://github.com/gy15901580825/Argus/pull/273)
-16. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 8d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
-17. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 10d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
-18. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 13d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
+13. [JosssphZhou/poki](https://github.com/JosssphZhou/poki) — 1 merged · last 8d — [#380](https://github.com/JosssphZhou/poki/pull/380)
+14. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 8d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
+15. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 9d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
+16. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 9d — [#273](https://github.com/gy15901580825/Argus/pull/273)
+17. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 11d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
+18. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 14d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
 19. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 14d — [#111](https://github.com/y49/tlive/pull/111)
 20. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 14d — [#192](https://github.com/Budibase/docs/pull/192)
-21. [openbao/openbao](https://github.com/openbao/openbao) — last 15d — [#4422](https://github.com/openbao/openbao/pull/4422)
-22. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 15d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
-23. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 16d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
-24. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 17d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
-25. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 18d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
-26. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 18d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
-27. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 18d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
-28. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 19d — [#962](https://github.com/wainmann/agent-manager/pull/962)
-29. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 20d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
-30. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 23d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
-31. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 23d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
-32. [dab00gieman/campusflow-hades-ii](https://github.com/dab00gieman/campusflow-hades-ii) — 12 merged · last 26d — [#31](https://github.com/dab00gieman/campusflow-hades-ii/pull/31) [#30](https://github.com/dab00gieman/campusflow-hades-ii/pull/30) [#29](https://github.com/dab00gieman/campusflow-hades-ii/pull/29) [#28](https://github.com/dab00gieman/campusflow-hades-ii/pull/28)
-33. [dab00gieman/campusflow-zeus-ii](https://github.com/dab00gieman/campusflow-zeus-ii) — 14 merged · last 26d — [#22](https://github.com/dab00gieman/campusflow-zeus-ii/pull/22) [#21](https://github.com/dab00gieman/campusflow-zeus-ii/pull/21) [#20](https://github.com/dab00gieman/campusflow-zeus-ii/pull/20) [#19](https://github.com/dab00gieman/campusflow-zeus-ii/pull/19)
-34. [dab00gieman/dab00gieman](https://github.com/dab00gieman/dab00gieman) — 1 merged · last 34d — [#1](https://github.com/dab00gieman/dab00gieman/pull/1)
-35. [dab00gieman/Bolt.diy](https://github.com/dab00gieman/Bolt.diy) — 1 merged · last 34d — [#1](https://github.com/dab00gieman/Bolt.diy/pull/1)
-36. [dab00gieman/Group-Blue](https://github.com/dab00gieman/Group-Blue) — 1 merged · last 34d — [#1](https://github.com/dab00gieman/Group-Blue/pull/1)
-37. [dab00gieman/python_study](https://github.com/dab00gieman/python_study) — 3 merged · last 34d — [#6](https://github.com/dab00gieman/python_study/pull/6) [#5](https://github.com/dab00gieman/python_study/pull/5) [#4](https://github.com/dab00gieman/python_study/pull/4)
-38. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 38d — [#23](https://github.com/melodexs/campus_flow/pull/23)
+21. [openbao/openbao](https://github.com/openbao/openbao) — last 16d — [#4422](https://github.com/openbao/openbao/pull/4422)
+22. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 16d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
+23. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 17d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
+24. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 17d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
+25. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 18d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
+26. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 19d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
+27. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 19d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
+28. [wainmann/agent-manager](https://github.com/wainmann/agent-manager) — 1 merged · last 20d — [#962](https://github.com/wainmann/agent-manager/pull/962)
+29. [Nezreka/SoulSync](https://github.com/Nezreka/SoulSync) — 1 merged · last 21d — [#1969](https://github.com/Nezreka/SoulSync/pull/1969) [#1968](https://github.com/Nezreka/SoulSync/pull/1968) [#1956](https://github.com/Nezreka/SoulSync/pull/1956)
+30. [fastapi/fastapi](https://github.com/fastapi/fastapi) — last 24d — [#16634](https://github.com/fastapi/fastapi/pull/16634) [#16628](https://github.com/fastapi/fastapi/pull/16628)
+31. [jnv/lists](https://github.com/jnv/lists) — 2 merged · last 24d — [#342](https://github.com/jnv/lists/pull/342) [#341](https://github.com/jnv/lists/pull/341)
+32. [dab00gieman/campusflow-hades-ii](https://github.com/dab00gieman/campusflow-hades-ii) — 12 merged · last 27d — [#31](https://github.com/dab00gieman/campusflow-hades-ii/pull/31) [#30](https://github.com/dab00gieman/campusflow-hades-ii/pull/30) [#29](https://github.com/dab00gieman/campusflow-hades-ii/pull/29) [#28](https://github.com/dab00gieman/campusflow-hades-ii/pull/28)
+33. [dab00gieman/campusflow-zeus-ii](https://github.com/dab00gieman/campusflow-zeus-ii) — 14 merged · last 27d — [#22](https://github.com/dab00gieman/campusflow-zeus-ii/pull/22) [#21](https://github.com/dab00gieman/campusflow-zeus-ii/pull/21) [#20](https://github.com/dab00gieman/campusflow-zeus-ii/pull/20) [#19](https://github.com/dab00gieman/campusflow-zeus-ii/pull/19)
+34. [dab00gieman/dab00gieman](https://github.com/dab00gieman/dab00gieman) — 1 merged · last 35d — [#1](https://github.com/dab00gieman/dab00gieman/pull/1)
+35. [dab00gieman/Bolt.diy](https://github.com/dab00gieman/Bolt.diy) — 1 merged · last 35d — [#1](https://github.com/dab00gieman/Bolt.diy/pull/1)
+36. [dab00gieman/Group-Blue](https://github.com/dab00gieman/Group-Blue) — 1 merged · last 35d — [#1](https://github.com/dab00gieman/Group-Blue/pull/1)
+37. [dab00gieman/python_study](https://github.com/dab00gieman/python_study) — 3 merged · last 35d — [#6](https://github.com/dab00gieman/python_study/pull/6) [#5](https://github.com/dab00gieman/python_study/pull/5) [#4](https://github.com/dab00gieman/python_study/pull/4)
+38. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 39d — [#23](https://github.com/melodexs/campus_flow/pull/23)
 <!-- upstream:end -->
 
 > Rendered hourly by `cards/card_upstream.py` from the pull requests I authored, in the same pass as the other cards. Repositories I own are excluded and the window is four months, so it stays a picture of where I am working now rather than a list of everything I ever touched. Open work sits at the top; a node turns amber while something is waiting on a maintainer and green once it lands.
@@ -293,21 +293,21 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1315 total | ▲ 742 in 30d |
-| Last 30 days | 901 | see the activity card |
+| Contributions (365d) | 1320 total | ▲ 746 in 30d |
+| Last 30 days | 905 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1315 | ▲ 900 in 30d |
+| Contributions | 1320 | ▲ 905 in 30d |
 | Commits | 740 | ▲ 624 in 30d |
 | Pull requests | 200 | ▲ 165 in 30d |
 | Issues | 18 | ▲ 10 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
-| Current streak | 78d | — |
+| Current streak | 0d | — |
 | Longest streak | 78d | — |
 | Repositories | 60 | — |
-| Stars earned | 143 | ▲ 96 in 30d |
-| Followers | 33 | ▲ 10 in 30d |
+| Stars earned | 140 | ▲ 93 in 30d |
+| Followers | 31 | ▲ 8 in 30d |
 | Collaborative acts | 220 (16.7% of all) | — |
 
 | Language | Share | Tracked size |
@@ -327,22 +327,22 @@ Every project where I have a pull request open, or landed one in the last four m
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1301 |
+| 2026 | 1306 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | occupied | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 444 | 2.8 MB | 3 | 2026-11-23 | occupied | public |
-| ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-10-16 | quiet | private |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 445 | 2.9 MB | 3 | 2026-11-23 | occupied | public |
+| ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-11-23 | occupied | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 243 | 8.4 MB | 3 | 2026-11-20 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | quiet | private |
 | [elfwasm](https://github.com/mgkvibez/elfwasm) | 61 | 651 kB | 3 | 2026-11-15 | occupied | public |
 | [openclaw-profile-cards](https://github.com/mgkvibez/openclaw-profile-cards) | 31 | 433 kB | 2 | 2026-11-11 | occupied | public |
-| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 17 | 2026-11-02 | occupied | public |
+| [ci-whisper](https://github.com/mgkvibez/ci-whisper) | 21 | 226 kB | 16 | 2026-11-02 | occupied | public |
 | [Lisa-1](https://github.com/mgkvibez/Lisa-1) | 19 | 16.5 MB | 2 | 2026-10-31 | occupied | public |
 | [Godmode_Ai](https://github.com/mgkvibez/Godmode_Ai) | 18 | 96 kB | 2 | 2026-10-31 | occupied | public |
-| [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 3 | 2026-11-01 | occupied | public |
-| [depdrift](https://github.com/mgkvibez/depdrift) | 15 | 73 kB | 5 | 2026-11-13 | occupied | public |
+| [migsafe](https://github.com/mgkvibez/migsafe) | 16 | 124 kB | 2 | 2026-11-01 | occupied | public |
+| [depdrift](https://github.com/mgkvibez/depdrift) | 15 | 73 kB | 4 | 2026-11-13 | occupied | public |
 | [mgk-recon](https://github.com/mgkvibez/mgk-recon) | 15 | 34 kB | 2 | 2026-10-31 | occupied | public |
 | [perimeter-watch](https://github.com/mgkvibez/perimeter-watch) | 15 | 45 kB | 2 | 2026-10-31 | occupied | public |
 | [reportforge](https://github.com/mgkvibez/reportforge) | 13 | 33 kB | 2 | 2026-10-31 | occupied | public |
@@ -394,7 +394,7 @@ Every project where I have a pull request open, or landed one in the last four m
 
 _Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me._
 
-_Generated by `cards/` on 2026-11-23, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
+_Generated by `cards/` on 2026-11-24, from the live GitHub GraphQL API. Table maintained between the cards:table markers._
 <!-- cards:table:end -->
 
 </details>
