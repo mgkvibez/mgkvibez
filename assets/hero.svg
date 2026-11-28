@@ -81,7 +81,7 @@
         <text x="430" y="178" fill="#c9d1d9">@mgkvibez</text>
       </g><g class="row" style="--d:2.12s">
         <text x="316" y="203" class="lbl">UPTIME</text>
-        <text x="430" y="203" fill="#c9d1d9">1y 9m  since Feb 2025</text>
+        <text x="430" y="203" fill="#c9d1d9">1y 10m  since Feb 2025</text>
       </g><g class="row" style="--d:2.24s">
         <text x="316" y="228" class="lbl">REPOS</text>
         <text x="430" y="228" fill="#c9d1d9">47 public</text>
@@ -127,7 +127,7 @@
 
     <path d="M 32 378 H 1168" stroke="#1f2730" stroke-opacity="0.8"/>
     <text x="40" y="400" class="lbl" style="font-size:11.5px">read-only session · rendered from the live GitHub API · no credentials stored</text>
-    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-27</text>
+    <text x="1160" y="400" class="lbl" style="font-size:11.5px" text-anchor="end">2026-11-28</text>
 
     <rect x="9" y="48" width="1182" height="364" fill="url(#scanlines)" pointer-events="none"/>
     <g clip-path="url(#sweepClip)">
