@@ -230,33 +230,33 @@ Every project where I have a pull request open, or landed one in the last four m
 <!-- upstream:start -->
 41 projects · 11 open · 55 merged in the last 120 days
 
-1. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 0d — [#52443](https://github.com/supabase/supabase/pull/52443)
-2. [LvcidPsyche/auto-browser](https://github.com/LvcidPsyche/auto-browser) — 1 open · last 1d — [#290](https://github.com/LvcidPsyche/auto-browser/pull/290)
-3. [nolar/kopf](https://github.com/nolar/kopf) — 1 open · last 5d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
-4. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 15d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
+1. [LvcidPsyche/auto-browser](https://github.com/LvcidPsyche/auto-browser) — 1 open · last 1d — [#290](https://github.com/LvcidPsyche/auto-browser/pull/290)
+2. [supabase/supabase](https://github.com/supabase/supabase) — 1 open · last 1d — [#52443](https://github.com/supabase/supabase/pull/52443)
+3. [nolar/kopf](https://github.com/nolar/kopf) — 1 open · last 6d — [#1347](https://github.com/nolar/kopf/pull/1347) [#1344](https://github.com/nolar/kopf/pull/1344)
+4. [dnaeon/go-vcr](https://github.com/dnaeon/go-vcr) — 1 open · last 16d — [#156](https://github.com/dnaeon/go-vcr/pull/156)
 5. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 1 open · last 17d — [#1541](https://github.com/bilawalsidhu/gods-eye-view/pull/1541)
 6. [vmfunc/sif](https://github.com/vmfunc/sif) — 1 open · last 18d — [#436](https://github.com/vmfunc/sif/pull/436)
 7. [anchore/syft](https://github.com/anchore/syft) — 1 open · last 19d — [#5547](https://github.com/anchore/syft/pull/5547)
-8. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 19d — [#303](https://github.com/portainer/portainer-docs/pull/303)
-9. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 28d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
+8. [portainer/portainer-docs](https://github.com/portainer/portainer-docs) — 1 open · last 20d — [#303](https://github.com/portainer/portainer-docs/pull/303)
+9. [awesomeSBOM/awesome-sbom](https://github.com/awesomeSBOM/awesome-sbom) — 1 open · last 29d — [#88](https://github.com/awesomeSBOM/awesome-sbom/pull/88)
 10. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — 1 open · last 30d — [#15663](https://github.com/TheAlgorithms/Python/pull/15663)
 11. [prisma/web](https://github.com/prisma/web) — 1 open · last 30d — [#8635](https://github.com/prisma/web/pull/8635)
 12. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — last 0d — [#14230](https://github.com/ohmyzsh/ohmyzsh/pull/14230)
 13. [cunla/fakeredis-py](https://github.com/cunla/fakeredis-py) — last 1d — [#657](https://github.com/cunla/fakeredis-py/pull/657)
 14. [Isokex/ron-sports-intelligence-lab](https://github.com/Isokex/ron-sports-intelligence-lab) — 4 merged · last 2d — [#4](https://github.com/Isokex/ron-sports-intelligence-lab/pull/4) [#3](https://github.com/Isokex/ron-sports-intelligence-lab/pull/3) [#2](https://github.com/Isokex/ron-sports-intelligence-lab/pull/2) [#1](https://github.com/Isokex/ron-sports-intelligence-lab/pull/1)
-15. [yoheimuta/protolint](https://github.com/yoheimuta/protolint) — 1 merged · last 2d — [#595](https://github.com/yoheimuta/protolint/pull/595)
-16. [JosssphZhou/poki](https://github.com/JosssphZhou/poki) — 1 merged · last 12d — [#380](https://github.com/JosssphZhou/poki/pull/380)
-17. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 12d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
-18. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 13d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
-19. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 13d — [#273](https://github.com/gy15901580825/Argus/pull/273)
+15. [yoheimuta/protolint](https://github.com/yoheimuta/protolint) — 1 merged · last 3d — [#595](https://github.com/yoheimuta/protolint/pull/595)
+16. [JosssphZhou/poki](https://github.com/JosssphZhou/poki) — 1 merged · last 13d — [#380](https://github.com/JosssphZhou/poki/pull/380)
+17. [gabrielcnr/pytest-datadir](https://github.com/gabrielcnr/pytest-datadir) — 1 merged · last 13d — [#130](https://github.com/gabrielcnr/pytest-datadir/pull/130)
+18. [gy15901580825/Argus](https://github.com/gy15901580825/Argus) — 1 merged · last 13d — [#273](https://github.com/gy15901580825/Argus/pull/273)
+19. [GamehunterKaan/AutoPWN-Suite](https://github.com/GamehunterKaan/AutoPWN-Suite) — 1 merged · last 13d — [#100](https://github.com/GamehunterKaan/AutoPWN-Suite/pull/100)
 20. [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) — 1 merged · last 15d — [#75](https://github.com/Zyrexnn/Cybermes/pull/75) [#73](https://github.com/Zyrexnn/Cybermes/pull/73)
 21. [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) — 1 merged · last 18d — [#160](https://github.com/wotschofsky/domain-digger/pull/160)
-22. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 18d — [#111](https://github.com/y49/tlive/pull/111)
-23. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 18d — [#192](https://github.com/Budibase/docs/pull/192)
+22. [y49/tlive](https://github.com/y49/tlive) — 1 merged · last 19d — [#111](https://github.com/y49/tlive/pull/111)
+23. [Budibase/docs](https://github.com/Budibase/docs) — 1 merged · last 19d — [#192](https://github.com/Budibase/docs/pull/192)
 24. [openbao/openbao](https://github.com/openbao/openbao) — last 20d — [#4422](https://github.com/openbao/openbao/pull/4422)
 25. [public-apis/public-apis](https://github.com/public-apis/public-apis) — 1 merged · last 20d — [#8527](https://github.com/public-apis/public-apis/pull/8527)
-26. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 21d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
-27. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 21d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
+26. [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) — last 22d — [#3650](https://github.com/kubernetes-sigs/controller-runtime/pull/3650)
+27. [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) — last 22d — [#256](https://github.com/pchalasani/claude-code-tools/pull/256)
 28. [BlessedRebuS/Krawl](https://github.com/BlessedRebuS/Krawl) — 2 merged · last 23d — [#362](https://github.com/BlessedRebuS/Krawl/pull/362) [#360](https://github.com/BlessedRebuS/Krawl/pull/360) [#359](https://github.com/BlessedRebuS/Krawl/pull/359)
 29. [rabbitstack/fibratus](https://github.com/rabbitstack/fibratus) — 2 merged · last 23d — [#751](https://github.com/rabbitstack/fibratus/pull/751) [#750](https://github.com/rabbitstack/fibratus/pull/750)
 30. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) — last 23d — [#1049](https://github.com/samwafgo/SamWaf/pull/1049)
@@ -270,7 +270,7 @@ Every project where I have a pull request open, or landed one in the last four m
 38. [dab00gieman/Bolt.diy](https://github.com/dab00gieman/Bolt.diy) — 1 merged · last 39d — [#1](https://github.com/dab00gieman/Bolt.diy/pull/1)
 39. [dab00gieman/Group-Blue](https://github.com/dab00gieman/Group-Blue) — 1 merged · last 39d — [#1](https://github.com/dab00gieman/Group-Blue/pull/1)
 40. [dab00gieman/python_study](https://github.com/dab00gieman/python_study) — 3 merged · last 39d — [#6](https://github.com/dab00gieman/python_study/pull/6) [#5](https://github.com/dab00gieman/python_study/pull/5) [#4](https://github.com/dab00gieman/python_study/pull/4)
-41. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 43d — [#23](https://github.com/melodexs/campus_flow/pull/23)
+41. [melodexs/campus_flow](https://github.com/melodexs/campus_flow) — 1 merged · last 44d — [#23](https://github.com/melodexs/campus_flow/pull/23)
 <!-- upstream:end -->
 
 > Rendered hourly by `cards/card_upstream.py` from the pull requests I authored, in the same pass as the other cards. Repositories I own are excluded and the window is four months, so it stays a picture of where I am working now rather than a list of everything I ever touched. Open work sits at the top; a node turns amber while something is waiting on a maintainer and green once it lands.
@@ -296,22 +296,22 @@ Every project where I have a pull request open, or landed one in the last four m
 
 | Right now | Reading | Move |
 |---|---|---|
-| Contributions (365d) | 1390 total | ▲ 457 in 30d |
-| Last 30 days | 795 | see the activity card |
+| Contributions (365d) | 1392 total | ▲ 459 in 30d |
+| Last 30 days | 797 | see the activity card |
 
 | Metric | Last 365 days | Move |
 |---|---:|---|
-| Contributions | 1390 | ▲ 675 in 30d |
-| Commits | 778 | ▲ 461 in 30d |
+| Contributions | 1392 | ▲ 677 in 30d |
+| Commits | 780 | ▲ 463 in 30d |
 | Pull requests | 206 | ▲ 139 in 30d |
 | Issues | 18 | ▲ 2 in 30d |
 | Reviews | 2 | ▲ 2 in 30d |
-| Current streak | 0d | — |
-| Longest streak | 82d | — |
+| Current streak | 83d | — |
+| Longest streak | 83d | — |
 | Repositories | 61 | — |
 | Stars earned | 140 | ▲ 59 in 30d |
 | Followers | 31 | ▲ 8 in 30d |
-| Collaborative acts | 226 (16.3% of all) | — |
+| Collaborative acts | 226 (16.2% of all) | — |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -330,12 +330,12 @@ Every project where I have a pull request open, or landed one in the last four m
 | Year | Contributions |
 |---|---:|
 | 2025 | 17 |
-| 2026 | 1379 |
+| 2026 | 1381 |
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | fast-dev | 1909 | 14.2 MB | 2 | 2026-10-27 | quiet | private |
-| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 463 | 3.3 MB | 3 | 2026-11-27 | occupied | public |
+| [mgkvibez](https://github.com/mgkvibez/mgkvibez) | 466 | 3.3 MB | 3 | 2026-11-28 | occupied | public |
 | ron-weasley-ii | 289 | 2.3 MB | 2 | 2026-11-25 | occupied | private |
 | [standalone-webcontainer](https://github.com/mgkvibez/standalone-webcontainer) | 243 | 8.4 MB | 3 | 2026-11-20 | occupied | public |
 | Tinda | 91 | 904 kB | 2 | 2026-10-16 | quiet | private |
